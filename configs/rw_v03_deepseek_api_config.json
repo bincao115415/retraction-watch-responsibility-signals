@@ -1,0 +1,61 @@
+{
+  "pipeline_version": "rw_llm_semantic_v0.3_api_reproducible",
+  "api": {
+    "base_url": "https://api.deepseek.com/chat/completions",
+    "model": "deepseek-v4-pro",
+    "thinking": {"type": "disabled"},
+    "temperature": 0,
+    "top_p": 1,
+    "response_format": {"type": "json_object"},
+    "stream": false,
+    "max_tokens_per_item": 2200,
+    "timeout_seconds": 90,
+    "retry_attempts": 3,
+    "retry_backoff_seconds": 5
+  },
+  "parameter_rationale": {
+    "model": "deepseek-v4-pro is selected over deepseek-v4-flash for final taxonomy construction because this is a manuscript-support semantic coding task where accuracy and careful definition-following are more important than cost/latency. Deprecated aliases such as deepseek-chat/deepseek-reasoner are avoided.",
+    "thinking_disabled": "DeepSeek documentation states thinking mode does not support temperature/top_p controls. Thinking is disabled so deterministic low-temperature classification parameters are active and reportable.",
+    "temperature": "0 is used for deterministic/focused classification with a fixed label set. The task is closer to controlled coding than open-ended data analysis.",
+    "top_p": "1 is kept at the neutral/default nucleus setting; temperature is the active sampling control.",
+    "json_object": "JSON output mode is used so the API guarantees syntactically valid JSON; the prompt also explicitly instructs JSON-only output."
+  },
+  "source_scope": {
+    "raw_csv": "retraction_watch.csv",
+    "reason_items": "data/rw-derived/2026-05-15-llm-semantic-v0.2/unique_reason_items_for_llm.json",
+    "unit_of_llm_classification": "unique Retraction Watch raw Reason item, not individual retraction record",
+    "main_analysis_records": "RetractionNature == Retraction; main annual figures use 2000-2025 and exclude 2026 partial year"
+  },
+  "manuscript_categories": {
+    "research_content_reliability": {
+      "label": "Research-content reliability",
+      "definition": "Signals that the reliability, reproducibility, validity, or evidentiary integrity of the research content itself is questioned.",
+      "include": ["data problems", "image problems", "methods/materials problems", "analysis problems", "results or conclusions problems", "unreliable or non-reproducible findings", "computer/AI-generated article content when it affects content authenticity", "paper-mill or fabricated article production when it indicates article-level reliability risk"],
+      "exclude": ["notice wording alone", "investigation source alone", "authorship/citation/rights issues without content-reliability implications", "journal/publisher procedural acts without a content reliability signal"],
+      "manuscript_link": "Supports discussion of the reliability of the published product/scientific record, without assigning fault."
+    },
+    "attribution_authorship_disclosure_integrity": {
+      "label": "Attribution, authorship, and disclosure integrity",
+      "definition": "Signals concerning who created, approved, owned, disclosed, cited, or was credited for the work, including attribution and disclosure problems.",
+      "include": ["authorship or affiliation concerns", "false or forged authorship/affiliation", "lack of author approval", "plagiarism", "duplication/salami slicing", "citation/reference/attribution concerns", "conflict of interest", "copyright or ownership issues"],
+      "exclude": ["generic data/image/results unreliability without attribution/authorship/disclosure element", "investigation source alone", "notice transparency alone"],
+      "manuscript_link": "Matches the manuscript's concern with transparent relationships among authors, editors, reviewers, and publishers and with disclosure/attribution integrity."
+    },
+    "editorial_peer_review_governance": {
+      "label": "Editorial and peer-review governance",
+      "definition": "Signals that editorial decision-making, peer review, journal/publisher procedures, or editorial independence/governance mechanisms are implicated.",
+      "include": ["compromised peer review", "concerns about peer review", "taken via peer review", "rogue editor", "editorial breach", "journal/publisher error", "publication-policy breach or sanction when it concerns publication governance"],
+      "exclude": ["journal/publisher investigation as source only unless the reason itself concerns editorial/peer-review procedure", "notice opacity alone", "content unreliability without editorial or peer-review process signal"],
+      "manuscript_link": "Directly supports the manuscript's themes of peer-review integrity, editorial independence, proportionality, and governance."
+    },
+    "post_publication_transparency_due_process_oversight": {
+      "label": "Post-publication transparency, due process, and oversight",
+      "definition": "Signals concerning post-publication investigation, notice transparency, correction/retraction status, availability/removal, procedural communication, institutional/legal oversight, or appeal/objection-related process.",
+      "include": ["investigation by journal/publisher", "third-party/institutional/ORI investigation", "official misconduct process", "notice lacks information or is inaccessible", "date/notice metadata gaps", "correction/EOC/retraction updates", "temporary removal or removed status", "author unresponsive to post-publication queries", "objections", "civil/criminal/legal process", "institution/company/third-party approval or communication process"],
+      "exclude": ["data/image/results problems without post-publication process information", "peer-review compromise as pre-publication process unless linked to post-publication oversight", "attribution/authorship issues without procedural transparency/oversight component"],
+      "manuscript_link": "Matches the manuscript's core language on transparency, clear reasons, proportionality, due process, appeal, and publisher/journal oversight."
+    }
+  },
+  "system_prompt": "You are a meticulous research-integrity taxonomy coder for a Nature-targeted manuscript. Classify Retraction Watch reason terms using only the reason name and the official definition supplied by the user. Do not use keyword matching. Do not assign legal, moral, causal, or fault responsibility. Retraction Watch reasons are curated, non-exclusive metadata signals. Investigation-by-X means the source or location of investigation, not fault by X. Notice/status terms describe metadata transparency or publication-status information, not necessarily the original cause. Return valid JSON only.",
+  "user_prompt_template": "Classify this single Retraction Watch reason item. Use the four manuscript-facing categories exactly as defined in the supplied configuration. Categories are non-exclusive; assign all that are semantically supported by the official definition. If no main category is justified, return an empty manuscript_categories array and explain why in caution.\n\nAllowed manuscript category ids: research_content_reliability, attribution_authorship_disclosure_integrity, editorial_peer_review_governance, post_publication_transparency_due_process_oversight.\n\nAlso return low-level semantic fields for auditability. Allowed problem_object labels: data, image, results_conclusions, methods_materials, text_article, references_attribution, authorship_affiliation, ethics_welfare, legal_rights, article_general, availability_notice_status. Allowed process_signal labels: peer_review_compromised, peer_review_concern, journal_publisher_investigation, third_party_investigation, institutional_investigation, official_misconduct_process, journal_publisher_error, notice_opacity, removal_availability, editorial_breach, paper_mill, ai_computer_content, publication_policy_or_sanction, correction_update_process, legal_process, authorship_publication_process, research_ethics_approval_process, content_reuse_or_duplication_process. Allowed actor_context labels: author, editor, journal_publisher, company_institution, third_party, ori_government, unclear. actor_context means mentioned/source/procedure context, not blame.\n\nReturn one JSON object with exactly these keys: raw_reason, canonical_reason, definition_used, problem_object, process_signal, actor_context, manuscript_categories, classification_strength, main_figure_recommended, caution, semantic_rationale. classification_strength must be one of strict, broad, ambiguous. main_figure_recommended is true only if at least one manuscript category is sufficiently supported for main-figure prevalence; false for status-only, extremely ambiguous, or non-substantive labels. semantic_rationale must be concise and grounded in the definition.\n\nITEM: {{ITEM_JSON}}"
+}

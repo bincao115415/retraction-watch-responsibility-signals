@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Raw/private data and generated outputs
+retraction_watch.csv
+data/
+figures/
+raw-api-responses/
+*.parquet
+*.sqlite
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
