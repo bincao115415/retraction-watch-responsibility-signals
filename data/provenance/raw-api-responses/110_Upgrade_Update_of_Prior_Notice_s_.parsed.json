@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Upgrade/Update of Prior Notice(s)",
+  "canonical_reason": "Upgrade/Update of Prior Notice(s)",
+  "definition_used": "At least one prior notice for the article has been upgraded or updated with this notice.",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This reason is a metadata status indicator about notice progression, not a direct content or process issue. It signals that a prior notice was upgraded/updated, which relates to post-publication transparency but does not itself indicate a specific problem with research content, authorship, or editorial governance. Main figure recommendation is false because the reason is status-only and does not substantiate a primary manuscript category for prevalence analysis.",
+  "semantic_rationale": "The definition describes a change in notice status (upgrade/update of a prior notice), which directly pertains to post-publication transparency and due process oversight. It does not inherently imply issues with research content, authorship, or editorial peer review, but rather reflects the evolution of public notices about the article."
+}

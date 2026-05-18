@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Nonpayment of Fees and/or Refusal to Pay",
+  "canonical_reason": "Nonpayment of Fees and/or Refusal to Pay",
+  "definition_used": "Fees for services, licenses or access were not paid and/or completed, and/or there was a refusal to pay fees.",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "publication_policy_or_sanction"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The reason describes a financial transaction failure, not a manuscript integrity issue. It does not directly map to any of the four manuscript-facing categories, which focus on research content, authorship, peer review, or post-publication oversight.",
+  "semantic_rationale": "Nonpayment of fees is a business/administrative matter, not a content, authorship, peer review, or post-publication oversight issue per the supplied definitions."
+}

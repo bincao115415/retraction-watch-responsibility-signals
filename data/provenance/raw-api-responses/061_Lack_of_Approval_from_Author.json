@@ -1,0 +1,28 @@
+{
+  "id": "a3edaf1a-33bb-4845-b0f6-c53f7f57737a",
+  "object": "chat.completion",
+  "created": 1779145681,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Lack of Approval from Author\",\n  \"canonical_reason\": \"Lack of Approval from Author\",\n  \"definition_used\": \"One or more authors did not approve one or more parts of the research or publication process(es). RW also uses this reason if the notice mentions a lack of documentation of alleged approval.\",\n  \"problem_object\": [\n    \"authorship_affiliation\",\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"authorship_publication_process\"\n  ],\n  \"actor_context\": [\n    \"author\"\n  ],\n  \"manuscript_categories\": [\n    \"attribution_authorship_disclosure_integrity\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition directly concerns author approval of research or publication processes, which falls under authorship integrity. The problem object is authorship/affiliation and the article as a whole, with the process signal being the authorship/publication process. The actor context is author, as the lack of approval originates from an author.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 679,
+    "completion_tokens": 248,
+    "total_tokens": 927,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 167
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

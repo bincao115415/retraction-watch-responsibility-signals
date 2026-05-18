@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Duplication of/in Article",
+  "canonical_reason": "Duplication of/in Article",
+  "definition_used": "Duplication of a published item, or undefined sections of it.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Duplication may overlap with plagiarism or self-plagiarism, but the definition is broad and does not specify intent or fault. Actor context is unclear as the definition does not indicate who identified or investigated the duplication.",
+  "semantic_rationale": "Duplication of a published item or sections directly impacts the reliability of research content and raises questions about attribution and disclosure integrity, as it may involve reuse without proper citation or permission."
+}

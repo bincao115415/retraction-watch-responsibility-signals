@@ -4,11 +4,8 @@
 *.key
 *.pem
 
-# Raw/private data and generated outputs
-retraction_watch.csv
-data/
+# Generated figures and local databases
 figures/
-raw-api-responses/
 *.parquet
 *.sqlite
 *.db

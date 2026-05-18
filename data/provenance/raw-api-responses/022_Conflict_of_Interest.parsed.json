@@ -1,0 +1,25 @@
+{
+  "raw_reason": "Conflict of Interest",
+  "canonical_reason": "Conflict of Interest",
+  "definition_used": "Any question, controversy or dispute about author(s), editor(s), any third party and/or peer reviewer(s) having affiliations with companies, associations or institutions that may serve to influence how they conduct their role in any part of the research and/or publication process(es).",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "editorial_breach",
+    "publication_policy_or_sanction"
+  ],
+  "actor_context": [
+    "author",
+    "editor",
+    "third_party"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Conflict of Interest is a broad integrity concern that can affect multiple stages of research and publication. It is not limited to a single problem object or process, and may involve various actors. The assignment to manuscript categories is based on the potential influence on authorship/disclosure and editorial/peer review governance, but the actual impact may vary.",
+  "semantic_rationale": "The definition encompasses questions about affiliations that may influence conduct in any part of the research or publication process. This directly relates to attribution, authorship, and disclosure integrity (e.g., undisclosed competing interests) and editorial/peer review governance (e.g., compromised objectivity). The problem object is set to article_general as the conflict can affect the entire work, and process signals include editorial_breach and publication_policy_or_sanction due to potential violations of disclosure policies. Actor context includes author, editor, and third party as all may have relevant affiliations."
+}

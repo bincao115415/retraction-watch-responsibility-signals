@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Criminal Proceedings",
+  "canonical_reason": "Criminal Proceedings",
+  "definition_used": "Criminal legal proceedings were instigated in response to the publication and/or notice(s), or criminal legal proceedings resulted in the correction/EOC/retraction/etc.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "legal_process"
+  ],
+  "actor_context": [
+    "ori_government"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The reason indicates legal proceedings but does not specify whether they relate to research content, authorship, or editorial issues. It is a status/process signal, not a direct indicator of manuscript integrity problems. Main figure recommendation is false because the category assignment is broad and the reason is primarily a transparency/due-process marker.",
+  "semantic_rationale": "Criminal proceedings are a legal process that can lead to post-publication actions like retractions, fitting the post-publication transparency and due process oversight category. The definition does not specify the underlying manuscript issue, so other categories are not directly supported."
+}

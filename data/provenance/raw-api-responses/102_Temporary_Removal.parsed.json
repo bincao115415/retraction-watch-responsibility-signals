@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Temporary Removal",
+  "canonical_reason": "Temporary Removal",
+  "definition_used": "The original article is removed from the journal’s publishing platform and the notice states the removal will be for an undefined period of time.",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "removal_availability",
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This is a status/notice term describing a temporary removal with undefined duration. It does not directly indicate a problem with research content, authorship, or editorial governance, but it relates to post-publication transparency and due process oversight because the removal and opaque notice affect access and clarity.",
+  "semantic_rationale": "The definition describes a temporary removal of an article with an undefined period, which is a post-publication action affecting availability and transparency. It fits post_publication_transparency_due_process_oversight because it involves a notice about removal status and opaque timeline, but it is not a substantive content or process issue. Main figure not recommended as it is a status-only label."
+}

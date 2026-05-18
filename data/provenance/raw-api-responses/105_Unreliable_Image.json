@@ -1,0 +1,28 @@
+{
+  "id": "ab123a3a-2d35-4745-8646-69702496eacd",
+  "object": "chat.completion",
+  "created": 1779146053,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Unreliable Image\",\n  \"canonical_reason\": \"Unreliable Image\",\n  \"definition_used\": \"One or more images, or part(s) of one or more images, are unreliable.\",\n  \"problem_object\": \"image\",\n  \"process_signal\": \"journal_publisher_investigation\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [\n    \"research_content_reliability\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition directly states that images are unreliable, which undermines the trustworthiness of research content, fitting research_content_reliability. No other categories are supported.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 656,
+    "completion_tokens": 170,
+    "total_tokens": 826,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

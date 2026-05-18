@@ -1,0 +1,28 @@
+{
+  "id": "ae64f28e-0fe7-4300-ae12-8aec2aaeeeec",
+  "object": "chat.completion",
+  "created": 1779145880,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Objections by Company/Institution\",\n  \"canonical_reason\": \"Objections by Company/Institution\",\n  \"definition_used\": \"One or more companies/institutions objected to the notice or the wording of the notice.\",\n  \"problem_object\": [\n    \"availability_notice_status\"\n  ],\n  \"process_signal\": [\n    \"notice_opacity\"\n  ],\n  \"actor_context\": [\n    \"company_institution\"\n  ],\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason describes an objection to the notice itself, not necessarily a problem with the underlying research content. It is a metadata transparency signal about post-publication communication, not a direct indicator of manuscript integrity issues.\",\n  \"semantic_rationale\": \"The definition focuses on objections to the notice or its wording, which relates to post-publication transparency and due process oversight. It does not directly address research content reliability, authorship/attribution integrity, or editorial/peer review governance. The problem object is the notice status, and the process signal is notice opacity, with company/institution as the actor context.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 661,
+    "completion_tokens": 275,
+    "total_tokens": 936,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

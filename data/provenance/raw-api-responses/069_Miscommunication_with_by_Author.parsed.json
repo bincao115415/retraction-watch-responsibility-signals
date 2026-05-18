@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Miscommunication with/by Author",
+  "canonical_reason": "Miscommunication with/by Author",
+  "definition_used": "One or more authors misunderstood one or more parts of a message sent to and/or from one or more authors.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "authorship_publication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition describes a communication error among authors, which does not directly map to any of the four manuscript-facing categories. It is a process issue but not clearly tied to research content reliability, attribution integrity, editorial governance, or post-publication oversight without additional context.",
+  "semantic_rationale": "The definition focuses on author misunderstanding during communication, which is a general authorship process issue but lacks specific connection to the defined manuscript categories."
+}

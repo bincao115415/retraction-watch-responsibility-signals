@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Complaints about Third Party",
+  "canonical_reason": "Complaints about Third Party",
+  "definition_used": "Complaints about one or more third parties in addition to concerns about the original article. RW may also use this reason for cases in which something about one or more third parties is called into question following any notice, ie., when complaints escalate to being entirely third party-based.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "third_party_investigation",
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The reason is a metadata signal about complaints involving third parties, not a direct indicator of manuscript content or process flaws. It primarily reflects post-publication transparency and due process oversight, but lacks specificity for main-figure prevalence.",
+  "semantic_rationale": "The definition describes complaints about third parties in relation to an article, which falls under post-publication transparency and due process oversight as it involves external scrutiny and potential notice opacity. No direct evidence of research content, authorship, or editorial process issues is implied."
+}

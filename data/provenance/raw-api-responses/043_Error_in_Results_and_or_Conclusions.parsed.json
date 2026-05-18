@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Error in Results and/or Conclusions",
+  "canonical_reason": "Error in Results and/or Conclusions",
+  "definition_used": "One or more errors in any of the results and/or the conclusions.",
+  "problem_object": [
+    "results_conclusions"
+  ],
+  "process_signal": [
+    "journal_publisher_error"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition explicitly states errors in results/conclusions, directly undermining research content reliability."
+}

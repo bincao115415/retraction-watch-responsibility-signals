@@ -1,0 +1,28 @@
+{
+  "id": "4d9921b6-ce39-4e47-9334-fa707c9a05bb",
+  "object": "chat.completion",
+  "created": 1779145769,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Miscommunication with/by Third Party\",\n  \"canonical_reason\": \"Miscommunication by Third Party\",\n  \"definition_used\": \"One or more third parties misunderstood one or more parts of a message sent to and/or from one or more third parties.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"notice_opacity\",\n  \"actor_context\": \"third_party\",\n  \"manuscript_categories\": [],\n  \"classification_strength\": \"ambiguous\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition describes a communication error involving third parties, not a direct issue with research content, authorship, editorial processes, or post-publication oversight. It lacks substantive connection to manuscript integrity categories.\",\n  \"semantic_rationale\": \"The reason describes a misunderstanding in communication by a third party, which is a procedural or transparency notice about an external error, not a reliability, attribution, governance, or oversight issue with the manuscript itself.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 677,
+    "completion_tokens": 215,
+    "total_tokens": 892,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 165
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

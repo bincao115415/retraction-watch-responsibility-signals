@@ -1,0 +1,27 @@
+{
+  "raw_reason": "Ethical Violations by Company/Institution/Third Party",
+  "canonical_reason": "Ethical Violations by Company/Institution/Third Party",
+  "definition_used": "When a journal/publisher/institution states that one or more company(ies)/institution(s)/thirdparty(ies) have not met the journal/publisher/institution’s standards of publishing and/or research ethics. RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was an ethical violation), or when the ethical violation (as an additional reason) cannot be addressed by existing reasons.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation",
+    "institutional_investigation",
+    "third_party_investigation",
+    "publication_policy_or_sanction"
+  ],
+  "actor_context": [
+    "company_institution",
+    "third_party",
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "editorial_peer_review_governance",
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The definition is broad and often used when details are unavailable; it signals an ethical breach by an entity but does not specify the nature of the problem (e.g., data, authorship). Main figure not recommended because the reason is a catch-all for opaque notices.",
+  "semantic_rationale": "The reason indicates a journal/publisher/institution found a company/institution/third party violated publishing/research ethics standards. This implicates editorial/peer review governance (standards enforcement) and post-publication transparency (notice of ethical breach). The problem object is article_general due to lack of specificity. Process signals include investigations by journal/publisher, institution, or third party, and a publication policy/sanction. Actor contexts are company/institution, third party, and journal/publisher as the investigating body."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b2861749-6ce4-434d-9315-5442da70ca68",
+  "object": "chat.completion",
+  "created": 1779145267,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Compromised Peer Review\",\n  \"canonical_reason\": \"Compromised Peer Review\",\n  \"definition_used\": \"The peer review was not performed in accordance with the journal’s guidelines or ethical standards\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"peer_review_compromised\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [\n    \"editorial_peer_review_governance\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition directly describes a failure in the peer review process, which maps to editorial_peer_review_governance. No other categories are supported.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 660,
+    "completion_tokens": 179,
+    "total_tokens": 839,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 148
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

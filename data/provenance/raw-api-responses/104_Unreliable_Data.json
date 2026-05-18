@@ -1,0 +1,28 @@
+{
+  "id": "18f4ecb5-5183-4ddc-8606-502892813ad7",
+  "object": "chat.completion",
+  "created": 1779146047,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Unreliable Data\",\n  \"canonical_reason\": \"Unreliable Data\",\n  \"definition_used\": \"Any of the data is unreliable.\",\n  \"problem_object\": [\"data\"],\n  \"process_signal\": [],\n  \"actor_context\": [\"unclear\"],\n  \"manuscript_categories\": [\"research_content_reliability\"],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"The definition is broad and does not specify cause, investigation, or actor. It directly indicates a problem with data reliability, which falls under research content reliability. No other categories are clearly supported.\",\n  \"semantic_rationale\": \"The definition states that any data is unreliable, which directly concerns the trustworthiness of research content, fitting the research_content_reliability category.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 182,
+    "total_tokens": 829,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 135
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

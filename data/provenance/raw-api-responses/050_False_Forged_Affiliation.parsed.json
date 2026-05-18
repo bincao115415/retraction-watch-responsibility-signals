@@ -1,0 +1,21 @@
+{
+  "raw_reason": "False/Forged Affiliation",
+  "canonical_reason": "False/Forged Affiliation",
+  "definition_used": "The false/forged use of an affiliation/institutional name in the publication process.",
+  "problem_object": [
+    "authorship_affiliation"
+  ],
+  "process_signal": [
+    "authorship_publication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition explicitly describes false or forged use of an affiliation, which directly violates authorship and disclosure integrity."
+}

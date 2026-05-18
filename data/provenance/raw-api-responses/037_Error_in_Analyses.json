@@ -1,0 +1,28 @@
+{
+  "id": "616ca65f-fe28-4d32-bce2-14fcc0043386",
+  "object": "chat.completion",
+  "created": 1779145496,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Error in Analyses\",\n  \"canonical_reason\": \"Error in Analyses\",\n  \"definition_used\": \"One or more errors in the evaluation of any of the data or in any calculation(s).\",\n  \"problem_object\": [\n    \"data\",\n    \"results_conclusions\"\n  ],\n  \"process_signal\": [\n    \"correction_update_process\"\n  ],\n  \"actor_context\": [\n    \"author\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition describes errors in data evaluation or calculations, directly undermining the reliability of research content. This maps strictly to research_content_reliability.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 657,
+    "completion_tokens": 180,
+    "total_tokens": 837,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 145
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

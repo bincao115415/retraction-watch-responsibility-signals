@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Updated to Correction",
+  "canonical_reason": "Updated to Correction",
+  "definition_used": "The article has a correction after this notice.",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "correction_update_process"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This is a metadata/status label indicating a correction exists, not a substantive integrity issue. It does not directly imply problems with research content, authorship, or peer review.",
+  "semantic_rationale": "The definition describes a post-publication update to a correction, which falls under post-publication transparency and due process oversight. It does not inherently indicate issues with research content reliability, attribution/authorship, or editorial/peer review governance."
+}

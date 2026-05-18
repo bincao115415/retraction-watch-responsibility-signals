@@ -1,0 +1,28 @@
+{
+  "id": "df4ca717-25cc-4669-b24d-94e736b3f8da",
+  "object": "chat.completion",
+  "created": 1779145409,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Criminal Proceedings\",\n  \"canonical_reason\": \"Criminal Proceedings\",\n  \"definition_used\": \"Criminal legal proceedings were instigated in response to the publication and/or notice(s), or criminal legal proceedings resulted in the correction/EOC/retraction/etc.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"legal_process\",\n  \"actor_context\": \"ori_government\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason indicates legal proceedings but does not specify whether they relate to research content, authorship, or editorial issues. It is a status/process signal, not a direct indicator of manuscript integrity problems. Main figure recommendation is false because the category assignment is broad and the reason is primarily a transparency/due-process marker.\",\n  \"semantic_rationale\": \"Criminal proceedings are a legal process that can lead to post-publication actions like retractions, fitting the post-publication transparency and due process oversight category. The definition does not specify the underlying manuscript issue, so other categories are not directly supported.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 668,
+    "completion_tokens": 267,
+    "total_tokens": 935,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

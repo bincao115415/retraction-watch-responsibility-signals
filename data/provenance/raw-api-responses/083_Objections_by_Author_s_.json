@@ -1,0 +1,28 @@
+{
+  "id": "dd9d8963-0a85-4518-98df-595ba042a234",
+  "object": "chat.completion",
+  "created": 1779145872,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Objections by Author(s)\",\n  \"canonical_reason\": \"Objections by Author(s)\",\n  \"definition_used\": \"One or more authors objected to the notice or the wording of the notice.\",\n  \"problem_object\": [\"availability_notice_status\"],\n  \"process_signal\": [\"notice_opacity\"],\n  \"actor_context\": [\"author\"],\n  \"manuscript_categories\": [\"post_publication_transparency_due_process_oversight\"],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This reason indicates author disagreement with a notice, which is a post-publication transparency signal, not a direct indicator of manuscript content or process flaws. It does not confirm any underlying problem with the research, authorship, or editorial processes.\",\n  \"semantic_rationale\": \"The definition describes author objections to a notice or its wording, which directly relates to post-publication transparency and due process oversight. It does not inherently imply issues with research content, attribution, or editorial governance, so only the post-publication category is assigned.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 657,
+    "completion_tokens": 236,
+    "total_tokens": 893,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 145
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

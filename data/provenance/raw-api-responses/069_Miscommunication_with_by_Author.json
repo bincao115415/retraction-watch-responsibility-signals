@@ -1,0 +1,28 @@
+{
+  "id": "9cf1edd7-f78b-4229-8de9-7693fe9ad232",
+  "object": "chat.completion",
+  "created": 1779145745,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Miscommunication with/by Author\",\n  \"canonical_reason\": \"Miscommunication with/by Author\",\n  \"definition_used\": \"One or more authors misunderstood one or more parts of a message sent to and/or from one or more authors.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"authorship_publication_process\"\n  ],\n  \"actor_context\": [\n    \"author\"\n  ],\n  \"manuscript_categories\": [],\n  \"classification_strength\": \"ambiguous\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition describes a communication error among authors, which does not directly map to any of the four manuscript-facing categories. It is a process issue but not clearly tied to research content reliability, attribution integrity, editorial governance, or post-publication oversight without additional context.\",\n  \"semantic_rationale\": \"The definition focuses on author misunderstanding during communication, which is a general authorship process issue but lacks specific connection to the defined manuscript categories.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 662,
+    "completion_tokens": 225,
+    "total_tokens": 887,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 150
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

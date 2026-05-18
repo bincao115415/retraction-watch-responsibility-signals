@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Legal Reasons and/or Threats",
+  "canonical_reason": "Legal Reasons and/or Threats",
+  "definition_used": "When a journal/publisher/author/third party uses the phrase “legal reasons,” documents litigation or legal threats, or mentions one or more specific laws",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "legal_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "Legal reasons are a post-publication transparency signal, not a direct indicator of manuscript content or integrity issues. The definition does not specify what aspect of the article is affected, so problem_object is set to article_general. Actor_context is unclear because the definition mentions multiple possible actors without specifying who invoked the legal reasons.",
+  "semantic_rationale": "The definition describes a notice or process involving legal reasons, litigation, or laws, which aligns with post-publication transparency and due process oversight. It does not directly indicate issues with research content, authorship, or editorial governance, so only the transparency category is assigned."
+}

@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Duplication of Text",
+  "canonical_reason": "Duplication of Text",
+  "definition_used": "Duplication of any of the text.",
+  "problem_object": [
+    "text_article"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Duplication of text can range from minor self-plagiarism to major plagiarism, affecting both content reliability and attribution integrity. Without additional context, both categories are assigned broadly.",
+  "semantic_rationale": "Text duplication directly impacts the reliability of the research content (research_content_reliability) and raises concerns about proper attribution and authorship disclosure (attribution_authorship_disclosure_integrity). The definition does not specify the nature or extent, so both are applicable."
+}

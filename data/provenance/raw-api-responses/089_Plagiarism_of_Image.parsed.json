@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Plagiarism of Image",
+  "canonical_reason": "Plagiarism of Image",
+  "definition_used": "Plagiarism of one or more images.",
+  "problem_object": [
+    "image"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "Image plagiarism directly undermines research content reliability by duplicating visual data without proper attribution, and violates attribution/authorship integrity by misrepresenting the origin of the image."
+}

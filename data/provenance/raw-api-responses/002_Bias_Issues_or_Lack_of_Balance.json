@@ -1,0 +1,28 @@
+{
+  "id": "2140fc2e-5ca5-4d57-91d9-069779f697a8",
+  "object": "chat.completion",
+  "created": 1779145097,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Bias Issues or Lack of Balance\",\n  \"canonical_reason\": \"Bias Issues or Lack of Balance\",\n  \"definition_used\": \"Any question, controversy or dispute about balance or bias in any of the methods, analyses, results or any part of the published content. RW entries using this reason do not state or imply, nor should users infer, any intentionality.\",\n  \"problem_object\": [\n    \"methods_materials\",\n    \"results_conclusions\",\n    \"text_article\"\n  ],\n  \"process_signal\": [\n    \"journal_publisher_investigation\",\n    \"third_party_investigation\",\n    \"institutional_investigation\"\n  ],\n  \"actor_context\": [\n    \"author\",\n    \"journal_publisher\",\n    \"third_party\",\n    \"company_institution\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"The definition covers methods, analyses, results, or any part of published content, so problem_object is broad. Process_signal and actor_context are inferred from typical investigation sources, not explicitly stated. No intentionality is implied.\",\n  \"semantic_rationale\": \"The definition directly addresses questions about balance or bias in research content, which falls under research_content_reliability. Other categories are not supported because the definition does not mention authorship, editorial processes, or post-publication transparency.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 691,
+    "completion_tokens": 322,
+    "total_tokens": 1013,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 691
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

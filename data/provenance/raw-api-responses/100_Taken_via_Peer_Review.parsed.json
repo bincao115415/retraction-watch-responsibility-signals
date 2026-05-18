@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Taken via Peer Review",
+  "canonical_reason": "Taken via Peer Review",
+  "definition_used": "The duplicated or plagiarized content was taken during the peer review process.",
+  "problem_object": [
+    "text_article"
+  ],
+  "process_signal": [
+    "peer_review_compromised"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition describes content taken during peer review, indicating a breach of peer review confidentiality and potential plagiarism, which directly impacts attribution integrity and editorial governance."
+}

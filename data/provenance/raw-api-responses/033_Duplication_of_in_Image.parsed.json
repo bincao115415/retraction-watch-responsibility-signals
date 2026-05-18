@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Duplication of/in Image",
+  "canonical_reason": "Duplication of/in Image",
+  "definition_used": "Duplication of one or more images, or part(s) of one or more images.",
+  "problem_object": [
+    "image"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "Image duplication directly concerns the reliability of research content, as it involves potential data manipulation or error in visual evidence."
+}

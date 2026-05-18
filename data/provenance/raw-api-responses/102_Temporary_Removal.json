@@ -1,0 +1,28 @@
+{
+  "id": "2323db3b-e7b5-4d5e-a2a1-cd3557bbeff4",
+  "object": "chat.completion",
+  "created": 1779146028,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Temporary Removal\",\n  \"canonical_reason\": \"Temporary Removal\",\n  \"definition_used\": \"The original article is removed from the journal’s publishing platform and the notice states the removal will be for an undefined period of time.\",\n  \"problem_object\": [\n    \"availability_notice_status\"\n  ],\n  \"process_signal\": [\n    \"removal_availability\",\n    \"notice_opacity\"\n  ],\n  \"actor_context\": [\n    \"journal_publisher\"\n  ],\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a status/notice term describing a temporary removal with undefined duration. It does not directly indicate a problem with research content, authorship, or editorial governance, but it relates to post-publication transparency and due process oversight because the removal and opaque notice affect access and clarity.\",\n  \"semantic_rationale\": \"The definition describes a temporary removal of an article with an undefined period, which is a post-publication action affecting availability and transparency. It fits post_publication_transparency_due_process_oversight because it involves a notice about removal status and opaque timeline, but it is not a substantive content or process issue. Main figure not recommended as it is a status-only label.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 663,
+    "completion_tokens": 302,
+    "total_tokens": 965,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 151
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

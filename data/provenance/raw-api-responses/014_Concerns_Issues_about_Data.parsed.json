@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Concerns/Issues about Data",
+  "canonical_reason": "Concerns/Issues About Data",
+  "definition_used": "Any question, controversy or dispute about any of the data.",
+  "problem_object": [
+    "data"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The definition is broad and does not specify the nature or source of the concern; actor_context is unclear because the definition does not indicate who raised the concern.",
+  "semantic_rationale": "The definition covers any question, controversy, or dispute about data, which directly relates to the reliability of research content."
+}

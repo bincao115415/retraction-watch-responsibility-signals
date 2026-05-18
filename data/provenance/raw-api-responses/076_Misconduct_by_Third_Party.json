@@ -1,0 +1,28 @@
+{
+  "id": "f7d8d3cd-2acb-4c5d-bfcf-37bfa4230899",
+  "object": "chat.completion",
+  "created": 1779145812,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Misconduct by Third Party\",\n  \"canonical_reason\": \"Misconduct by Third Party\",\n  \"definition_used\": \"Statement by journal, publisher, company, institution, government agency or author that one or more third party(ies) committed misconduct.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"third_party_investigation\"\n  ],\n  \"actor_context\": [\n    \"third_party\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\",\n    \"attribution_authorship_disclosure_integrity\",\n    \"editorial_peer_review_governance\",\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"The definition is broad and does not specify the nature of misconduct, so all manuscript categories are potentially implicated. However, without details, the assignment is broad rather than strict.\",\n  \"semantic_rationale\": \"The definition states that a third party committed misconduct, which can affect research content reliability, authorship/attribution integrity, editorial/peer review governance, and post-publication oversight. The process signal is third-party investigation, and the actor context is third party. Problem object is set to article_general as the misconduct could involve any aspect of the article.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 666,
+    "completion_tokens": 309,
+    "total_tokens": 975,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 154
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

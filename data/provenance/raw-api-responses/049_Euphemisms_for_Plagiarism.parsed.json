@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Euphemisms for Plagiarism",
+  "canonical_reason": "Euphemisms for Plagiarism",
+  "definition_used": "The notice describes plagiarism of material without using the words “plagiarize(d)” or “plagiarism.”",
+  "problem_object": [
+    "text_article"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition explicitly describes plagiarism of material, which is a form of text reuse without proper attribution, directly mapping to attribution/authorship/disclosure integrity."
+}

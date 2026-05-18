@@ -1,0 +1,28 @@
+{
+  "id": "2662b858-7972-423a-ab4e-be1587245677",
+  "object": "chat.completion",
+  "created": 1779145533,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Error in Results and/or Conclusions\",\n  \"canonical_reason\": \"Error in Results and/or Conclusions\",\n  \"definition_used\": \"One or more errors in any of the results and/or the conclusions.\",\n  \"problem_object\": \"results_conclusions\",\n  \"process_signal\": \"journal_publisher_error\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [\n    \"research_content_reliability\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition explicitly states errors in results/conclusions, directly undermining research content reliability.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 658,
+    "completion_tokens": 154,
+    "total_tokens": 812,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 146
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

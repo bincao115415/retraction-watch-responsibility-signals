@@ -1,0 +1,23 @@
+{
+  "raw_reason": "Paper Mill",
+  "canonical_reason": "Paper Mill",
+  "definition_used": "When a journal/publisher/institution states that a paper came from a paper mill or the paper is in a list of paper mill papers. RW may also use this reason to reflect that RW has identified multiple paper mill criteria applying to this paper.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "paper_mill"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Paper mill designation is a strong integrity signal but does not specify exact content flaws; it implies systemic fabrication and compromised processes.",
+  "semantic_rationale": "Paper mill indicates fabricated or manipulated content (research_content_reliability), fraudulent authorship/attribution (attribution_authorship_disclosure_integrity), and subverted peer review (editorial_peer_review_governance)."
+}

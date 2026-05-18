@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Falsification/Fabrication of Data",
+  "canonical_reason": "Falsification/Fabrication of Data",
+  "definition_used": "Falsification or fabrication of any data in order to mislead.",
+  "problem_object": [
+    "data"
+  ],
+  "process_signal": [],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition explicitly describes falsification or fabrication of data to mislead, which directly undermines the truth of research content, fitting research_content_reliability. No other categories are supported."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "59b8c2d1-78e3-4103-b5d5-76f72e0e7089",
+  "object": "chat.completion",
+  "created": 1779145717,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Legal Reasons and/or Threats\",\n  \"canonical_reason\": \"Legal Reasons and/or Threats\",\n  \"definition_used\": \"When a journal/publisher/author/third party uses the phrase “legal reasons,” documents litigation or legal threats, or mentions one or more specific laws\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"legal_process\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"Legal reasons are a post-publication transparency signal, not a direct indicator of manuscript content or integrity issues. The definition does not specify what aspect of the article is affected, so problem_object is set to article_general. Actor_context is unclear because the definition mentions multiple possible actors without specifying who invoked the legal reasons.\",\n  \"semantic_rationale\": \"The definition describes a notice or process involving legal reasons, litigation, or laws, which aligns with post-publication transparency and due process oversight. It does not directly indicate issues with research content, authorship, or editorial governance, so only the transparency category is assigned.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 671,
+    "completion_tokens": 273,
+    "total_tokens": 944,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

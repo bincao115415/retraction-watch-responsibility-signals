@@ -1,0 +1,28 @@
+{
+  "id": "7c150239-36f2-49fe-8c51-87b47562efc0",
+  "object": "chat.completion",
+  "created": 1779145928,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Plagiarism of Text\",\n  \"canonical_reason\": \"Plagiarism of Text\",\n  \"definition_used\": \"Plagiarism of any of the text.\",\n  \"problem_object\": \"text_article\",\n  \"process_signal\": \"content_reuse_or_duplication_process\",\n  \"actor_context\": \"author\",\n  \"manuscript_categories\": [\n    \"attribution_authorship_disclosure_integrity\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"Plagiarism of text directly violates attribution and authorship integrity, as it involves misappropriation of written content without proper credit.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 651,
+    "completion_tokens": 165,
+    "total_tokens": 816,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 139
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

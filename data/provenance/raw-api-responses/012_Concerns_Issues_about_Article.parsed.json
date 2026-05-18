@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Concerns/Issues about Article",
+  "canonical_reason": "Concerns/Issues about Article",
+  "definition_used": "Any question, controversy or dispute about published content, or undefined sections of it.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition is too broad and non-specific to assign any manuscript-facing category reliably. It functions as a catch-all notice of unresolved concerns without indicating whether the issue pertains to research content, authorship, editorial processes, or post-publication oversight.",
+  "semantic_rationale": "The definition describes a general notice of controversy or dispute about published content without specifying the nature of the concern. It lacks the specificity required to map to any of the four manuscript-facing categories, which require more concrete indications of problems with research reliability, attribution, editorial governance, or post-publication processes."
+}

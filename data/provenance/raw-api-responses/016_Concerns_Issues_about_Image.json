@@ -1,0 +1,28 @@
+{
+  "id": "591bf61d-b5c9-4834-a962-4bf0c5c23225",
+  "object": "chat.completion",
+  "created": 1779145322,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Concerns/Issues about Image\",\n  \"canonical_reason\": \"Concerns/Issues About Image\",\n  \"definition_used\": \"Any question, controversy or dispute about one or more images, or part(s) of one or more images.\",\n  \"problem_object\": [\"image\"],\n  \"process_signal\": [],\n  \"actor_context\": [\"unclear\"],\n  \"manuscript_categories\": [\"research_content_reliability\"],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"The definition is broad and does not specify the nature of the concern, so process_signal and actor_context are left empty or unclear. The category research_content_reliability is assigned because image concerns directly relate to the reliability of presented data.\",\n  \"semantic_rationale\": \"The definition describes a dispute about images, which are part of research content. This directly implicates the reliability of the research content, supporting the research_content_reliability category.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 681,
+    "completion_tokens": 220,
+    "total_tokens": 901,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

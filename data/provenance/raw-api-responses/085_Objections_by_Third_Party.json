@@ -1,0 +1,28 @@
+{
+  "id": "983bede5-d779-45e2-a467-91fb9848ec48",
+  "object": "chat.completion",
+  "created": 1779145889,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Objections by Third Party\",\n  \"canonical_reason\": \"Objections by Third Party\",\n  \"definition_used\": \"One or more third parties objected to the notice or the wording of the notice.\",\n  \"problem_object\": [\"availability_notice_status\"],\n  \"process_signal\": [\"notice_opacity\", \"third_party_investigation\"],\n  \"actor_context\": [\"third_party\"],\n  \"manuscript_categories\": [\"post_publication_transparency_due_process_oversight\"],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason describes a post-publication objection to a notice, which is a transparency/due-process signal, not a direct indicator of manuscript content or authorship issues. It is status-oriented and does not inherently imply research unreliability or misconduct.\",\n  \"semantic_rationale\": \"The definition centers on third-party objections to a notice, which falls under post-publication transparency and due process oversight, as it concerns the handling and wording of retraction or correction notices.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 656,
+    "completion_tokens": 235,
+    "total_tokens": 891,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

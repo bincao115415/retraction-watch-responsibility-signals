@@ -1,0 +1,28 @@
+{
+  "id": "11225da4-10e6-40f9-b808-f62fc751f7fc",
+  "object": "chat.completion",
+  "created": 1779145245,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Complaints about Company/Institution\",\n  \"canonical_reason\": \"Complaints about Company/Institution\",\n  \"definition_used\": \"Complaints about one or more companies/institutions in addition to concerns about the original article. RW may also use this reason for cases in which something about one or more companies/institutions is called into question following any notice, i.e., when complaints escalate to being entirely company/institution-based.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"third_party_investigation\",\n    \"institutional_investigation\"\n  ],\n  \"actor_context\": [\n    \"company_institution\",\n    \"third_party\"\n  ],\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason focuses on complaints about companies/institutions, which may relate to post-publication oversight but does not directly assert issues with research content, authorship, or editorial processes. It is a status/notice signal about external concerns, not a substantive manuscript integrity category.\",\n  \"semantic_rationale\": \"The definition describes complaints about companies/institutions, which can involve investigations or concerns raised after publication, aligning with post-publication transparency and due process oversight. However, it does not inherently indicate problems with research content, authorship, or editorial governance, so only the oversight category is assigned broadly.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 705,
+    "completion_tokens": 332,
+    "total_tokens": 1037,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

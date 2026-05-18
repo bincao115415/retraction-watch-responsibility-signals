@@ -1,0 +1,28 @@
+{
+  "id": "c549f7db-e230-467b-800d-132d22cd35cd",
+  "object": "chat.completion",
+  "created": 1779145227,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Civil Proceedings\",\n  \"canonical_reason\": \"Civil Proceedings\",\n  \"definition_used\": \"Civil legal proceedings were instigated in response to the article and/or notice(s), or civil legal proceedings resulted in the correction/EOC/retraction/etc.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"legal_process\",\n  \"actor_context\": \"third_party\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason describes a legal process external to the manuscript's content, not a direct integrity issue. It is a status/process signal, not a primary cause.\",\n  \"semantic_rationale\": \"Civil proceedings are a legal process triggered by the article, indicating post-publication oversight and transparency, but not directly implicating research content, authorship, or editorial governance.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 665,
+    "completion_tokens": 218,
+    "total_tokens": 883,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 665
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

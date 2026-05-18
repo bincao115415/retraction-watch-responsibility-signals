@@ -1,0 +1,26 @@
+{
+  "raw_reason": "Contamination of Cell Lines/Tissues",
+  "canonical_reason": "Contamination of Cell Lines/Tissues",
+  "definition_used": "Impurities were found or suspected within cell lines or tissues.",
+  "problem_object": [
+    "methods_materials"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation",
+    "third_party_investigation",
+    "institutional_investigation"
+  ],
+  "actor_context": [
+    "author",
+    "journal_publisher",
+    "third_party",
+    "company_institution"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "Contamination directly compromises the reliability of research materials (cell lines/tissues), fitting research_content_reliability. The definition implies investigation by various parties, but no specific process or actor is mandated, so process_signal and actor_context are inferred broadly."
+}

@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Error by Journal/Publisher",
+  "canonical_reason": "Error by Journal/Publisher",
+  "definition_used": "An error attributed to a journal/publisher.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "journal_publisher_error"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "editorial_peer_review_governance",
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The definition is broad; the error could range from production mistakes to editorial process failures. Without specifics, it is unclear if the error directly affects research content reliability or attribution integrity, so those categories are not assigned.",
+  "semantic_rationale": "The error is attributed to the journal/publisher, directly implicating editorial and production processes (editorial_peer_review_governance) and potentially requiring post-publication corrective transparency (post_publication_transparency_due_process_oversight). The problem object is the article in general, as the error's scope is unspecified."
+}

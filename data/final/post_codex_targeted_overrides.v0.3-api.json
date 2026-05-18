@@ -1,0 +1,102 @@
+{
+  "override_version": "rw_llm_semantic_v0.3-api_post_codex_targeted_overrides_2026-05-19",
+  "purpose": "Apply targeted, auditable corrections after Codex methods audit of the DeepSeek API v0.3 run. These overrides correct internal inconsistencies in manuscript-facing categories while preserving raw API outputs separately.",
+  "global_rules": [
+    "Retraction Watch Reason terms remain non-exclusive curated metadata, not fault or liability determinations.",
+    "Post-publication process/oversight signals include investigation-source and procedural-communication reasons, but do not imply that the investigating actor caused the problem.",
+    "Broad misconduct labels should not be expanded into research-content, attribution, or editorial-governance categories unless the official definition specifies the mechanism.",
+    "Status-only notice/update/removal reasons can retain an audit category but should have main_figure_recommended=false unless they are used in a separate transparency/metadata figure."
+  ],
+  "overrides": {
+    "Investigation by Journal/Publisher": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "strict",
+      "caution": "Investigation source/process signal only; not publisher fault. Included as post-publication oversight/process signal."
+    },
+    "Investigation by Company/Institution": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "strict",
+      "caution": "Institution/company investigation source signal only; not institutional fault. Included as post-publication oversight/process signal."
+    },
+    "Investigation by ORI": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "strict",
+      "caution": "ORI investigation source signal only; not causal attribution. Included as official post-publication oversight/process signal."
+    },
+    "Investigation by Third Party": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "strict",
+      "caution": "Third-party investigation source signal only; not third-party fault. Included as post-publication oversight/process signal."
+    },
+    "Miscommunication with/by Author": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Communication-process signal; does not imply misconduct or fault by the author."
+    },
+    "Miscommunication with/by Company/Institution": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Communication-process signal; does not imply institutional fault."
+    },
+    "Miscommunication with/by Journal/Publisher": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Communication-process signal; does not imply journal/publisher fault."
+    },
+    "Miscommunication with/by Third Party": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Communication-process signal; does not imply third-party fault."
+    },
+    "Concerns/Issues about Third Party Involvement": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": false,
+      "classification_strength": "ambiguous",
+      "caution": "Third-party involvement is too broad for a main mechanism category; retained only as a broad process/oversight audit signal."
+    },
+    "Error by Third Party": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": false,
+      "classification_strength": "ambiguous",
+      "caution": "Third-party error is non-specific; retained only as a broad process/oversight audit signal."
+    },
+    "Misconduct by Author": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Broad misconduct statement; do not infer specific content, attribution, or editorial mechanism unless separately coded by another reason."
+    },
+    "Misconduct by Company/Institution": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Broad misconduct statement; do not infer specific content, attribution, or editorial mechanism unless separately coded by another reason."
+    },
+    "Misconduct by Third Party": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Broad misconduct statement; do not infer specific content, attribution, or editorial mechanism unless separately coded by another reason."
+    },
+    "Misconduct - Official Investigation(s) and/or Finding(s)": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "strict",
+      "caution": "Official misconduct investigation/finding signal; mechanism-specific categories require separate reasons such as data, image, authorship, or peer review."
+    },
+    "Ethical Violations by Author": {
+      "manuscript_categories": ["post_publication_transparency_due_process_oversight"],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Generic ethical-violation label used when no more specific reason is available; do not infer content, attribution, or editorial mechanism from this label alone."
+    }
+  }
+}

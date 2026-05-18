@@ -1,0 +1,27 @@
+{
+  "raw_reason": "Misconduct by Author",
+  "canonical_reason": "Misconduct by Author",
+  "definition_used": "Statement by journal, publisher, company, institution, government agency or author that one or more authors committed misconduct.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "official_misconduct_process"
+  ],
+  "actor_context": [
+    "author",
+    "journal_publisher",
+    "company_institution",
+    "ori_government"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance",
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Misconduct by Author is a broad label that can encompass many specific issues; without further details, all four manuscript categories are potentially relevant, but the assignment is broad rather than strict.",
+  "semantic_rationale": "The definition indicates a statement of author misconduct, which can affect research content reliability, authorship integrity, editorial governance, and post-publication oversight, as misconduct may involve data fabrication, authorship fraud, peer review manipulation, or failure to disclose conflicts. The process signal is official misconduct process, and actor contexts include those making the statement."
+}

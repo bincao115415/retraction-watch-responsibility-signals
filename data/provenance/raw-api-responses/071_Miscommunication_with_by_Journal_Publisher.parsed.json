@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Miscommunication with/by Journal/Publisher",
+  "canonical_reason": "Miscommunication with/by Journal/Publisher",
+  "definition_used": "One or more journals/publishers misunderstood one or more parts of a message sent to and/or from one or more journals/publishers.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "journal_publisher_error"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "editorial_peer_review_governance",
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "Miscommunication is a process error, not a direct content flaw; it may affect editorial handling or transparency but does not inherently indicate unreliable research content or authorship issues.",
+  "semantic_rationale": "The definition describes a journal/publisher misunderstanding in communication, which is an editorial process error (editorial_peer_review_governance) and may impact transparency or due process (post_publication_transparency_due_process_oversight). No direct evidence of research content problems or attribution issues."
+}

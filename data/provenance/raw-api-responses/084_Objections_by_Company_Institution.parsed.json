@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Objections by Company/Institution",
+  "canonical_reason": "Objections by Company/Institution",
+  "definition_used": "One or more companies/institutions objected to the notice or the wording of the notice.",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "company_institution"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The reason describes an objection to the notice itself, not necessarily a problem with the underlying research content. It is a metadata transparency signal about post-publication communication, not a direct indicator of manuscript integrity issues.",
+  "semantic_rationale": "The definition focuses on objections to the notice or its wording, which relates to post-publication transparency and due process oversight. It does not directly address research content reliability, authorship/attribution integrity, or editorial/peer review governance. The problem object is the notice status, and the process signal is notice opacity, with company/institution as the actor context."
+}

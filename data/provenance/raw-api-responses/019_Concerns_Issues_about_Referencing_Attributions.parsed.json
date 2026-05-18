@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Concerns/Issues about Referencing/Attributions",
+  "canonical_reason": "Concerns/Issues about Referencing/Attributions",
+  "definition_used": "Any question, controversy or dispute about references, citations, attributions, etc. This could include fabricated/falsified references, reference stacking, citing other work with an EOC or correction, etc.",
+  "problem_object": [
+    "references_attribution"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition explicitly targets references, citations, and attributions, which directly maps to the attribution/authorship/disclosure integrity category. The process signal is content reuse/duplication because reference stacking or citing corrected work involves reuse or duplication concerns. Actor context is unclear as the definition does not specify who raised the concern."
+}

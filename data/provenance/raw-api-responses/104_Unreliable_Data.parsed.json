@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Unreliable Data",
+  "canonical_reason": "Unreliable Data",
+  "definition_used": "Any of the data is unreliable.",
+  "problem_object": [
+    "data"
+  ],
+  "process_signal": [],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The definition is broad and does not specify cause, investigation, or actor. It directly indicates a problem with data reliability, which falls under research content reliability. No other categories are clearly supported.",
+  "semantic_rationale": "The definition states that any data is unreliable, which directly concerns the trustworthiness of research content, fitting the research_content_reliability category."
+}

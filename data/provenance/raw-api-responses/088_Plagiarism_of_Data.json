@@ -1,0 +1,28 @@
+{
+  "id": "5573ef0b-ae23-4b11-8a5e-4fc0fb6dc548",
+  "object": "chat.completion",
+  "created": 1779145916,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Plagiarism of Data\",\n  \"canonical_reason\": \"Plagiarism of Data\",\n  \"definition_used\": \"Plagiarism of any of the data.\",\n  \"problem_object\": [\"data\"],\n  \"process_signal\": [\"content_reuse_or_duplication_process\"],\n  \"actor_context\": [\"author\"],\n  \"manuscript_categories\": [\"research_content_reliability\", \"attribution_authorship_disclosure_integrity\"],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"Plagiarism of data directly compromises the originality and reliability of research content, and constitutes a failure in attribution and authorship integrity.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 649,
+    "completion_tokens": 166,
+    "total_tokens": 815,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

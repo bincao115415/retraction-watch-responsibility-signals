@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Breach of Policy by Author",
+  "canonical_reason": "Breach of Policy by Author",
+  "definition_used": "A journal/publisher/institution states that one or more authors violated one or more of the journal/publisher/institution’s policy(ies). RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was a breach of policy), or when the breach of policy (as an additional reason) cannot be addressed by existing reasons.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "publication_policy_or_sanction"
+  ],
+  "actor_context": [
+    "author",
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The definition is intentionally broad and used when no specific policy breach details are available. It signals a policy violation by an author but does not specify which policy, making it a transparency/oversight signal rather than a direct indicator of research content or authorship integrity issues.",
+  "semantic_rationale": "The definition describes a notice stating an author violated a policy, which is a post-publication transparency signal about a policy breach. It does not inherently indicate problems with research content, authorship, or peer review, but rather a general policy violation. Therefore, it maps to post_publication_transparency_due_process_oversight as a broad oversight category."
+}

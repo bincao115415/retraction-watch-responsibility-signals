@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Error in Methods",
+  "canonical_reason": "Error in Methods",
+  "definition_used": "One or more errors in the choice of and/or implementation of experimental protocol(s).",
+  "problem_object": [
+    "methods_materials"
+  ],
+  "process_signal": [
+    "journal_publisher_error"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition describes errors in experimental protocols, which directly affect the reliability of research content. The problem object is methods/materials, and the process signal is journal/publisher error (as the error is in the published methods). Actor context is author, as authors typically implement protocols."
+}

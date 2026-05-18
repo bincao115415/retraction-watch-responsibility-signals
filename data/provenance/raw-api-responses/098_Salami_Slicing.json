@@ -1,0 +1,28 @@
+{
+  "id": "ae59f847-67ea-4fa8-822d-b4c50c585e94",
+  "object": "chat.completion",
+  "created": 1779145993,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Salami Slicing\",\n  \"canonical_reason\": \"Salami Slicing\",\n  \"definition_used\": \"The publication of several articles using the same dataset by breaking it into sections, with the intent of exploiting a limited data set for the production of several published works. This does not apply to large multi-group studies such as the Framingham Heart Study.\",\n  \"problem_object\": [\n    \"data\",\n    \"results_conclusions\",\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"content_reuse_or_duplication_process\",\n    \"editorial_breach\"\n  ],\n  \"actor_context\": [\n    \"author\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\",\n    \"attribution_authorship_disclosure_integrity\",\n    \"editorial_peer_review_governance\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"Salami slicing involves overlapping data across publications, which can compromise the independence of results and inflate the apparent evidence base. It also raises issues of duplicate publication and proper attribution. The definition focuses on intent to exploit a limited dataset, which is a research integrity concern. While it primarily affects research content reliability, it also touches on authorship/disclosure (failure to disclose overlap) and editorial governance (failure to detect or prevent fragmented publication). No single category is exclusive; assignment is broad.\",\n  \"semantic_rationale\": \"Salami slicing fragments a dataset into multiple publications, undermining the reliability of reported results by creating non-independent evidence. It also involves inadequate disclosure of data overlap, breaching attribution and transparency norms. Editorial processes may fail to identify such fragmentation, implicating peer review governance. Thus, research_content_reliability, attribution_authorship_disclosure_integrity, and editorial_peer_review_governance are all supported.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 689,
+    "completion_tokens": 413,
+    "total_tokens": 1102,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 177
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

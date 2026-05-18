@@ -1,0 +1,898 @@
+[
+  {
+    "raw_reason": "Author Unresponsive",
+    "canonical_reason": "Author Unresponsive",
+    "count_all": 3069,
+    "count_retractions": 2904,
+    "definition": "The corresponding author(s) did not respond to journal/publisher requests for response, clarification, etc., about one or more concerns/issues with a publication. RW does not apply this reason when the lack of response is only to the language or posting of a notice of correction/EOC/retraction.ion after prior contact by Journal, Publisher or other original Authors",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Bias Issues or Lack of Balance",
+    "canonical_reason": "Bias Issues or Lack of Balance",
+    "count_all": 106,
+    "count_retractions": 98,
+    "definition": "Any question, controversy or dispute about balance or bias in any of the methods, analyses, results or any part of the published content. RW entries using this reason do not state or imply, nor should users infer, any intentionality.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Breach of Policy by Author",
+    "canonical_reason": "Breach of Policy by Author",
+    "count_all": 4794,
+    "count_retractions": 4788,
+    "definition": "A journal/publisher/institution states that one or more authors violated one or more of the journal/publisher/institution’s policy(ies). RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was a breach of policy), or when the breach of policy (as an additional reason) cannot be addressed by existing reasons.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Cites Retracted Work",
+    "canonical_reason": "Cites Retracted Work",
+    "count_all": 217,
+    "count_retractions": 186,
+    "definition": "Retracted content is used in citations or referencing.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Civil Proceedings",
+    "canonical_reason": "Civil Proceedings",
+    "count_all": 345,
+    "count_retractions": 28,
+    "definition": "Civil legal proceedings were instigated in response to the article and/or notice(s), or civil legal proceedings resulted in the correction/EOC/retraction/etc.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Complaints about Author",
+    "canonical_reason": "Complaints about Author",
+    "count_all": 114,
+    "count_retractions": 102,
+    "definition": "Complaints about one or more authors in addition to concerns about the original article. RW may also use this reason for cases in which something about one or more authors is called into question following any notice, i.e., when complaints escalate to being entirely author-based.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Complaints about Company/Institution",
+    "canonical_reason": "Complaints about Company/Institution",
+    "count_all": 5,
+    "count_retractions": 5,
+    "definition": "Complaints about one or more companies/institutions in addition to concerns about the original article. RW may also use this reason for cases in which something about one or more companies/institutions is called into question following any notice, i.e., when complaints escalate to being entirely company/institution-based.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Complaints about Third Party",
+    "canonical_reason": "Complaints about Third Party",
+    "count_all": 10,
+    "count_retractions": 9,
+    "definition": "Complaints about one or more third parties in addition to concerns about the original article. RW may also use this reason for cases in which something about one or more third parties is called into question following any notice, ie., when complaints escalate to being entirely third party-based.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Compromised Peer Review",
+    "canonical_reason": "Compromised Peer Review",
+    "count_all": 11277,
+    "count_retractions": 10696,
+    "definition": "The peer review was not performed in accordance with the journal’s guidelines or ethical standards",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Computer-Aided Content or Computer-Generated Content",
+    "canonical_reason": "Computer-Aided Content or Computer-Generated Content",
+    "count_all": 9122,
+    "count_retractions": 9121,
+    "definition": "Contains any content that was created via a text generator, randomizing algorithm, generative AI, etc. Some examples of these tools include Mathgen, Scigen, ChatGPT.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Concerns/Issues about Animal Welfare",
+    "canonical_reason": "Concerns/Issues about Animal Welfare",
+    "count_all": 45,
+    "count_retractions": 44,
+    "definition": "Any question, controversy or dispute about any non-human test or study subject(s).",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Concerns/Issues about Article",
+    "canonical_reason": "Concerns/Issues about Article",
+    "count_all": 1593,
+    "count_retractions": 1571,
+    "definition": "Any question, controversy or dispute about published content, or undefined sections of it.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Concerns/Issues about Authorship/Affiliation",
+    "canonical_reason": "Concerns/Issues About Authorship /Affiliation",
+    "count_all": 2877,
+    "count_retractions": 2632,
+    "definition": "Any question, controversy or dispute about authorship and/or affiliation, except for false/forged authorship or false/forged affiliation. False/forged authorship or false/forged affiliation are covered under their own reasons.",
+    "normalization_note": "variant: Concerns/Issues about Authorship/Affiliation -> Concerns/Issues About Authorship /Affiliation"
+  },
+  {
+    "raw_reason": "Concerns/Issues about Data",
+    "canonical_reason": "Concerns/Issues About Data",
+    "count_all": 15696,
+    "count_retractions": 14103,
+    "definition": "Any question, controversy or dispute about any of the data.",
+    "normalization_note": "variant: Concerns/Issues about Data -> Concerns/Issues About Data"
+  },
+  {
+    "raw_reason": "Concerns/Issues about Human Subject Welfare",
+    "canonical_reason": "Concerns/Issues about Human Subject Welfare",
+    "count_all": 784,
+    "count_retractions": 589,
+    "definition": "Any question, controversy or dispute about any human test or study subject(s).",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Concerns/Issues about Image",
+    "canonical_reason": "Concerns/Issues About Image",
+    "count_all": 3410,
+    "count_retractions": 2873,
+    "definition": "Any question, controversy or dispute about one or more images, or part(s) of one or more images.",
+    "normalization_note": "variant: Concerns/Issues about Image -> Concerns/Issues About Image"
+  },
+  {
+    "raw_reason": "Concerns/Issues about Methods",
+    "canonical_reason": "Concerns/Issues about Methods",
+    "count_all": 136,
+    "count_retractions": 132,
+    "definition": "Local CSV term not present in extracted Appendix B definitions; treated as concerns/issues about methods by semantic analogy.",
+    "normalization_note": "unmatched_local_allowed"
+  },
+  {
+    "raw_reason": "Concerns/Issues about Peer Review",
+    "canonical_reason": "Concerns/Issues with Peer Review",
+    "count_all": 11343,
+    "count_retractions": 11054,
+    "definition": "The peer review was not performed solely through journal error, or there are problems with the peer review that are not covered under “Fake Peer Review”.",
+    "normalization_note": "variant: Concerns/Issues about Peer Review -> Concerns/Issues with Peer Review"
+  },
+  {
+    "raw_reason": "Concerns/Issues about Referencing/Attributions",
+    "canonical_reason": "Concerns/Issues about Referencing/Attributions",
+    "count_all": 14618,
+    "count_retractions": 14345,
+    "definition": "Any question, controversy or dispute about references, citations, attributions, etc. This could include fabricated/falsified references, reference stacking, citing other work with an EOC or correction, etc.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Concerns/Issues about Results and/or Conclusions",
+    "canonical_reason": "Concerns/Issues about Results and/or Conclusions",
+    "count_all": 9911,
+    "count_retractions": 9132,
+    "definition": "Any question, controversy or dispute about the results and/or conclusions.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Concerns/Issues about Third Party Involvement",
+    "canonical_reason": "Concerns/Issues about Third Party Involvement",
+    "count_all": 1832,
+    "count_retractions": 1701,
+    "definition": "Any question, controversy or dispute about third party involvement.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Conflict of Interest",
+    "canonical_reason": "Conflict of Interest",
+    "count_all": 887,
+    "count_retractions": 749,
+    "definition": "Any question, controversy or dispute about author(s), editor(s), any third party and/or peer reviewer(s) having affiliations with companies, associations or institutions that may serve to influence how they conduct their role in any part of the research and/or publication process(es).",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Contamination of Cell Lines/Tissues",
+    "canonical_reason": "Contamination of Cell Lines/Tissues",
+    "count_all": 156,
+    "count_retractions": 143,
+    "definition": "Impurities were found or suspected within cell lines or tissues.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Contamination of Materials",
+    "canonical_reason": "Contamination of Materials",
+    "count_all": 84,
+    "count_retractions": 80,
+    "definition": "Impurities were found or suspected within compounds, reagents or solutions used in experiments.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Copyright Claims",
+    "canonical_reason": "Copyright Claims",
+    "count_all": 711,
+    "count_retractions": 692,
+    "definition": "Dispute concerning permissions or ownership of materials (equipment, cell lines, etc.), technologies, images, text, patents, etc.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Criminal Proceedings",
+    "canonical_reason": "Criminal Proceedings",
+    "count_all": 77,
+    "count_retractions": 74,
+    "definition": "Criminal legal proceedings were instigated in response to the publication and/or notice(s), or criminal legal proceedings resulted in the correction/EOC/retraction/etc.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Date of Article and/or Notice Unknown",
+    "canonical_reason": "Date of Article and/or Notice Unknown",
+    "count_all": 6901,
+    "count_retractions": 6782,
+    "definition": "The article and/or notice do not have clear publication dates. RW may also use this reason when a publisher overwrites the original article’s HTML page with the notice, without changing the publication date to reflect the change.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Doing the Right Thing",
+    "canonical_reason": "Doing the Right Thing",
+    "count_all": 142,
+    "count_retractions": 136,
+    "definition": "An attribution made by co-founders of Retraction Watch indicating admirable behavior by one of the involved parties",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Duplication of Content through Error by Journal/Publisher",
+    "canonical_reason": "Duplication of Content through Error by Journal/Publisher",
+    "count_all": 887,
+    "count_retractions": 883,
+    "definition": "Duplication of published content due to an error by the journal or publisher.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Duplication of Data",
+    "canonical_reason": "Duplication of Data",
+    "count_all": 1098,
+    "count_retractions": 1004,
+    "definition": "Duplication of any of the data.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Duplication of Text",
+    "canonical_reason": "Duplication of Text",
+    "count_all": 500,
+    "count_retractions": 478,
+    "definition": "Duplication of any of the text.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Duplication of/in Article",
+    "canonical_reason": "Duplication of/in Article",
+    "count_all": 3643,
+    "count_retractions": 3585,
+    "definition": "Duplication of a published item, or undefined sections of it.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Duplication of/in Image",
+    "canonical_reason": "Duplication of/in Image",
+    "count_all": 5321,
+    "count_retractions": 4962,
+    "definition": "Duplication of one or more images, or part(s) of one or more images.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "EOC Lifted",
+    "canonical_reason": "EOC Lifted",
+    "count_all": 4,
+    "count_retractions": 0,
+    "definition": "Expression of Concern has been removed or is no longer applicable. Not to be confused with an “Upgraded to Retraction”",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Error by Journal/Publisher",
+    "canonical_reason": "Error by Journal/Publisher",
+    "count_all": 870,
+    "count_retractions": 731,
+    "definition": "An error attributed to a journal/publisher.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Error by Third Party",
+    "canonical_reason": "Error by Third Party",
+    "count_all": 48,
+    "count_retractions": 42,
+    "definition": "An error attributed to any third party.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Error in Analyses",
+    "canonical_reason": "Error in Analyses",
+    "count_all": 1453,
+    "count_retractions": 1355,
+    "definition": "One or more errors in the evaluation of any of the data or in any calculation(s).",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Error in Cell Lines/Tissues",
+    "canonical_reason": "Error in Cell Lines/Tissues",
+    "count_all": 97,
+    "count_retractions": 93,
+    "definition": "One or more errors in the choice or identification of any of the cell lines or tissues.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Error in Data",
+    "canonical_reason": "Error in Data",
+    "count_all": 2117,
+    "count_retractions": 1896,
+    "definition": "One or more errors in any of the data.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Error in Image",
+    "canonical_reason": "Error in Image",
+    "count_all": 1528,
+    "count_retractions": 923,
+    "definition": "One or more errors in one or more images, or part(s) of one or more images.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Error in Materials",
+    "canonical_reason": "Error in Materials",
+    "count_all": 199,
+    "count_retractions": 188,
+    "definition": "One or more errors in one or more experimental materials. including reagents, mixing bowls, equipment or instrumentation.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Error in Methods",
+    "canonical_reason": "Error in Methods",
+    "count_all": 1280,
+    "count_retractions": 1214,
+    "definition": "One or more errors in the choice of and/or implementation of experimental protocol(s).",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Error in Results and/or Conclusions",
+    "canonical_reason": "Error in Results and/or Conclusions",
+    "count_all": 1475,
+    "count_retractions": 1428,
+    "definition": "One or more errors in any of the results and/or the conclusions.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Error in Text",
+    "canonical_reason": "Error in Text",
+    "count_all": 1251,
+    "count_retractions": 735,
+    "definition": "One or more errors in any of the text.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Ethical Violations by Author",
+    "canonical_reason": "Ethical Violations by Author",
+    "count_all": 699,
+    "count_retractions": 648,
+    "definition": "When a journal/publisher/institution states that one or more authors have not met the journal/publisher/institution’s standards of publishing and/or research ethics. RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was an ethical violation), or when the ethical violation (as an additional reason) cannot be addressed by existing reasons.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Ethical Violations by Company/Institution/Third Party",
+    "canonical_reason": "Ethical Violations by Company/Institution/Third Party",
+    "count_all": 29,
+    "count_retractions": 29,
+    "definition": "When a journal/publisher/institution states that one or more company(ies)/institution(s)/thirdparty(ies) have not met the journal/publisher/institution’s standards of publishing and/or research ethics. RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was an ethical violation), or when the ethical violation (as an additional reason) cannot be addressed by existing reasons.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Euphemisms for Duplication",
+    "canonical_reason": "Euphemisms for Duplication",
+    "count_all": 2099,
+    "count_retractions": 2001,
+    "definition": "The notice does not clearly state that the authors reused ideas, text, or images from one of their previously published items without suitable citation",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Euphemisms for Misconduct",
+    "canonical_reason": "Euphemisms for Misconduct",
+    "count_all": 22,
+    "count_retractions": 22,
+    "definition": "The notice does not explicitly state that the reason for the notice is due to misconduct, despite a journal, publisher, company, institution, government agency or author explicitly stating that there was misconduct.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Euphemisms for Plagiarism",
+    "canonical_reason": "Euphemisms for Plagiarism",
+    "count_all": 3668,
+    "count_retractions": 3637,
+    "definition": "The notice describes plagiarism of material without using the words “plagiarize(d)” or “plagiarism.”",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "False/Forged Affiliation",
+    "canonical_reason": "False/Forged Affiliation",
+    "count_all": 195,
+    "count_retractions": 190,
+    "definition": "The false/forged use of an affiliation/institutional name in the publication process.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "False/Forged Authorship",
+    "canonical_reason": "False/Forged Authorship",
+    "count_all": 919,
+    "count_retractions": 893,
+    "definition": "The false/forged use of one or more author names in the publication process.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Falsification/Fabrication of Data",
+    "canonical_reason": "Falsification/Fabrication of Data",
+    "count_all": 1737,
+    "count_retractions": 1701,
+    "definition": "Falsification or fabrication of any data in order to mislead.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Falsification/Fabrication of Image",
+    "canonical_reason": "Falsification/Fabrication of Image",
+    "count_all": 556,
+    "count_retractions": 537,
+    "definition": "Falsification or fabrication in/of one or more images, or part(s) of one or more images, in order to mislead.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Falsification/Fabrication of Results",
+    "canonical_reason": "Falsification/Fabrication of Results",
+    "count_all": 118,
+    "count_retractions": 116,
+    "definition": "Falsification or fabrication of results in order to mislead.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Hoax Paper",
+    "canonical_reason": "Hoax Paper",
+    "count_all": 16,
+    "count_retractions": 15,
+    "definition": "The paper was intentionally drafted with fabricated or falsified data or other content with the goal of testing a journal or publisher’s manuscript acceptance policies.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Informed/Patient Consent - None/Withdrawn",
+    "canonical_reason": "Informed/Patient Consent – None/Withdrawn",
+    "count_all": 1595,
+    "count_retractions": 1589,
+    "definition": "When informed/patient consent documentation is deemed insufficient or is not available or the participant later disputes/withdraws their approval.",
+    "normalization_note": "variant: Informed/Patient Consent - None/Withdrawn -> Informed/Patient Consent – None/Withdrawn"
+  },
+  {
+    "raw_reason": "Investigation by Company/Institution",
+    "canonical_reason": "Investigation by Company/Institution",
+    "count_all": 3807,
+    "count_retractions": 3242,
+    "definition": "An investigation by the company/institution listed as the affiliation of one or more authors.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Investigation by Journal/Publisher",
+    "canonical_reason": "Investigation by Journal/Publisher",
+    "count_all": 30444,
+    "count_retractions": 28616,
+    "definition": "An investigation by the journal/publisher of the article.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Investigation by ORI",
+    "canonical_reason": "Investigation by ORI",
+    "count_all": 304,
+    "count_retractions": 285,
+    "definition": "An investigation by the United States Office of Research Integrity (ORI).",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Investigation by Third Party",
+    "canonical_reason": "Investigation by Third Party",
+    "count_all": 17447,
+    "count_retractions": 17131,
+    "definition": "An investigation by any third party that is not the United States Office of Research Integrity (ORI).",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Lack of Approval from Author",
+    "canonical_reason": "Lack of Approval from Author",
+    "count_all": 580,
+    "count_retractions": 560,
+    "definition": "One or more authors did not approve one or more parts of the research or publication process(es). RW also uses this reason if the notice mentions a lack of documentation of alleged approval.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Lack of Approval from Company/Institution",
+    "canonical_reason": "Lack of Approval from Company/Institution",
+    "count_all": 298,
+    "count_retractions": 289,
+    "definition": "One or more companies/institutions did not approve one or more parts of the research or publication process(es). RW also uses this reason if the notice mentions a lack of documentation of alleged approval.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Lack of Approval from Third Party",
+    "canonical_reason": "Lack of Approval from Third Party",
+    "count_all": 438,
+    "count_retractions": 428,
+    "definition": "One or more third parties did not approve one or more parts of the research or publication process(es). RW also uses this reason if the notice mentions a lack of documentation of alleged approval.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Lack of IRB/IACUC Approval and/or Compliance",
+    "canonical_reason": "Lack of IRB/IACUC Approval and/or Compliance",
+    "count_all": 2601,
+    "count_retractions": 2577,
+    "definition": "Failure to obtain consent from the institutional ethical review board overseeing human or animal experimentation prior to initiation of study, or failure to provide proof of such",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Legal Reasons and/or Threats",
+    "canonical_reason": "Legal Reasons and/or Threats",
+    "count_all": 451,
+    "count_retractions": 112,
+    "definition": "When a journal/publisher/author/third party uses the phrase “legal reasons,” documents litigation or legal threats, or mentions one or more specific laws",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Manipulation of Data",
+    "canonical_reason": "Manipulation of Data.",
+    "count_all": 22,
+    "count_retractions": 22,
+    "definition": "Manipulation of any data.",
+    "normalization_note": "variant: Manipulation of Data -> Manipulation of Data."
+  },
+  {
+    "raw_reason": "Manipulation of Images",
+    "canonical_reason": "Manipulation of Images",
+    "count_all": 1403,
+    "count_retractions": 1302,
+    "definition": "Manipulation of one or more images, or part(s) of one or more images.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Manipulation of Results",
+    "canonical_reason": "Manipulation of Results",
+    "count_all": 46,
+    "count_retractions": 41,
+    "definition": "Manipulation of any results.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Miscommunication with/by Author",
+    "canonical_reason": "Miscommunication with/by Author",
+    "count_all": 106,
+    "count_retractions": 102,
+    "definition": "One or more authors misunderstood one or more parts of a message sent to and/or from one or more authors.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Miscommunication with/by Company/Institution",
+    "canonical_reason": "Miscommunication with/by Company/Institution",
+    "count_all": 12,
+    "count_retractions": 11,
+    "definition": "One or more companies/institutions misunderstood one or more parts of a message sent to and/or from one or more companies/institutions.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Miscommunication with/by Journal/Publisher",
+    "canonical_reason": "Miscommunication with/by Journal/Publisher",
+    "count_all": 20,
+    "count_retractions": 18,
+    "definition": "One or more journals/publishers misunderstood one or more parts of a message sent to and/or from one or more journals/publishers.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Miscommunication with/by Third Party",
+    "canonical_reason": "Miscommunication by Third Party",
+    "count_all": 13,
+    "count_retractions": 12,
+    "definition": "One or more third parties misunderstood one or more parts of a message sent to and/or from one or more third parties.",
+    "normalization_note": "variant: Miscommunication with/by Third Party -> Miscommunication by Third Party"
+  },
+  {
+    "raw_reason": "Misconduct - Official Investigation(s) and/or Finding(s)",
+    "canonical_reason": "Misconduct – Official Investigation/Finding",
+    "count_all": 1661,
+    "count_retractions": 1532,
+    "definition": "An investigation by an incorporated company, institution or government agency into misconduct allegations (founded or unfounded) and/or the finding(s) of misconduct by an incorporated company, institution or government agency.",
+    "normalization_note": "variant: Misconduct - Official Investigation(s) and/or Finding(s) -> Misconduct – Official Investigation/Finding"
+  },
+  {
+    "raw_reason": "Misconduct by Author",
+    "canonical_reason": "Misconduct by Author",
+    "count_all": 1941,
+    "count_retractions": 1841,
+    "definition": "Statement by journal, publisher, company, institution, government agency or author that one or more authors committed misconduct.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Misconduct by Company/Institution",
+    "canonical_reason": "Misconduct by Company/Institution",
+    "count_all": 8,
+    "count_retractions": 8,
+    "definition": "Statement by journal, publisher, company, institution, government agency or author that one or more companies/institutions committed misconduct.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Misconduct by Third Party",
+    "canonical_reason": "Misconduct by Third Party",
+    "count_all": 51,
+    "count_retractions": 49,
+    "definition": "Statement by journal, publisher, company, institution, government agency or author that one or more third party(ies) committed misconduct.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "No Further Action",
+    "canonical_reason": "No Further Action",
+    "count_all": 25,
+    "count_retractions": 6,
+    "definition": "The journal or publisher has stated that no further action will be taken.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Nonpayment of Fees and/or Refusal to Pay",
+    "canonical_reason": "Nonpayment of Fees and/or Refusal to Pay",
+    "count_all": 12,
+    "count_retractions": 11,
+    "definition": "Fees for services, licenses or access were not paid and/or completed, and/or there was a refusal to pay fees.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Not Presented at Conference",
+    "canonical_reason": "Not Presented at Conference",
+    "count_all": 37,
+    "count_retractions": 36,
+    "definition": "The paper/abstract/poster was not presented at the conference for which it was accepted.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Notice - Lack of",
+    "canonical_reason": "Notice – Lack of",
+    "count_all": 355,
+    "count_retractions": 348,
+    "definition": "No notice was published by the journal or publisher.",
+    "normalization_note": "variant: Notice - Lack of -> Notice – Lack of"
+  },
+  {
+    "raw_reason": "Notice - Limited or No Information",
+    "canonical_reason": "Notice – Limited or No Information",
+    "count_all": 12082,
+    "count_retractions": 11950,
+    "definition": "A notice provides minimal information as to the cause of the notice, or the original item is watermaked as retracted or corrected without explanation",
+    "normalization_note": "variant: Notice - Limited or No Information -> Notice – Limited or No Information"
+  },
+  {
+    "raw_reason": "Notice - Unable to Access via current resources",
+    "canonical_reason": "Notice – Unable to Access via current resources",
+    "count_all": 206,
+    "count_retractions": 182,
+    "definition": "The notice is paywalled by the journal/publisher, only available in print or is in some form unavailable for inspection.",
+    "normalization_note": "variant: Notice - Unable to Access via current resources -> Notice – Unable to Access via current resources"
+  },
+  {
+    "raw_reason": "Objections by Author(s)",
+    "canonical_reason": "Objections by Author(s)",
+    "count_all": 3075,
+    "count_retractions": 3035,
+    "definition": "One or more authors objected to the notice or the wording of the notice.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Objections by Company/Institution",
+    "canonical_reason": "Objections by Company/Institution",
+    "count_all": 29,
+    "count_retractions": 28,
+    "definition": "One or more companies/institutions objected to the notice or the wording of the notice.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Objections by Third Party",
+    "canonical_reason": "Objections by Third Party",
+    "count_all": 839,
+    "count_retractions": 735,
+    "definition": "One or more third parties objected to the notice or the wording of the notice.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Original Data and/or Images not Provided and/or not Available",
+    "canonical_reason": "Original Data and/or Images not Provided and/or not Available",
+    "count_all": 2460,
+    "count_retractions": 2280,
+    "definition": "The original data or images for the published study is no longer available or is not given to the editorial staff.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Paper Mill",
+    "canonical_reason": "Paper Mill",
+    "count_all": 11796,
+    "count_retractions": 11710,
+    "definition": "When a journal/publisher/institution states that a paper came from a paper mill or the paper is in a list of paper mill papers. RW may also use this reason to reflect that RW has identified multiple paper mill criteria applying to this paper.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Plagiarism of Data",
+    "canonical_reason": "Plagiarism of Data",
+    "count_all": 643,
+    "count_retractions": 633,
+    "definition": "Plagiarism of any of the data.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Plagiarism of Image",
+    "canonical_reason": "Plagiarism of Image",
+    "count_all": 760,
+    "count_retractions": 750,
+    "definition": "Plagiarism of one or more images.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Plagiarism of Text",
+    "canonical_reason": "Plagiarism of Text",
+    "count_all": 2220,
+    "count_retractions": 2193,
+    "definition": "Plagiarism of any of the text.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Plagiarism of/in Article",
+    "canonical_reason": "Plagiarism of/in Article",
+    "count_all": 2769,
+    "count_retractions": 2743,
+    "definition": "Plagiarism of a published item, or undefined sections of it.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Publishing Ban",
+    "canonical_reason": "Publishing Ban",
+    "count_all": 82,
+    "count_retractions": 81,
+    "definition": "When a journal/publisher states that no manuscripts will be accepted from one or more authors of the original article. Bans could be for a limited time or indefinitely.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Removed",
+    "canonical_reason": "Removed",
+    "count_all": 4036,
+    "count_retractions": 3954,
+    "definition": "The original article is removed from access on the journal’s website or publishing platform.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Results Not Reproducible",
+    "canonical_reason": "Results Not Reproducible",
+    "count_all": 932,
+    "count_retractions": 911,
+    "definition": "When repetition(s) of experiment(s), using the same materials and methods, failed to replicate the results in the original article.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Retract and Replace",
+    "canonical_reason": "Retract and Replace",
+    "count_all": 1048,
+    "count_retractions": 914,
+    "definition": "The change of an item’s status reflecting that a retracted item will be replaced with a new publication in the same journal. The journal has indicated that the replacement should be cited as the version of record.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Rogue Editor",
+    "canonical_reason": "Rogue Editor",
+    "count_all": 3074,
+    "count_retractions": 2637,
+    "definition": "Used when an editor’s credentials are false/forged or when an editor subverts one or more processes under their purview. An “editor” may be an established editor affiliated with the journal or a guest editor.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Sabotage of Materials/Methods",
+    "canonical_reason": "Sabotage of Materials/Methods",
+    "count_all": 1,
+    "count_retractions": 1,
+    "definition": "An intentional action by a third party, without the researchers’ knowledge or consent, to sabotage or contaminate experimental ingredients or processes in order to influence experimental outcome(s).",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Salami Slicing",
+    "canonical_reason": "Salami Slicing",
+    "count_all": 32,
+    "count_retractions": 28,
+    "definition": "The publication of several articles using the same dataset by breaking it into sections, with the intent of exploiting a limited data set for the production of several published works. This does not apply to large multi-group studies such as the Framingham Heart Study.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Taken from Dissertation/Thesis",
+    "canonical_reason": "Taken from Dissertation/Thesis",
+    "count_all": 357,
+    "count_retractions": 356,
+    "definition": "The duplicated or plagiarized content was taken from an academic dissertation or thesis.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Taken via Peer Review",
+    "canonical_reason": "Taken via Peer Review",
+    "count_all": 22,
+    "count_retractions": 22,
+    "definition": "The duplicated or plagiarized content was taken during the peer review process.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Taken via Translation",
+    "canonical_reason": "Taken via Translation",
+    "count_all": 7,
+    "count_retractions": 7,
+    "definition": "The duplicated or plagiarized content was created via a translation from one language to another.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Temporary Removal",
+    "canonical_reason": "Temporary Removal",
+    "count_all": 193,
+    "count_retractions": 78,
+    "definition": "The original article is removed from the journal’s publishing platform and the notice states the removal will be for an undefined period of time.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Transfer of Copyright and/or Ownership",
+    "canonical_reason": "Transfer of Copyright and/or Ownership",
+    "count_all": 43,
+    "count_retractions": 43,
+    "definition": "A change in the copyright and/or ownership of the article or any of its content.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Unreliable Data",
+    "canonical_reason": "Unreliable Data",
+    "count_all": 2256,
+    "count_retractions": 2204,
+    "definition": "Any of the data is unreliable.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Unreliable Image",
+    "canonical_reason": "Unreliable Image",
+    "count_all": 282,
+    "count_retractions": 266,
+    "definition": "One or more images, or part(s) of one or more images, are unreliable.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Unreliable Results and/or Conclusions",
+    "canonical_reason": "Unreliable Results and/or Conclusions",
+    "count_all": 20896,
+    "count_retractions": 20837,
+    "definition": "Any of the results and/or conclusions are unreliable.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Updated to Correction",
+    "canonical_reason": "Updated to Correction",
+    "count_all": 47,
+    "count_retractions": 6,
+    "definition": "The article has a correction after this notice.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Updated to Expression of Concern",
+    "canonical_reason": "Updated to Expression of Concern",
+    "count_all": 8,
+    "count_retractions": 0,
+    "definition": "The article has an expression of concern after this notice.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Updated to Retraction",
+    "canonical_reason": "Updated to Retraction",
+    "count_all": 1938,
+    "count_retractions": 22,
+    "definition": "The article has a retraction after this notice.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Upgrade/Update of Prior Notice(s)",
+    "canonical_reason": "Upgrade/Update of Prior Notice(s)",
+    "count_all": 2192,
+    "count_retractions": 2018,
+    "definition": "At least one prior notice for the article has been upgraded or updated with this notice.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Withdrawn as Out of Date",
+    "canonical_reason": "Withdrawn as Out of Date",
+    "count_all": 362,
+    "count_retractions": 362,
+    "definition": "The article has been retracted as part of a journal’s process of keeping guidelines or reviews current for professional use.",
+    "normalization_note": "exact"
+  },
+  {
+    "raw_reason": "Withdrawn to Publish in Different Journal",
+    "canonical_reason": "Withdrawn to Publish in Different Journal",
+    "count_all": 495,
+    "count_retractions": 495,
+    "definition": "The article was taken from one journal/platform or access type to be published in a different journal/platform or with a different access type.",
+    "normalization_note": "exact"
+  }
+]

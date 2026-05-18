@@ -1,0 +1,28 @@
+{
+  "id": "f0bec626-55d3-4a17-a78c-0cfb41f50adf",
+  "object": "chat.completion",
+  "created": 1779145290,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Concerns/Issues about Article\",\n  \"canonical_reason\": \"Concerns/Issues about Article\",\n  \"definition_used\": \"Any question, controversy or dispute about published content, or undefined sections of it.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"notice_opacity\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [],\n  \"classification_strength\": \"ambiguous\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition is too broad and non-specific to assign any manuscript-facing category reliably. It functions as a catch-all notice of unresolved concerns without indicating whether the issue pertains to research content, authorship, editorial processes, or post-publication oversight.\",\n  \"semantic_rationale\": \"The definition describes a general notice of controversy or dispute about published content without specifying the nature of the concern. It lacks the specificity required to map to any of the four manuscript-facing categories, which require more concrete indications of problems with research reliability, attribution, editorial governance, or post-publication processes.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 662,
+    "completion_tokens": 237,
+    "total_tokens": 899,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 150
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

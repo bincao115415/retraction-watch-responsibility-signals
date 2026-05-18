@@ -1,0 +1,17 @@
+{
+  "raw_reason": "Investigation by ORI",
+  "canonical_reason": "Investigation by ORI",
+  "definition_used": "An investigation by the United States Office of Research Integrity (ORI).",
+  "problem_object": [],
+  "process_signal": [
+    "official_misconduct_process"
+  ],
+  "actor_context": [
+    "ori_government"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition only states that an investigation by ORI occurred, without specifying what was investigated or the outcome. It does not directly indicate a problem with research content, authorship, editorial processes, or post-publication transparency. It is a procedural signal that may be associated with any of these categories, but alone it is insufficient to assign a manuscript-facing category.",
+  "semantic_rationale": "The definition describes an investigation by a government oversight body (ORI) into research integrity. This is a process signal (official_misconduct_process) with actor_context ori_government. No specific problem_object is mentioned, and the definition does not inherently imply a particular manuscript-facing category; it could relate to any of them depending on the investigation's focus. Therefore, no manuscript category is assigned."
+}

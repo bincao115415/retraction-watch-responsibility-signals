@@ -1,0 +1,28 @@
+{
+  "id": "cf5fe33b-f3f0-4239-ab93-443a24cab61a",
+  "object": "chat.completion",
+  "created": 1779145520,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Error in Materials\",\n  \"canonical_reason\": \"Error in Materials\",\n  \"definition_used\": \"One or more errors in one or more experimental materials. including reagents, mixing bowls, equipment or instrumentation.\",\n  \"problem_object\": [\n    \"methods_materials\"\n  ],\n  \"process_signal\": [\n    \"journal_publisher_error\"\n  ],\n  \"actor_context\": [\n    \"author\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition describes errors in experimental materials (reagents, equipment), which directly affect the reliability of research content. This maps to research_content_reliability. The error is a material mistake, not a process or transparency issue, so other categories are not supported.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 657,
+    "completion_tokens": 202,
+    "total_tokens": 859,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 145
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

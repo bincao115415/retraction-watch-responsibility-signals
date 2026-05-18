@@ -1,0 +1,28 @@
+{
+  "id": "01304699-e3f3-4192-b29b-92a5caeca1aa",
+  "object": "chat.completion",
+  "created": 1779145830,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Nonpayment of Fees and/or Refusal to Pay\",\n  \"canonical_reason\": \"Nonpayment of Fees and/or Refusal to Pay\",\n  \"definition_used\": \"Fees for services, licenses or access were not paid and/or completed, and/or there was a refusal to pay fees.\",\n  \"problem_object\": \"availability_notice_status\",\n  \"process_signal\": \"publication_policy_or_sanction\",\n  \"actor_context\": \"author\",\n  \"manuscript_categories\": [],\n  \"classification_strength\": \"ambiguous\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason describes a financial transaction failure, not a manuscript integrity issue. It does not directly map to any of the four manuscript-facing categories, which focus on research content, authorship, peer review, or post-publication oversight.\",\n  \"semantic_rationale\": \"Nonpayment of fees is a business/administrative matter, not a content, authorship, peer review, or post-publication oversight issue per the supplied definitions.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 675,
+    "completion_tokens": 228,
+    "total_tokens": 903,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 163
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

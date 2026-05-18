@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Error in Text",
+  "canonical_reason": "Error in Text",
+  "definition_used": "One or more errors in any of the text.",
+  "problem_object": [
+    "text_article"
+  ],
+  "process_signal": [
+    "correction_update_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "Text errors can affect the reliability of the research content, as they may misrepresent findings or methods. The definition directly points to text issues, which fall under research content reliability."
+}

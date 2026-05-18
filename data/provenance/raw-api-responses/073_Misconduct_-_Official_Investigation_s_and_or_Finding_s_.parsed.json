@@ -1,0 +1,26 @@
+{
+  "raw_reason": "Misconduct - Official Investigation(s) and/or Finding(s)",
+  "canonical_reason": "Misconduct – Official Investigation/Finding",
+  "definition_used": "An investigation by an incorporated company, institution or government agency into misconduct allegations (founded or unfounded) and/or the finding(s) of misconduct by an incorporated company, institution or government agency.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "institutional_investigation",
+    "official_misconduct_process"
+  ],
+  "actor_context": [
+    "company_institution",
+    "ori_government"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance",
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The definition covers investigations and findings by companies, institutions, or government agencies into misconduct allegations. Misconduct can span fabrication, falsification, plagiarism, authorship issues, or ethical breaches, potentially affecting all manuscript categories. However, the specific nature of misconduct is not detailed, so assignment is broad.",
+  "semantic_rationale": "Official investigations/findings of misconduct inherently question research content reliability, may involve authorship or disclosure issues, can relate to editorial/peer review governance if misconduct affected review, and always trigger post-publication oversight processes. The definition explicitly mentions institutional and government actors, and the process is an official misconduct investigation."
+}

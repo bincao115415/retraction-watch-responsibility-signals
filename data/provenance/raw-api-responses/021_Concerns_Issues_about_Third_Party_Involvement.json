@@ -1,0 +1,28 @@
+{
+  "id": "00660d38-7247-49ca-a948-9540ce2e461c",
+  "object": "chat.completion",
+  "created": 1779145362,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Concerns/Issues about Third Party Involvement\",\n  \"canonical_reason\": \"Concerns/Issues about Third Party Involvement\",\n  \"definition_used\": \"Any question, controversy or dispute about third party involvement.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"third_party_investigation\",\n  \"actor_context\": \"third_party\",\n  \"manuscript_categories\": [],\n  \"classification_strength\": \"ambiguous\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition is too vague to assign a specific manuscript category; it only indicates a dispute involving a third party without specifying the nature of the concern (e.g., data, authorship, ethics).\",\n  \"semantic_rationale\": \"The definition 'Any question, controversy or dispute about third party involvement' does not map to any of the four manuscript-facing categories because it lacks specificity about the content, process, or integrity aspect affected. It is a broad metadata signal about an external party's role in a dispute, not a substantive integrity issue.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 661,
+    "completion_tokens": 235,
+    "total_tokens": 896,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

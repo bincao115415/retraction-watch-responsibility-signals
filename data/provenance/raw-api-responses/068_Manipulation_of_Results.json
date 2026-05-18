@@ -1,0 +1,28 @@
+{
+  "id": "a1923c62-9fc8-48b6-a70f-46a2a4f20756",
+  "object": "chat.completion",
+  "created": 1779145738,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Manipulation of Results\",\n  \"canonical_reason\": \"Manipulation of Results\",\n  \"definition_used\": \"Manipulation of any results.\",\n  \"problem_object\": [\n    \"results_conclusions\"\n  ],\n  \"process_signal\": [],\n  \"actor_context\": [\n    \"unclear\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"Definition is broad; no specific process or actor indicated. Assigned to research_content_reliability because manipulation directly undermines result trustworthiness.\",\n  \"semantic_rationale\": \"Manipulation of results directly compromises the reliability of research content, fitting the research_content_reliability category. No explicit process or actor is mentioned, so process_signal and actor_context are minimal.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 200,
+    "total_tokens": 847,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 135
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

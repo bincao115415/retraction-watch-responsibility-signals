@@ -1,0 +1,28 @@
+{
+  "id": "f6d16fb2-c941-42be-b8da-9e64dfd7ce33",
+  "object": "chat.completion",
+  "created": 1779145539,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Error in Text\",\n  \"canonical_reason\": \"Error in Text\",\n  \"definition_used\": \"One or more errors in any of the text.\",\n  \"problem_object\": [\"text_article\"],\n  \"process_signal\": [\"correction_update_process\"],\n  \"actor_context\": [\"unclear\"],\n  \"manuscript_categories\": [\"research_content_reliability\"],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"None\",\n  \"semantic_rationale\": \"Text errors can affect the reliability of the research content, as they may misrepresent findings or methods. The definition directly points to text issues, which fall under research content reliability.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 161,
+    "total_tokens": 808,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 135
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

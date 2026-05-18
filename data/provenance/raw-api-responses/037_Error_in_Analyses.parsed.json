@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Error in Analyses",
+  "canonical_reason": "Error in Analyses",
+  "definition_used": "One or more errors in the evaluation of any of the data or in any calculation(s).",
+  "problem_object": [
+    "data",
+    "results_conclusions"
+  ],
+  "process_signal": [
+    "correction_update_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition describes errors in data evaluation or calculations, directly undermining the reliability of research content. This maps strictly to research_content_reliability."
+}

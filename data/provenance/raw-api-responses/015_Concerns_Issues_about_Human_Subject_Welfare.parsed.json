@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Concerns/Issues about Human Subject Welfare",
+  "canonical_reason": "Concerns/Issues about Human Subject Welfare",
+  "definition_used": "Any question, controversy or dispute about any human test or study subject(s).",
+  "problem_object": [
+    "ethics_welfare"
+  ],
+  "process_signal": [
+    "research_ethics_approval_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition covers any question about human subjects, which directly implicates research ethics and welfare. This can affect the reliability of research content and may involve failures in authorship/disclosure regarding ethical approvals. The process signal is research ethics approval, but the actor context is unclear as the definition does not specify who raised the concern."
+}

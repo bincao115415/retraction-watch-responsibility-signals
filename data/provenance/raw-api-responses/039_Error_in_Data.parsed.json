@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Error in Data",
+  "canonical_reason": "Error in Data",
+  "definition_used": "One or more errors in any of the data.",
+  "problem_object": [
+    "data"
+  ],
+  "process_signal": [],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition explicitly states errors in data, directly impacting research content reliability."
+}

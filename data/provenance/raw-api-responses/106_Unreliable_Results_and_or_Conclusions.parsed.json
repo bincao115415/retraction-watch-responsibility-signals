@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Unreliable Results and/or Conclusions",
+  "canonical_reason": "Unreliable Results and/or Conclusions",
+  "definition_used": "Any of the results and/or conclusions are unreliable.",
+  "problem_object": [
+    "results_conclusions"
+  ],
+  "process_signal": [],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition directly states that results and/or conclusions are unreliable, which maps to research_content_reliability. No process or actor is specified, so actor_context is unclear."
+}

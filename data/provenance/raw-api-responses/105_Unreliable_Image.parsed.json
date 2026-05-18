@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Unreliable Image",
+  "canonical_reason": "Unreliable Image",
+  "definition_used": "One or more images, or part(s) of one or more images, are unreliable.",
+  "problem_object": [
+    "image"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition directly states that images are unreliable, which undermines the trustworthiness of research content, fitting research_content_reliability. No other categories are supported."
+}

@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Concerns/Issues about Animal Welfare",
+  "canonical_reason": "Concerns/Issues about Animal Welfare",
+  "definition_used": "Any question, controversy or dispute about any non-human test or study subject(s).",
+  "problem_object": [
+    "ethics_welfare"
+  ],
+  "process_signal": [
+    "research_ethics_approval_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "Animal welfare concerns directly implicate ethical treatment of subjects, which can affect the reliability of research content and reflect on author compliance with ethical standards, thus supporting research_content_reliability and attribution_authorship_disclosure_integrity categories."
+}

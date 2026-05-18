@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Plagiarism of Text",
+  "canonical_reason": "Plagiarism of Text",
+  "definition_used": "Plagiarism of any of the text.",
+  "problem_object": [
+    "text_article"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "Plagiarism of text directly violates attribution and authorship integrity, as it involves misappropriation of written content without proper credit."
+}

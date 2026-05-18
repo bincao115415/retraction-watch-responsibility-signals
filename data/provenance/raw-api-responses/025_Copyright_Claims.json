@@ -1,0 +1,28 @@
+{
+  "id": "164cc25d-1cd7-4e0f-8a07-455d17edde87",
+  "object": "chat.completion",
+  "created": 1779145400,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Copyright Claims\",\n  \"canonical_reason\": \"Copyright Claims\",\n  \"definition_used\": \"Dispute concerning permissions or ownership of materials (equipment, cell lines, etc.), technologies, images, text, patents, etc.\",\n  \"problem_object\": [\n    \"text_article\",\n    \"image\",\n    \"data\",\n    \"methods_materials\"\n  ],\n  \"process_signal\": [\n    \"legal_process\"\n  ],\n  \"actor_context\": [\n    \"author\",\n    \"third_party\",\n    \"journal_publisher\"\n  ],\n  \"manuscript_categories\": [\n    \"attribution_authorship_disclosure_integrity\",\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"Copyright claims can involve ownership disputes that may not directly affect research content reliability; classification is broad because the definition covers a range of materials and permissions, and the impact on manuscript integrity depends on context.\",\n  \"semantic_rationale\": \"Copyright claims involve disputes over permissions or ownership of materials, text, images, or data, which directly relates to attribution and disclosure integrity. They also trigger legal processes and post-publication oversight, as journals may need to address rights issues after publication.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 661,
+    "completion_tokens": 287,
+    "total_tokens": 948,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

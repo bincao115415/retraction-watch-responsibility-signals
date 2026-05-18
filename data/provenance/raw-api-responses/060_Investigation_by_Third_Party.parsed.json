@@ -1,0 +1,17 @@
+{
+  "raw_reason": "Investigation by Third Party",
+  "canonical_reason": "Investigation by Third Party",
+  "definition_used": "An investigation by any third party that is not the United States Office of Research Integrity (ORI).",
+  "problem_object": [],
+  "process_signal": [
+    "third_party_investigation"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition only specifies the source of investigation (third party, not ORI) without indicating what is being investigated or the nature of the problem. It is a procedural metadata signal about investigation location, not a substantive manuscript integrity category. No manuscript-facing category is directly supported without additional context.",
+  "semantic_rationale": "The definition describes an investigation by a non-ORI third party, which is a process signal (third_party_investigation) with actor context (third_party). It does not inherently indicate a problem with research content, authorship, editorial processes, or post-publication oversight; it merely notes that an investigation occurred. Therefore, no manuscript category is assigned."
+}

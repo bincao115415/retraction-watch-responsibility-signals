@@ -8,9 +8,29 @@ The pipeline classifies unique Retraction Watch `Reason` terms, not individual p
 
 The code deliberately avoids using keyword matching as the primary classification method. The model receives one reason item at a time, a fixed label set, and explicit guardrails against assigning blame.
 
+## Data included in this repository
+
+Per the project owner's request, this repository includes both the source data used in the run and the final processed outputs:
+
+```text
+data/raw/retraction_watch.csv
+    Original Retraction Watch CSV used for this analysis.
+
+data/input/unique_reason_items_for_llm.json
+    The 112 unique Retraction Watch reason items and official definitions supplied to the API coder.
+
+data/provenance/
+    Raw DeepSeek API run manifest, raw API taxonomy, preliminary v0.3 outputs, and archived raw API responses.
+
+data/final/
+    Post-Codex final taxonomy, final record-level binary table, final prevalence summary, targeted overrides, and validation report.
+```
+
+Large CSV files are tracked directly in Git because each file is below GitHub's hard 100 MB file limit. GitHub may still warn about files above 50 MB.
+
 ## Data scope
 
-Raw Retraction Watch data are not included in this repository.
+Raw Retraction Watch data are included in this repository for this project snapshot.
 
 Expected input layout inside a local project directory:
 

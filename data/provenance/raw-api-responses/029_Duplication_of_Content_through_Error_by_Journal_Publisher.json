@@ -1,0 +1,28 @@
+{
+  "id": "60c086b8-c009-4872-8dc1-325b5d8203ac",
+  "object": "chat.completion",
+  "created": 1779145434,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Duplication of Content through Error by Journal/Publisher\",\n  \"canonical_reason\": \"Duplication of Content through Error by Journal/Publisher\",\n  \"definition_used\": \"Duplication of published content due to an error by the journal or publisher.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"journal_publisher_error\",\n    \"content_reuse_or_duplication_process\"\n  ],\n  \"actor_context\": [\n    \"journal_publisher\"\n  ],\n  \"manuscript_categories\": [\n    \"editorial_peer_review_governance\",\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"None\",\n  \"semantic_rationale\": \"The definition describes duplication of published content caused by a journal/publisher error. This directly involves editorial and production governance (editorial_peer_review_governance) and post-publication correction/transparency processes (post_publication_transparency_due_process_oversight). The problem object is the article as a whole, and the process signals are journal error and duplication handling.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 665,
+    "completion_tokens": 271,
+    "total_tokens": 936,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

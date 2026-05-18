@@ -1,0 +1,28 @@
+{
+  "id": "199997e9-7849-42ef-8610-6c804d218e06",
+  "object": "chat.completion",
+  "created": 1779145218,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Cites Retracted Work\",\n  \"canonical_reason\": \"Cites Retracted Work\",\n  \"definition_used\": \"Retracted content is used in citations or referencing.\",\n  \"problem_object\": \"references_attribution\",\n  \"process_signal\": \"content_reuse_or_duplication_process\",\n  \"actor_context\": \"author\",\n  \"manuscript_categories\": [\n    \"attribution_authorship_disclosure_integrity\",\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"The reason indicates reliance on retracted work, which may affect the integrity of the citing manuscript's references. It does not necessarily imply the citing authors were aware of the retraction at the time of citation.\",\n  \"semantic_rationale\": \"Citing retracted work involves references/attribution and raises concerns about the reliability of the manuscript's scholarly foundation, fitting attribution integrity and post-publication transparency categories.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 650,
+    "completion_tokens": 231,
+    "total_tokens": 881,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 10
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

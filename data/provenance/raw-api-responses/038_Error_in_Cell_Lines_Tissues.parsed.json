@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Error in Cell Lines/Tissues",
+  "canonical_reason": "Error in Cell Lines/Tissues",
+  "definition_used": "One or more errors in the choice or identification of any of the cell lines or tissues.",
+  "problem_object": [
+    "methods_materials"
+  ],
+  "process_signal": [
+    "journal_publisher_error"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition describes errors in cell line/tissue choice or identification, which directly undermines the reliability of research materials and thus the research content. This fits the research_content_reliability category strictly."
+}

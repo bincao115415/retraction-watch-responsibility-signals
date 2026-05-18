@@ -1,0 +1,28 @@
+{
+  "raw_reason": "Bias Issues or Lack of Balance",
+  "canonical_reason": "Bias Issues or Lack of Balance",
+  "definition_used": "Any question, controversy or dispute about balance or bias in any of the methods, analyses, results or any part of the published content. RW entries using this reason do not state or imply, nor should users infer, any intentionality.",
+  "problem_object": [
+    "methods_materials",
+    "results_conclusions",
+    "text_article"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation",
+    "third_party_investigation",
+    "institutional_investigation"
+  ],
+  "actor_context": [
+    "author",
+    "journal_publisher",
+    "third_party",
+    "company_institution"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The definition covers methods, analyses, results, or any part of published content, so problem_object is broad. Process_signal and actor_context are inferred from typical investigation sources, not explicitly stated. No intentionality is implied.",
+  "semantic_rationale": "The definition directly addresses questions about balance or bias in research content, which falls under research_content_reliability. Other categories are not supported because the definition does not mention authorship, editorial processes, or post-publication transparency."
+}

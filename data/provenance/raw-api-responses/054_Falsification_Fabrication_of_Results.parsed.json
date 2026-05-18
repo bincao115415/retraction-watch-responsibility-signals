@@ -1,0 +1,24 @@
+{
+  "raw_reason": "Falsification/Fabrication of Results",
+  "canonical_reason": "Falsification/Fabrication of Results",
+  "definition_used": "Falsification or fabrication of results in order to mislead.",
+  "problem_object": [
+    "results_conclusions"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation",
+    "third_party_investigation",
+    "institutional_investigation",
+    "official_misconduct_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition explicitly describes falsification or fabrication of results to mislead, directly undermining the trustworthiness of research content."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "195f74cc-febf-45dc-ad51-d281252f739e",
+  "object": "chat.completion",
+  "created": 1779145594,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Euphemisms for Plagiarism\",\n  \"canonical_reason\": \"Euphemisms for Plagiarism\",\n  \"definition_used\": \"The notice describes plagiarism of material without using the words “plagiarize(d)” or “plagiarism.”\",\n  \"problem_object\": [\"text_article\"],\n  \"process_signal\": [\"content_reuse_or_duplication_process\"],\n  \"actor_context\": [\"author\"],\n  \"manuscript_categories\": [\"attribution_authorship_disclosure_integrity\"],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition explicitly describes plagiarism of material, which is a form of text reuse without proper attribution, directly mapping to attribution/authorship/disclosure integrity.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 672,
+    "completion_tokens": 187,
+    "total_tokens": 859,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

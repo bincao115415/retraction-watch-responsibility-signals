@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Retract and Replace",
+  "canonical_reason": "Retract and Replace",
+  "definition_used": "The change of an item’s status reflecting that a retracted item will be replaced with a new publication in the same journal. The journal has indicated that the replacement should be cited as the version of record.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "correction_update_process"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This is a status/notice term describing a publication-status change (retraction with replacement), not a root cause. It signals post-publication correction/update process but does not directly indicate a problem with research content, authorship, or editorial governance. Main figure prevalence is not recommended because the label is primarily about metadata transparency and version-of-record replacement.",
+  "semantic_rationale": "The definition describes a change in publication status where a retracted item is replaced by a new version of record. This directly relates to post-publication transparency and due process oversight (manuscript category) because it involves a formal correction/update process (process_signal) managed by the journal/publisher (actor_context). The problem object is the article as a whole, as the replacement affects the entire publication."
+}

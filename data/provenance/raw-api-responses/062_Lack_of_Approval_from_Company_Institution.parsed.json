@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Lack of Approval from Company/Institution",
+  "canonical_reason": "Lack of Approval from Company/Institution",
+  "definition_used": "One or more companies/institutions did not approve one or more parts of the research or publication process(es). RW also uses this reason if the notice mentions a lack of documentation of alleged approval.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "research_ethics_approval_process"
+  ],
+  "actor_context": [
+    "company_institution"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition describes missing institutional approval for research or publication, which implicates authorship/disclosure integrity (attribution_authorship_disclosure_integrity) and governance of the publication process (editorial_peer_review_governance). The problem object is article_general because the lack of approval affects the overall publication, and the process signal is research_ethics_approval_process, with actor_context company_institution."
+}

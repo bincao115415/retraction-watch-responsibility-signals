@@ -1,0 +1,28 @@
+{
+  "id": "513ade34-34e2-434f-b106-0c3a56dc9503",
+  "object": "chat.completion",
+  "created": 1779145822,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"No Further Action\",\n  \"canonical_reason\": \"No Further Action\",\n  \"definition_used\": \"The journal or publisher has stated that no further action will be taken.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"notice_opacity\",\n  \"actor_context\": \"journal_publisher\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a status notice about the conclusion of an investigation, not a direct indicator of manuscript content issues. It may appear alongside other reasons that provide more specific context.\",\n  \"semantic_rationale\": \"The definition describes a journal/publisher statement that no further action will be taken, which relates to post-publication transparency and due process oversight, but does not directly indicate issues with research content, authorship, or editorial governance.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 650,
+    "completion_tokens": 216,
+    "total_tokens": 866,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 138
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

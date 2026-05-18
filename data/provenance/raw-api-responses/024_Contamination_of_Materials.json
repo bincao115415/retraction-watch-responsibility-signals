@@ -1,0 +1,28 @@
+{
+  "id": "7b96218c-81df-41bc-89b4-bb7e73b4a9bf",
+  "object": "chat.completion",
+  "created": 1779145393,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Contamination of Materials\",\n  \"canonical_reason\": \"Contamination of Materials\",\n  \"definition_used\": \"Impurities were found or suspected within compounds, reagents or solutions used in experiments.\",\n  \"problem_object\": [\n    \"methods_materials\"\n  ],\n  \"process_signal\": [\n    \"journal_publisher_investigation\"\n  ],\n  \"actor_context\": [\n    \"author\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"None\",\n  \"semantic_rationale\": \"Contamination of materials directly compromises the reliability of experimental results, fitting research_content_reliability. The definition focuses on impurities in experimental compounds, which is a methods/materials problem. Investigation is implied but not specified, so journal/publisher investigation is a reasonable default process signal. Author is the typical actor context as they handle materials.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 654,
+    "completion_tokens": 217,
+    "total_tokens": 871,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

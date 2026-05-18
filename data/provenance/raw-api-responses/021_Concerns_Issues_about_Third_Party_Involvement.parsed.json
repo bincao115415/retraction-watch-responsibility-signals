@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Concerns/Issues about Third Party Involvement",
+  "canonical_reason": "Concerns/Issues about Third Party Involvement",
+  "definition_used": "Any question, controversy or dispute about third party involvement.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "third_party_investigation"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition is too vague to assign a specific manuscript category; it only indicates a dispute involving a third party without specifying the nature of the concern (e.g., data, authorship, ethics).",
+  "semantic_rationale": "The definition 'Any question, controversy or dispute about third party involvement' does not map to any of the four manuscript-facing categories because it lacks specificity about the content, process, or integrity aspect affected. It is a broad metadata signal about an external party's role in a dispute, not a substantive integrity issue."
+}

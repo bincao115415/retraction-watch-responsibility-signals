@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Informed/Patient Consent - None/Withdrawn",
+  "canonical_reason": "Informed/Patient Consent – None/Withdrawn",
+  "definition_used": "When informed/patient consent documentation is deemed insufficient or is not available or the participant later disputes/withdraws their approval.",
+  "problem_object": [
+    "ethics_welfare"
+  ],
+  "process_signal": [
+    "research_ethics_approval_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition describes insufficient, unavailable, or withdrawn consent, which directly implicates research ethics approval processes and can undermine the ethical foundation of the research content, thereby affecting both attribution/disclosure integrity and content reliability."
+}

@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Cites Retracted Work",
+  "canonical_reason": "Cites Retracted Work",
+  "definition_used": "Retracted content is used in citations or referencing.",
+  "problem_object": [
+    "references_attribution"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The reason indicates reliance on retracted work, which may affect the integrity of the citing manuscript's references. It does not necessarily imply the citing authors were aware of the retraction at the time of citation.",
+  "semantic_rationale": "Citing retracted work involves references/attribution and raises concerns about the reliability of the manuscript's scholarly foundation, fitting attribution integrity and post-publication transparency categories."
+}

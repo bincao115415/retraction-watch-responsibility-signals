@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Compromised Peer Review",
+  "canonical_reason": "Compromised Peer Review",
+  "definition_used": "The peer review was not performed in accordance with the journal’s guidelines or ethical standards",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "peer_review_compromised"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition directly describes a failure in the peer review process, which maps to editorial_peer_review_governance. No other categories are supported."
+}

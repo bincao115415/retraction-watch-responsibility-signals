@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Concerns/Issues about Results and/or Conclusions",
+  "canonical_reason": "Concerns/Issues about Results and/or Conclusions",
+  "definition_used": "Any question, controversy or dispute about the results and/or conclusions.",
+  "problem_object": [
+    "results_conclusions"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The reason is broad and does not specify the nature of the concern, so it could overlap with other categories if more details emerge.",
+  "semantic_rationale": "The definition directly targets questions about results/conclusions, which falls under research content reliability. No specific process or actor is indicated, so process_signal is notice_opacity and actor_context is unclear."
+}

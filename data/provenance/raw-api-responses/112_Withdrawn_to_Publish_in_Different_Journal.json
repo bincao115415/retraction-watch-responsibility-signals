@@ -1,0 +1,28 @@
+{
+  "id": "2fb5c4ab-6f27-46e7-94b2-e4096c64aa95",
+  "object": "chat.completion",
+  "created": 1779146111,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Withdrawn to Publish in Different Journal\",\n  \"canonical_reason\": \"Withdrawn to Publish in Different Journal\",\n  \"definition_used\": \"The article was taken from one journal/platform or access type to be published in a different journal/platform or with a different access type.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"content_reuse_or_duplication_process\",\n  \"actor_context\": \"author\",\n  \"manuscript_categories\": [\n    \"editorial_peer_review_governance\",\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a status/notice term describing a withdrawal for republication elsewhere. It does not directly indicate a problem with research content, authorship, or peer review integrity, but it relates to editorial governance and post-publication transparency. Main figure not recommended because the reason is primarily a publication-process metadata signal rather than a substantive integrity issue.\",\n  \"semantic_rationale\": \"The definition describes a withdrawal to republish in a different journal or platform, which involves editorial governance (handling of manuscript transfers) and post-publication transparency (notice of withdrawal). It does not inherently imply unreliability of research content or authorship/attribution issues.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 674,
+    "completion_tokens": 299,
+    "total_tokens": 973,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 162
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

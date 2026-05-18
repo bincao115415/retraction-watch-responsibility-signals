@@ -1,0 +1,28 @@
+{
+  "id": "e8855c4c-6bd7-4d0c-a905-0c544cb073e0",
+  "object": "chat.completion",
+  "created": 1779145922,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Plagiarism of Image\",\n  \"canonical_reason\": \"Plagiarism of Image\",\n  \"definition_used\": \"Plagiarism of one or more images.\",\n  \"problem_object\": [\"image\"],\n  \"process_signal\": [\"content_reuse_or_duplication_process\"],\n  \"actor_context\": [\"author\"],\n  \"manuscript_categories\": [\"research_content_reliability\", \"attribution_authorship_disclosure_integrity\"],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"Image plagiarism directly undermines research content reliability by duplicating visual data without proper attribution, and violates attribution/authorship integrity by misrepresenting the origin of the image.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 649,
+    "completion_tokens": 176,
+    "total_tokens": 825,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

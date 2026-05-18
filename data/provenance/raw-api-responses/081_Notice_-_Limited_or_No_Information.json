@@ -1,0 +1,28 @@
+{
+  "id": "57e005dd-80f8-4d51-959f-be915aa0c0bb",
+  "object": "chat.completion",
+  "created": 1779145854,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Notice - Limited or No Information\",\n  \"canonical_reason\": \"Notice – Limited or No Information\",\n  \"definition_used\": \"A notice provides minimal information as to the cause of the notice, or the original item is watermaked as retracted or corrected without explanation\",\n  \"problem_object\": \"availability_notice_status\",\n  \"process_signal\": \"notice_opacity\",\n  \"actor_context\": \"journal_publisher\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a metadata/status label indicating opacity of the notice itself, not a substantive reason for retraction. It does not directly implicate research content, authorship, or editorial processes, but it relates to post-publication transparency.\",\n  \"semantic_rationale\": \"The definition describes a notice that lacks substantive explanation, which directly maps to post-publication transparency and due process oversight. The problem object is the availability/notice status, and the process signal is notice opacity. The actor context is journal/publisher as the source of the opaque notice.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 686,
+    "completion_tokens": 263,
+    "total_tokens": 949,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 174
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

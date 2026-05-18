@@ -1,0 +1,28 @@
+{
+  "id": "7fd11e3d-63a4-4233-8e84-53da528a5a24",
+  "object": "chat.completion",
+  "created": 1779145557,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Ethical Violations by Company/Institution/Third Party\",\n  \"canonical_reason\": \"Ethical Violations by Company/Institution/Third Party\",\n  \"definition_used\": \"When a journal/publisher/institution states that one or more company(ies)/institution(s)/thirdparty(ies) have not met the journal/publisher/institution’s standards of publishing and/or research ethics. RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was an ethical violation), or when the ethical violation (as an additional reason) cannot be addressed by existing reasons.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"journal_publisher_investigation\",\n    \"institutional_investigation\",\n    \"third_party_investigation\",\n    \"publication_policy_or_sanction\"\n  ],\n  \"actor_context\": [\n    \"company_institution\",\n    \"third_party\",\n    \"journal_publisher\"\n  ],\n  \"manuscript_categories\": [\n    \"editorial_peer_review_governance\",\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition is broad and often used when details are unavailable; it signals an ethical breach by an entity but does not specify the nature of the problem (e.g., data, authorship). Main figure not recommended because the reason is a catch-all for opaque notices.\",\n  \"semantic_rationale\": \"The reason indicates a journal/publisher/institution found a company/institution/third party violated publishing/research ethics standards. This implicates editorial/peer review governance (standards enforcement) and post-publication transparency (notice of ethical breach). The problem object is article_general due to lack of specificity. Process signals include investigations by journal/publisher, institution, or third party, and a publication policy/sanction. Actor contexts are company/institution, third party, and journal/publisher as the investigating body.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 750,
+    "completion_tokens": 462,
+    "total_tokens": 1212,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 238
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

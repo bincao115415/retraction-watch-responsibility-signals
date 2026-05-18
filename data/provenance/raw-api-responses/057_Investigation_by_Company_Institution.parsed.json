@@ -1,0 +1,17 @@
+{
+  "raw_reason": "Investigation by Company/Institution",
+  "canonical_reason": "Investigation by Company/Institution",
+  "definition_used": "An investigation by the company/institution listed as the affiliation of one or more authors.",
+  "problem_object": [],
+  "process_signal": [
+    "institutional_investigation"
+  ],
+  "actor_context": [
+    "company_institution"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition describes only the source of investigation (company/institution), not the nature of the problem or manuscript impact. No manuscript-facing category is directly supported without additional context.",
+  "semantic_rationale": "The reason indicates an institutional investigation, which is a process signal, but does not specify what is being investigated (e.g., data, authorship, ethics). Therefore, no manuscript category can be assigned based solely on this definition."
+}

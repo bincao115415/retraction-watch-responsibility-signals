@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Civil Proceedings",
+  "canonical_reason": "Civil Proceedings",
+  "definition_used": "Civil legal proceedings were instigated in response to the article and/or notice(s), or civil legal proceedings resulted in the correction/EOC/retraction/etc.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "legal_process"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The reason describes a legal process external to the manuscript's content, not a direct integrity issue. It is a status/process signal, not a primary cause.",
+  "semantic_rationale": "Civil proceedings are a legal process triggered by the article, indicating post-publication oversight and transparency, but not directly implicating research content, authorship, or editorial governance."
+}

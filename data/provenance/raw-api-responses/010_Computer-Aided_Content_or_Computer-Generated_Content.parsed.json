@@ -1,0 +1,27 @@
+{
+  "raw_reason": "Computer-Aided Content or Computer-Generated Content",
+  "canonical_reason": "Computer-Aided Content or Computer-Generated Content",
+  "definition_used": "Contains any content that was created via a text generator, randomizing algorithm, generative AI, etc. Some examples of these tools include Mathgen, Scigen, ChatGPT.",
+  "problem_object": [
+    "text_article",
+    "data",
+    "results_conclusions",
+    "methods_materials",
+    "references_attribution",
+    "article_general"
+  ],
+  "process_signal": [
+    "ai_computer_content"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition describes content created by AI or algorithms, which can affect the reliability of research content (e.g., fabricated data, methods, or conclusions) and may involve undisclosed authorship or attribution issues. The process signal is ai_computer_content, and the actor context is author as the typical source of such content."
+}

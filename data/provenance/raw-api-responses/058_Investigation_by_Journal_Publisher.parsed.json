@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Investigation by Journal/Publisher",
+  "canonical_reason": "Investigation by Journal/Publisher",
+  "definition_used": "An investigation by the journal/publisher of the article.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This reason indicates an investigation by the journal/publisher, which is a procedural metadata signal about post-publication oversight. It does not specify the underlying problem or outcome, so it is not suitable for main-figure prevalence.",
+  "semantic_rationale": "The definition describes an investigation by the journal/publisher, which directly maps to post-publication transparency and due process oversight. It does not inherently indicate issues with research content, authorship, or editorial governance, though such issues may be discovered during the investigation."
+}

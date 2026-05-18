@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Plagiarism of/in Article",
+  "canonical_reason": "Plagiarism of/in Article",
+  "definition_used": "Plagiarism of a published item, or undefined sections of it.",
+  "problem_object": [
+    "text_article"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "Plagiarism directly violates attribution and authorship integrity, and undermines research content reliability by misrepresenting originality. The definition explicitly involves reuse of published material without proper credit."
+}

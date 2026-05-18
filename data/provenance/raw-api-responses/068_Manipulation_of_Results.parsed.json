@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Manipulation of Results",
+  "canonical_reason": "Manipulation of Results",
+  "definition_used": "Manipulation of any results.",
+  "problem_object": [
+    "results_conclusions"
+  ],
+  "process_signal": [],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Definition is broad; no specific process or actor indicated. Assigned to research_content_reliability because manipulation directly undermines result trustworthiness.",
+  "semantic_rationale": "Manipulation of results directly compromises the reliability of research content, fitting the research_content_reliability category. No explicit process or actor is mentioned, so process_signal and actor_context are minimal."
+}

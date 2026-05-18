@@ -1,0 +1,24 @@
+{
+  "raw_reason": "Euphemisms for Misconduct",
+  "canonical_reason": "Euphemisms for Misconduct",
+  "definition_used": "The notice does not explicitly state that the reason for the notice is due to misconduct, despite a journal, publisher, company, institution, government agency or author explicitly stating that there was misconduct.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "journal_publisher",
+    "company_institution",
+    "author",
+    "ori_government"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This reason describes a transparency failure in the notice itself, not the underlying content problem. It is a metadata/status signal about how the reason is communicated, not a direct indicator of research content unreliability or authorship/editorial integrity issues. Main figure recommendation is false because the category is about post-publication transparency, which is typically not a main figure prevalence category.",
+  "semantic_rationale": "The definition focuses on a notice that fails to explicitly state misconduct despite an external statement of misconduct. This directly relates to post-publication transparency and due process oversight because the notice's opacity undermines clear communication of the retraction reason. The problem object is the article in general, as the notice concerns the overall retraction communication. Process signal is notice_opacity, and actor contexts include all entities mentioned as potential sources of the misconduct statement."
+}

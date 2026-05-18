@@ -1,0 +1,26 @@
+{
+  "raw_reason": "Salami Slicing",
+  "canonical_reason": "Salami Slicing",
+  "definition_used": "The publication of several articles using the same dataset by breaking it into sections, with the intent of exploiting a limited data set for the production of several published works. This does not apply to large multi-group studies such as the Framingham Heart Study.",
+  "problem_object": [
+    "data",
+    "results_conclusions",
+    "article_general"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process",
+    "editorial_breach"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Salami slicing involves overlapping data across publications, which can compromise the independence of results and inflate the apparent evidence base. It also raises issues of duplicate publication and proper attribution. The definition focuses on intent to exploit a limited dataset, which is a research integrity concern. While it primarily affects research content reliability, it also touches on authorship/disclosure (failure to disclose overlap) and editorial governance (failure to detect or prevent fragmented publication). No single category is exclusive; assignment is broad.",
+  "semantic_rationale": "Salami slicing fragments a dataset into multiple publications, undermining the reliability of reported results by creating non-independent evidence. It also involves inadequate disclosure of data overlap, breaching attribution and transparency norms. Editorial processes may fail to identify such fragmentation, implicating peer review governance. Thus, research_content_reliability, attribution_authorship_disclosure_integrity, and editorial_peer_review_governance are all supported."
+}
