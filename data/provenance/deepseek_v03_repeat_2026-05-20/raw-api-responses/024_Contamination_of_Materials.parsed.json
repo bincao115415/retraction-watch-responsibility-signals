@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Contamination of Materials",
+  "canonical_reason": "Contamination of Materials",
+  "definition_used": "Impurities were found or suspected within compounds, reagents or solutions used in experiments.",
+  "problem_object": [
+    "methods_materials"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "Contamination of materials directly compromises the reliability of experimental results, fitting research_content_reliability. The definition focuses on impurities in experimental materials, which is a methods/materials problem. Investigation is implied but not specified, so journal/publisher investigation is a reasonable default process signal. Actor context is author as the source of the materials."
+}

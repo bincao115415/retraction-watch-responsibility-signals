@@ -1,0 +1,28 @@
+{
+  "id": "58d2e452-23c5-464b-9aae-b164545dbee7",
+  "object": "chat.completion",
+  "created": 1779256461,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Author Unresponsive\",\n  \"canonical_reason\": \"Author Unresponsive\",\n  \"definition_used\": \"The corresponding author(s) did not respond to journal/publisher requests for response, clarification, etc., about one or more concerns/issues with a publication. RW does not apply this reason when the lack of response is only to the language or posting of a notice of correction/EOC/retraction.ion after prior contact by Journal, Publisher or other original Authors\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"notice_opacity\"\n  ],\n  \"actor_context\": [\n    \"author\",\n    \"journal_publisher\"\n  ],\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"Author unresponsiveness is a procedural transparency issue, not a direct indicator of manuscript content or integrity problems. It may accompany other reasons but alone does not confirm research unreliability or misconduct.\",\n  \"semantic_rationale\": \"The definition describes a failure in post-publication communication and clarification process, which falls under post-publication transparency and due process oversight. It does not directly address research content, authorship, or editorial governance.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 710,
+    "completion_tokens": 291,
+    "total_tokens": 1001,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

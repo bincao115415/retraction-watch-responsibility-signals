@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Error in Image",
+  "canonical_reason": "Error in Image",
+  "definition_used": "One or more errors in one or more images, or part(s) of one or more images.",
+  "problem_object": [
+    "image"
+  ],
+  "process_signal": [
+    "journal_publisher_error"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition describes errors in images, which directly concerns the reliability of research content (data/image). The error is a journal/publisher-level issue, but actor context is unclear as the definition does not specify who identified or caused the error."
+}

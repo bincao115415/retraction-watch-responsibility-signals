@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Error in Cell Lines/Tissues",
+  "canonical_reason": "Error in Cell Lines/Tissues",
+  "definition_used": "One or more errors in the choice or identification of any of the cell lines or tissues.",
+  "problem_object": [
+    "methods_materials"
+  ],
+  "process_signal": [
+    "journal_publisher_error"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "Errors in cell lines/tissues directly affect the reliability of research materials and methods, fitting research_content_reliability. The definition describes a material error, not a process or transparency issue, so other categories are not supported."
+}

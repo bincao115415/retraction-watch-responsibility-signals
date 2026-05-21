@@ -1,0 +1,28 @@
+{
+  "id": "aee6a799-323f-4408-b08f-54a74c154595",
+  "object": "chat.completion",
+  "created": 1779256739,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Duplication of Data\",\n  \"canonical_reason\": \"Duplication of Data\",\n  \"definition_used\": \"Duplication of any of the data.\",\n  \"problem_object\": \"data\",\n  \"process_signal\": \"content_reuse_or_duplication_process\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [\"research_content_reliability\"],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"Duplication of data directly concerns the reliability of research content, as it involves the integrity of the data presented.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 648,
+    "completion_tokens": 148,
+    "total_tokens": 796,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 8
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

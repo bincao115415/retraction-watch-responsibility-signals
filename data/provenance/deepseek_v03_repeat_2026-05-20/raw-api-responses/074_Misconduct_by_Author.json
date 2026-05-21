@@ -1,0 +1,28 @@
+{
+  "id": "12254701-2952-41e5-a815-31451817ad8f",
+  "object": "chat.completion",
+  "created": 1779257135,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Misconduct by Author\",\n  \"canonical_reason\": \"Misconduct by Author\",\n  \"definition_used\": \"Statement by journal, publisher, company, institution, government agency or author that one or more authors committed misconduct.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"journal_publisher_investigation\",\n    \"institutional_investigation\",\n    \"official_misconduct_process\"\n  ],\n  \"actor_context\": [\n    \"author\",\n    \"journal_publisher\",\n    \"company_institution\",\n    \"ori_government\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\",\n    \"attribution_authorship_disclosure_integrity\",\n    \"editorial_peer_review_governance\",\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"Misconduct is a broad term that can affect any aspect of the manuscript. Without specifics, all categories are potentially relevant, but the assignment is broad rather than strict.\",\n  \"semantic_rationale\": \"The definition indicates a statement of author misconduct, which can encompass fabrication, falsification, plagiarism, or other ethical breaches. This directly impacts research content reliability, authorship integrity, editorial governance, and post-publication oversight. The investigation sources (journal, institution, etc.) are reflected in actor_context and process_signal.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 662,
+    "completion_tokens": 327,
+    "total_tokens": 989,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 22
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

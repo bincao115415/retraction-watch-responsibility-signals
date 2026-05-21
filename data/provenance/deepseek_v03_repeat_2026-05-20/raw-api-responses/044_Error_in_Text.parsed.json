@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Error in Text",
+  "canonical_reason": "Error in Text",
+  "definition_used": "One or more errors in any of the text.",
+  "problem_object": [
+    "text_article"
+  ],
+  "process_signal": [
+    "journal_publisher_error"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Error in text can range from minor typos to substantive misstatements; without further context, it broadly affects research content reliability but may not always be central.",
+  "semantic_rationale": "The definition describes errors in text, which directly impact the accuracy and reliability of the research content as presented in the manuscript."
+}

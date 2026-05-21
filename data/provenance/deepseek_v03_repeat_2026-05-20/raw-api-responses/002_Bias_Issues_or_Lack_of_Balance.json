@@ -1,0 +1,28 @@
+{
+  "id": "5393ba3b-ecd5-4ff2-9a77-b9b6ae0129b6",
+  "object": "chat.completion",
+  "created": 1779256472,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Bias Issues or Lack of Balance\",\n  \"canonical_reason\": \"Bias Issues or Lack of Balance\",\n  \"definition_used\": \"Any question, controversy or dispute about balance or bias in any of the methods, analyses, results or any part of the published content. RW entries using this reason do not state or imply, nor should users infer, any intentionality.\",\n  \"problem_object\": [\n    \"methods_materials\",\n    \"results_conclusions\",\n    \"text_article\"\n  ],\n  \"process_signal\": [\n    \"journal_publisher_investigation\",\n    \"third_party_investigation\",\n    \"institutional_investigation\"\n  ],\n  \"actor_context\": [\n    \"author\",\n    \"journal_publisher\",\n    \"third_party\",\n    \"unclear\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"Bias concerns may overlap with editorial or peer-review governance if the bias is alleged to stem from compromised review, but the definition focuses on content balance, not process. No intentionality is implied.\",\n  \"semantic_rationale\": \"The definition addresses questions about balance or bias in methods, analyses, results, or published content, directly impacting the reliability of research content. It does not inherently involve authorship, editorial governance, or post-publication oversight, though investigations may involve multiple actors.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 691,
+    "completion_tokens": 321,
+    "total_tokens": 1012,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 179
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

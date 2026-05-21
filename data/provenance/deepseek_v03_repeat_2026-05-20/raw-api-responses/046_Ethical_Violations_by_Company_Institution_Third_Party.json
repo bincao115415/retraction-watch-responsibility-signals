@@ -1,0 +1,28 @@
+{
+  "id": "27d998b7-09e8-4bcc-9cf4-dbf9f1fe85dc",
+  "object": "chat.completion",
+  "created": 1779256876,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Ethical Violations by Company/Institution/Third Party\",\n  \"canonical_reason\": \"Ethical Violations by Company/Institution/Third Party\",\n  \"definition_used\": \"When a journal/publisher/institution states that one or more company(ies)/institution(s)/thirdparty(ies) have not met the journal/publisher/institution’s standards of publishing and/or research ethics. RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was an ethical violation), or when the ethical violation (as an additional reason) cannot be addressed by existing reasons.\",\n  \"problem_object\": [\"article_general\"],\n  \"process_signal\": [\"journal_publisher_investigation\", \"institutional_investigation\", \"third_party_investigation\", \"notice_opacity\"],\n  \"actor_context\": [\"company_institution\", \"third_party\", \"journal_publisher\"],\n  \"manuscript_categories\": [\"editorial_peer_review_governance\", \"post_publication_transparency_due_process_oversight\"],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition is a catch-all for ethical violations by non-author entities when details are unavailable. It signals an investigation by journal/publisher/institution into a company/institution/third party, but the specific ethical breach is unspecified. This makes it a broad governance and transparency signal rather than a direct indicator of research content reliability or authorship integrity. Main figure not recommended due to opacity and lack of specific content-related problem.\",\n  \"semantic_rationale\": \"The reason indicates a journal/publisher/institution finding that a company/institution/third party violated publishing/research ethics standards. It is used when no further details are available, making it a notice of an ethical breach by a non-author entity. This maps to editorial_peer_review_governance (publisher enforcement of standards) and post_publication_transparency_due_process_oversight (opaque notice of an investigation). The problem object is article_general because the specific issue is unknown. Process signals include journal_publisher_investigation, institutional_investigation, third_party_investigation, and notice_opacity. Actor context includes company_institution, third_party, and journal_publisher as the investigating body.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 750,
+    "completion_tokens": 512,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 110
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

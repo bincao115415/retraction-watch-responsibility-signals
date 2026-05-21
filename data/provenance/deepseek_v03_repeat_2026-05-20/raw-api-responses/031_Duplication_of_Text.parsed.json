@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Duplication of Text",
+  "canonical_reason": "Duplication of Text",
+  "definition_used": "Duplication of any of the text.",
+  "problem_object": [
+    "text_article"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Duplication of text can overlap with plagiarism, but the definition is neutral and does not specify intent or source. It may affect reliability if it misrepresents novelty, and attribution if it involves uncredited reuse. However, without additional context, the exact nature remains ambiguous.",
+  "semantic_rationale": "Text duplication directly concerns the article's textual content (problem_object: text_article) and involves a content reuse process (process_signal: content_reuse_or_duplication_process). It can undermine research content reliability if the duplication misleads about the originality of findings, and it may breach attribution/authorship integrity if it involves uncredited copying. The actor is unclear from the definition alone."
+}

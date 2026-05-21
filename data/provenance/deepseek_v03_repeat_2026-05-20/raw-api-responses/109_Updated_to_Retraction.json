@@ -1,0 +1,28 @@
+{
+  "id": "114d4acd-1104-4102-bc3b-9fb3656b2637",
+  "object": "chat.completion",
+  "created": 1779257450,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Updated to Retraction\",\n  \"canonical_reason\": \"Updated to Retraction\",\n  \"definition_used\": \"The article has a retraction after this notice.\",\n  \"problem_object\": \"availability_notice_status\",\n  \"process_signal\": \"notice_opacity\",\n  \"actor_context\": \"journal_publisher\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a status-only notice indicating a subsequent retraction; it does not specify the underlying reason for retraction.\",\n  \"semantic_rationale\": \"The definition describes a metadata update indicating a retraction exists after this notice, which relates to post-publication transparency and notice status, but does not directly address research content, authorship, or editorial governance.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 649,
+    "completion_tokens": 201,
+    "total_tokens": 850,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 9
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

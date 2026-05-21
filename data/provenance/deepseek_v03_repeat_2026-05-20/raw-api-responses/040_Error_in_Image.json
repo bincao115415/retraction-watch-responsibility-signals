@@ -1,0 +1,28 @@
+{
+  "id": "8ac8266d-babc-43e6-9668-33708d0f9cb4",
+  "object": "chat.completion",
+  "created": 1779256826,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Error in Image\",\n  \"canonical_reason\": \"Error in Image\",\n  \"definition_used\": \"One or more errors in one or more images, or part(s) of one or more images.\",\n  \"problem_object\": [\"image\"],\n  \"process_signal\": [\"journal_publisher_error\"],\n  \"actor_context\": [\"unclear\"],\n  \"manuscript_categories\": [\"research_content_reliability\"],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition describes errors in images, which directly concerns the reliability of research content (data/image). The error is a journal/publisher-level issue, but actor context is unclear as the definition does not specify who identified or caused the error.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 657,
+    "completion_tokens": 179,
+    "total_tokens": 836,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 17
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

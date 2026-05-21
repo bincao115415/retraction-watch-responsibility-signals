@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Miscommunication with/by Author",
+  "canonical_reason": "Miscommunication with/by Author",
+  "definition_used": "One or more authors misunderstood one or more parts of a message sent to and/or from one or more authors.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition describes a communication misunderstanding without specifying any impact on research content, authorship, editorial processes, or post-publication oversight. It is a status/notice term indicating opacity about the underlying issue, not a substantive integrity breach.",
+  "semantic_rationale": "The definition refers to a misunderstanding in author communication, which does not inherently imply problems with research reliability, attribution, editorial governance, or post-publication processes. It signals notice opacity about the actual cause, making it ambiguous for manuscript-facing categories."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "689a2a9f-45f8-41f0-94ab-ec1484d4c23c",
+  "object": "chat.completion",
+  "created": 1779257048,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Lack of IRB/IACUC Approval and/or Compliance\",\n  \"canonical_reason\": \"Lack of IRB/IACUC Approval and/or Compliance\",\n  \"definition_used\": \"Failure to obtain consent from the institutional ethical review board overseeing human or animal experimentation prior to initiation of study, or failure to provide proof of such\",\n  \"problem_object\": [\"ethics_welfare\"],\n  \"process_signal\": [\"research_ethics_approval_process\"],\n  \"actor_context\": [\"author\", \"company_institution\"],\n  \"manuscript_categories\": [\"research_content_reliability\", \"attribution_authorship_disclosure_integrity\"],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition describes failure to obtain or prove ethical review board consent for human/animal studies, directly impacting research ethics approval process and the reliability of research content, as well as disclosure integrity regarding required approvals.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 685,
+    "completion_tokens": 221,
+    "total_tokens": 906,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 45
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

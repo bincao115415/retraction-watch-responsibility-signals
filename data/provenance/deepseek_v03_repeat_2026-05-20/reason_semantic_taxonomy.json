@@ -1,0 +1,2534 @@
+{
+  "pipeline_version": "rw_llm_semantic_v0.3_api_reproducible",
+  "model": "deepseek-v4-pro",
+  "api_parameters": {
+    "model": "deepseek-v4-pro",
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "top_p": 1,
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": false,
+    "max_tokens_per_item": 2200,
+    "timeout_seconds": 90,
+    "retry_attempts": 3,
+    "retry_backoff_seconds": 5
+  },
+  "config_sha256": "42f756cd0373aca8c9388510243a3821c2371ff40b947d40c93174e18b9609ae",
+  "items_sha256": "05d4df00cccbcca8797086f20de31f36f1a46787d3bab88fb2ed8f30ea062d59",
+  "classification_method": "Direct DeepSeek API reason-level semantic classification using official Retraction Watch reason definitions, fixed label set, JSON output, temperature=0, top_p=1, thinking disabled, and validation checks.",
+  "manuscript_categories": {
+    "research_content_reliability": {
+      "label": "Research-content reliability",
+      "definition": "Signals that the reliability, reproducibility, validity, or evidentiary integrity of the research content itself is questioned.",
+      "include": [
+        "data problems",
+        "image problems",
+        "methods/materials problems",
+        "analysis problems",
+        "results or conclusions problems",
+        "unreliable or non-reproducible findings",
+        "computer/AI-generated article content when it affects content authenticity",
+        "paper-mill or fabricated article production when it indicates article-level reliability risk"
+      ],
+      "exclude": [
+        "notice wording alone",
+        "investigation source alone",
+        "authorship/citation/rights issues without content-reliability implications",
+        "journal/publisher procedural acts without a content reliability signal"
+      ],
+      "manuscript_link": "Supports discussion of the reliability of the published product/scientific record, without assigning fault."
+    },
+    "attribution_authorship_disclosure_integrity": {
+      "label": "Attribution, authorship, and disclosure integrity",
+      "definition": "Signals concerning who created, approved, owned, disclosed, cited, or was credited for the work, including attribution and disclosure problems.",
+      "include": [
+        "authorship or affiliation concerns",
+        "false or forged authorship/affiliation",
+        "lack of author approval",
+        "plagiarism",
+        "duplication/salami slicing",
+        "citation/reference/attribution concerns",
+        "conflict of interest",
+        "copyright or ownership issues"
+      ],
+      "exclude": [
+        "generic data/image/results unreliability without attribution/authorship/disclosure element",
+        "investigation source alone",
+        "notice transparency alone"
+      ],
+      "manuscript_link": "Matches the manuscript's concern with transparent relationships among authors, editors, reviewers, and publishers and with disclosure/attribution integrity."
+    },
+    "editorial_peer_review_governance": {
+      "label": "Editorial and peer-review governance",
+      "definition": "Signals that editorial decision-making, peer review, journal/publisher procedures, or editorial independence/governance mechanisms are implicated.",
+      "include": [
+        "compromised peer review",
+        "concerns about peer review",
+        "taken via peer review",
+        "rogue editor",
+        "editorial breach",
+        "journal/publisher error",
+        "publication-policy breach or sanction when it concerns publication governance"
+      ],
+      "exclude": [
+        "journal/publisher investigation as source only unless the reason itself concerns editorial/peer-review procedure",
+        "notice opacity alone",
+        "content unreliability without editorial or peer-review process signal"
+      ],
+      "manuscript_link": "Directly supports the manuscript's themes of peer-review integrity, editorial independence, proportionality, and governance."
+    },
+    "post_publication_transparency_due_process_oversight": {
+      "label": "Post-publication transparency, due process, and oversight",
+      "definition": "Signals concerning post-publication investigation, notice transparency, correction/retraction status, availability/removal, procedural communication, institutional/legal oversight, or appeal/objection-related process.",
+      "include": [
+        "investigation by journal/publisher",
+        "third-party/institutional/ORI investigation",
+        "official misconduct process",
+        "notice lacks information or is inaccessible",
+        "date/notice metadata gaps",
+        "correction/EOC/retraction updates",
+        "temporary removal or removed status",
+        "author unresponsive to post-publication queries",
+        "objections",
+        "civil/criminal/legal process",
+        "institution/company/third-party approval or communication process"
+      ],
+      "exclude": [
+        "data/image/results problems without post-publication process information",
+        "peer-review compromise as pre-publication process unless linked to post-publication oversight",
+        "attribution/authorship issues without procedural transparency/oversight component"
+      ],
+      "manuscript_link": "Matches the manuscript's core language on transparency, clear reasons, proportionality, due process, appeal, and publisher/journal oversight."
+    }
+  },
+  "items": [
+    {
+      "raw_reason": "Author Unresponsive",
+      "canonical_reason": "Author Unresponsive",
+      "definition_used": "The corresponding author(s) did not respond to journal/publisher requests for response, clarification, etc., about one or more concerns/issues with a publication. RW does not apply this reason when the lack of response is only to the language or posting of a notice of correction/EOC/retraction.ion after prior contact by Journal, Publisher or other original Authors",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "author",
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "Author unresponsiveness is a procedural transparency issue, not a direct indicator of manuscript content or integrity problems. It may accompany other reasons but alone does not confirm research unreliability or misconduct.",
+      "semantic_rationale": "The definition describes a failure in post-publication communication and clarification process, which falls under post-publication transparency and due process oversight. It does not directly address research content, authorship, or editorial governance."
+    },
+    {
+      "raw_reason": "Bias Issues or Lack of Balance",
+      "canonical_reason": "Bias Issues or Lack of Balance",
+      "definition_used": "Any question, controversy or dispute about balance or bias in any of the methods, analyses, results or any part of the published content. RW entries using this reason do not state or imply, nor should users infer, any intentionality.",
+      "problem_object": [
+        "methods_materials",
+        "results_conclusions",
+        "text_article"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation",
+        "third_party_investigation",
+        "institutional_investigation"
+      ],
+      "actor_context": [
+        "author",
+        "journal_publisher",
+        "third_party",
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Bias concerns may overlap with editorial or peer-review governance if the bias is alleged to stem from compromised review, but the definition focuses on content balance, not process. No intentionality is implied.",
+      "semantic_rationale": "The definition addresses questions about balance or bias in methods, analyses, results, or published content, directly impacting the reliability of research content. It does not inherently involve authorship, editorial governance, or post-publication oversight, though investigations may involve multiple actors."
+    },
+    {
+      "raw_reason": "Breach of Policy by Author",
+      "canonical_reason": "Breach of Policy by Author",
+      "definition_used": "A journal/publisher/institution states that one or more authors violated one or more of the journal/publisher/institution’s policy(ies). RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was a breach of policy), or when the breach of policy (as an additional reason) cannot be addressed by existing reasons.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "publication_policy_or_sanction"
+      ],
+      "actor_context": [
+        "author",
+        "journal_publisher",
+        "company_institution"
+      ],
+      "manuscript_categories": [],
+      "classification_strength": "ambiguous",
+      "main_figure_recommended": false,
+      "caution": "The definition is a catch-all for unspecified policy violations; without further detail, it does not map to a specific manuscript-facing category. It signals a publication-policy breach but lacks content, process, or transparency specificity.",
+      "semantic_rationale": "The definition describes a generic policy violation by an author, as stated by a journal/publisher/institution. It does not specify whether the breach relates to research content, authorship, peer review, or post-publication processes, so no manuscript category is directly supported."
+    },
+    {
+      "raw_reason": "Cites Retracted Work",
+      "canonical_reason": "Cites Retracted Work",
+      "definition_used": "Retracted content is used in citations or referencing.",
+      "problem_object": [
+        "references_attribution"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The reason indicates reliance on retracted work, which may affect the integrity of the citing manuscript's references. However, it does not necessarily imply that the citing manuscript's own research content is unreliable, nor does it directly involve editorial or post-publication processes. The assignment to attribution_authorship_disclosure_integrity is broad because the issue pertains to the integrity of the reference list rather than core research content.",
+      "semantic_rationale": "The definition 'Retracted content is used in citations or referencing' points to a problem with references (problem_object: references_attribution) and involves the process of content reuse (process_signal: content_reuse_or_duplication_process). The actor is typically the author who cited the retracted work. This primarily affects the integrity of attribution and disclosure, fitting the attribution_authorship_disclosure_integrity category broadly, as it concerns the reliability of cited sources rather than the manuscript's own data or conclusions."
+    },
+    {
+      "raw_reason": "Civil Proceedings",
+      "canonical_reason": "Civil Proceedings",
+      "definition_used": "Civil legal proceedings were instigated in response to the article and/or notice(s), or civil legal proceedings resulted in the correction/EOC/retraction/etc.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "legal_process"
+      ],
+      "actor_context": [
+        "third_party"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The reason indicates a legal process triggered by the article, but does not specify the underlying manuscript issue. It is a post-publication event that may relate to transparency or due process, but lacks direct evidence of content, authorship, or editorial problems.",
+      "semantic_rationale": "Civil proceedings are a legal process external to the research content, triggered by the article or its notices. This falls under post-publication oversight as it involves legal scrutiny of the publication, but does not directly indicate issues with research content, authorship, or editorial governance."
+    },
+    {
+      "raw_reason": "Complaints about Author",
+      "canonical_reason": "Complaints about Author",
+      "definition_used": "Complaints about one or more authors in addition to concerns about the original article. RW may also use this reason for cases in which something about one or more authors is called into question following any notice, i.e., when complaints escalate to being entirely author-based.",
+      "problem_object": [
+        "authorship_affiliation"
+      ],
+      "process_signal": [
+        "authorship_publication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "The definition is broad and covers complaints about authors that may relate to various aspects of authorship integrity, but does not specify the nature of the complaints. It is assumed that such complaints typically involve authorship attribution or disclosure issues, but other categories could apply if additional context were available.",
+      "semantic_rationale": "The definition explicitly mentions complaints about authors, which directly relates to authorship integrity and disclosure. The problem object is authorship/affiliation, and the process signal is the authorship/publication process. The actor context is the author. This supports the attribution_authorship_disclosure_integrity category."
+    },
+    {
+      "raw_reason": "Complaints about Company/Institution",
+      "canonical_reason": "Complaints about Company/Institution",
+      "definition_used": "Complaints about one or more companies/institutions in addition to concerns about the original article. RW may also use this reason for cases in which something about one or more companies/institutions is called into question following any notice, i.e., when complaints escalate to being entirely company/institution-based.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "third_party_investigation",
+        "institutional_investigation"
+      ],
+      "actor_context": [
+        "company_institution",
+        "third_party"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The reason focuses on complaints about companies/institutions, which may relate to research conduct but does not directly assert issues with research content, authorship, or editorial processes. It primarily signals post-publication scrutiny involving institutional actors.",
+      "semantic_rationale": "Complaints about companies/institutions imply external or institutional investigation processes, aligning with post-publication oversight. The definition does not specify reliability of research content, authorship, or editorial governance, so only the oversight category is assigned broadly."
+    },
+    {
+      "raw_reason": "Complaints about Third Party",
+      "canonical_reason": "Complaints about Third Party",
+      "definition_used": "Complaints about one or more third parties in addition to concerns about the original article. RW may also use this reason for cases in which something about one or more third parties is called into question following any notice, ie., when complaints escalate to being entirely third party-based.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "third_party_investigation",
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "third_party"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The reason is a metadata signal about complaints involving third parties, not a direct indicator of manuscript content or process flaws. It primarily reflects post-publication transparency and due process oversight, but lacks specificity to support main-figure prevalence.",
+      "semantic_rationale": "The definition describes complaints about third parties in relation to an article, which signals post-publication scrutiny and potential opacity in handling. This aligns with post_publication_transparency_due_process_oversight as it involves oversight processes triggered by third-party complaints. No direct evidence of research content, authorship, or editorial governance issues is inherent in the definition."
+    },
+    {
+      "raw_reason": "Compromised Peer Review",
+      "canonical_reason": "Compromised Peer Review",
+      "definition_used": "The peer review was not performed in accordance with the journal’s guidelines or ethical standards",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "peer_review_compromised"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "editorial_peer_review_governance"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition directly describes a failure in the peer review process, which maps to editorial_peer_review_governance. No other categories are supported."
+    },
+    {
+      "raw_reason": "Computer-Aided Content or Computer-Generated Content",
+      "canonical_reason": "Computer-Aided Content or Computer-Generated Content",
+      "definition_used": "Contains any content that was created via a text generator, randomizing algorithm, generative AI, etc. Some examples of these tools include Mathgen, Scigen, ChatGPT.",
+      "problem_object": [
+        "text_article"
+      ],
+      "process_signal": [
+        "ai_computer_content"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition describes content generated by AI or algorithms, which directly impacts the reliability of the research content. The process signal is ai_computer_content, and the problem object is text_article. Actor context is unclear as the definition does not specify who used the tool."
+    },
+    {
+      "raw_reason": "Concerns/Issues about Animal Welfare",
+      "canonical_reason": "Concerns/Issues about Animal Welfare",
+      "definition_used": "Any question, controversy or dispute about any non-human test or study subject(s).",
+      "problem_object": [
+        "ethics_welfare"
+      ],
+      "process_signal": [
+        "research_ethics_approval_process"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "Animal welfare concerns directly implicate research ethics and can affect the reliability of study results, as well as reflect on author compliance with ethical standards."
+    },
+    {
+      "raw_reason": "Concerns/Issues about Article",
+      "canonical_reason": "Concerns/Issues about Article",
+      "definition_used": "Any question, controversy or dispute about published content, or undefined sections of it.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [],
+      "classification_strength": "ambiguous",
+      "main_figure_recommended": false,
+      "caution": "The definition is too vague to assign specific manuscript-facing categories; it merely indicates an unspecified concern without detailing the nature of the issue.",
+      "semantic_rationale": "The definition describes a general, undefined concern about published content, lacking specificity to map to any of the four manuscript categories."
+    },
+    {
+      "raw_reason": "Concerns/Issues about Authorship/Affiliation",
+      "canonical_reason": "Concerns/Issues About Authorship /Affiliation",
+      "definition_used": "Any question, controversy or dispute about authorship and/or affiliation, except for false/forged authorship or false/forged affiliation. False/forged authorship or false/forged affiliation are covered under their own reasons.",
+      "problem_object": [
+        "authorship_affiliation"
+      ],
+      "process_signal": [
+        "authorship_publication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition explicitly covers disputes about authorship/affiliation, directly aligning with the attribution_authorship_disclosure_integrity category. The problem object is authorship_affiliation, process signal is authorship_publication_process, and actor context is author, as these are inherent to authorship concerns."
+    },
+    {
+      "raw_reason": "Concerns/Issues about Data",
+      "canonical_reason": "Concerns/Issues About Data",
+      "definition_used": "Any question, controversy or dispute about any of the data.",
+      "problem_object": [
+        "data"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "The reason is broad and does not specify the nature of the concern, so it could overlap with other categories if the data issue stems from authorship or editorial problems, but the definition alone supports research content reliability.",
+      "semantic_rationale": "The definition covers any question, controversy, or dispute about data, which directly relates to the reliability of research content."
+    },
+    {
+      "raw_reason": "Concerns/Issues about Human Subject Welfare",
+      "canonical_reason": "Concerns/Issues about Human Subject Welfare",
+      "definition_used": "Any question, controversy or dispute about any human test or study subject(s).",
+      "problem_object": [
+        "ethics_welfare"
+      ],
+      "process_signal": [
+        "research_ethics_approval_process"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition covers any question about human subjects, which directly implicates research ethics and welfare. This can affect the reliability of research content if ethical violations undermine data validity, and it relates to authorship/disclosure integrity if ethical approvals or consent were misrepresented. The process signal is research_ethics_approval_process, as concerns often involve review board approvals. Actor context is unclear because the definition does not specify who raised the concern."
+    },
+    {
+      "raw_reason": "Concerns/Issues about Image",
+      "canonical_reason": "Concerns/Issues About Image",
+      "definition_used": "Any question, controversy or dispute about one or more images, or part(s) of one or more images.",
+      "problem_object": [
+        "image"
+      ],
+      "process_signal": [],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "The definition is broad and does not specify the nature of the concern, so process_signal and actor_context are left as default/unclear. Only research_content_reliability is assigned because image concerns directly relate to the reliability of presented data.",
+      "semantic_rationale": "The definition describes a dispute about images, which directly pertains to the reliability of research content (data). No specific process or actor is indicated."
+    },
+    {
+      "raw_reason": "Concerns/Issues about Methods",
+      "canonical_reason": "Concerns/Issues about Methods",
+      "definition_used": "Local CSV term not present in extracted Appendix B definitions; treated as concerns/issues about methods by semantic analogy.",
+      "problem_object": [
+        "methods_materials"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Definition is not from official Appendix B; assigned by semantic analogy. Actor context is unclear as the reason does not specify who raised concerns.",
+      "semantic_rationale": "Concerns about methods directly relate to the reliability of research content, as methods underpin the validity of results and conclusions."
+    },
+    {
+      "raw_reason": "Concerns/Issues about Peer Review",
+      "canonical_reason": "Concerns/Issues with Peer Review",
+      "definition_used": "The peer review was not performed solely through journal error, or there are problems with the peer review that are not covered under “Fake Peer Review”.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "peer_review_concern"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "editorial_peer_review_governance"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition describes problems with peer review not solely due to journal error, directly implicating editorial and peer review governance."
+    },
+    {
+      "raw_reason": "Concerns/Issues about Referencing/Attributions",
+      "canonical_reason": "Concerns/Issues about Referencing/Attributions",
+      "definition_used": "Any question, controversy or dispute about references, citations, attributions, etc. This could include fabricated/falsified references, reference stacking, citing other work with an EOC or correction, etc.",
+      "problem_object": [
+        "references_attribution"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition explicitly targets references, citations, and attributions, which directly maps to the attribution/authorship/disclosure integrity category. The process signal of content reuse or duplication is implied by reference stacking or citing corrected works, but the primary concern is attribution integrity."
+    },
+    {
+      "raw_reason": "Concerns/Issues about Results and/or Conclusions",
+      "canonical_reason": "Concerns/Issues about Results and/or Conclusions",
+      "definition_used": "Any question, controversy or dispute about the results and/or conclusions.",
+      "problem_object": [
+        "results_conclusions"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "The reason is broad and does not specify the nature of the concern, so it may overlap with other categories if additional context is available.",
+      "semantic_rationale": "The definition directly addresses questions about results/conclusions, which falls under research content reliability. No specific process or actor is indicated, so process_signal is notice_opacity and actor_context is unclear."
+    },
+    {
+      "raw_reason": "Concerns/Issues about Third Party Involvement",
+      "canonical_reason": "Concerns/Issues about Third Party Involvement",
+      "definition_used": "Any question, controversy or dispute about third party involvement.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "third_party_investigation"
+      ],
+      "actor_context": [
+        "third_party"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The definition is extremely broad and does not specify the nature of the involvement, making it a status/notice signal about third-party involvement rather than a direct indicator of manuscript content or process flaws. It is best treated as a post-publication transparency marker.",
+      "semantic_rationale": "The definition 'Any question, controversy or dispute about third party involvement' directly signals a third-party investigation context, which aligns with post-publication oversight. It does not inherently indicate issues with research content, authorship, or editorial processes, so only the transparency category is assigned."
+    },
+    {
+      "raw_reason": "Conflict of Interest",
+      "canonical_reason": "Conflict of Interest",
+      "definition_used": "Any question, controversy or dispute about author(s), editor(s), any third party and/or peer reviewer(s) having affiliations with companies, associations or institutions that may serve to influence how they conduct their role in any part of the research and/or publication process(es).",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "editorial_breach"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity",
+        "editorial_peer_review_governance"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Conflict of Interest is a broad signal that can affect multiple stages of the research and publication process. It primarily indicates a failure in disclosure or governance, but may also indirectly impact research content reliability if the conflict influenced study design or interpretation. The assignment to manuscript categories is based on the definition's emphasis on roles in the research/publication process, not on proven bias.",
+      "semantic_rationale": "The definition centers on questions about affiliations that may influence conduct in the research or publication process. This directly implicates attribution/authorship/disclosure integrity (failure to disclose conflicts) and editorial/peer review governance (compromised impartiality of editors or reviewers). It does not inherently assert that the research content itself is unreliable, but the potential influence on any part of the process justifies broad inclusion under these two categories."
+    },
+    {
+      "raw_reason": "Contamination of Cell Lines/Tissues",
+      "canonical_reason": "Contamination of Cell Lines/Tissues",
+      "definition_used": "Impurities were found or suspected within cell lines or tissues.",
+      "problem_object": [
+        "methods_materials"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "Contamination directly compromises the reliability of research materials, fitting research_content_reliability. The definition describes impurities in cell lines/tissues, which are core methodological components, so problem_object is methods_materials. The process_signal is journal_publisher_investigation as a default for such findings, though the definition does not specify the investigation source; actor_context is unclear. No other categories are supported."
+    },
+    {
+      "raw_reason": "Contamination of Materials",
+      "canonical_reason": "Contamination of Materials",
+      "definition_used": "Impurities were found or suspected within compounds, reagents or solutions used in experiments.",
+      "problem_object": [
+        "methods_materials"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "Contamination of materials directly compromises the reliability of experimental results, fitting research_content_reliability. The definition focuses on impurities in experimental materials, which is a methods/materials problem. Investigation is implied but not specified, so journal/publisher investigation is a reasonable default process signal. Actor context is author as the source of the materials."
+    },
+    {
+      "raw_reason": "Copyright Claims",
+      "canonical_reason": "Copyright Claims",
+      "definition_used": "Dispute concerning permissions or ownership of materials (equipment, cell lines, etc.), technologies, images, text, patents, etc.",
+      "problem_object": [
+        "text_article",
+        "image",
+        "data",
+        "methods_materials"
+      ],
+      "process_signal": [
+        "legal_process"
+      ],
+      "actor_context": [
+        "third_party",
+        "author",
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity",
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Copyright claims can involve ownership disputes over materials, images, or text, which may affect attribution integrity and trigger legal processes. However, the reason itself does not confirm research content unreliability or editorial misconduct; it primarily signals a legal dispute over permissions.",
+      "semantic_rationale": "The definition describes disputes over permissions or ownership of materials, images, text, etc., which directly relates to attribution and authorship integrity (e.g., unauthorized use of copyrighted material) and may involve post-publication legal oversight. It does not inherently indicate research content errors or editorial/peer review failures."
+    },
+    {
+      "raw_reason": "Criminal Proceedings",
+      "canonical_reason": "Criminal Proceedings",
+      "definition_used": "Criminal legal proceedings were instigated in response to the publication and/or notice(s), or criminal legal proceedings resulted in the correction/EOC/retraction/etc.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "legal_process"
+      ],
+      "actor_context": [
+        "ori_government"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "Criminal proceedings are a legal process external to the manuscript content; they may relate to research misconduct but the definition does not specify the underlying issue. Assigned to post-publication oversight as it involves legal response to publication.",
+      "semantic_rationale": "The definition describes criminal legal proceedings instigated in response to publication or resulting in a correction/retraction. This is a legal process (process_signal: legal_process) involving government action (actor_context: ori_government). The problem object is the article in general (article_general) as the proceedings are about the publication. It fits post_publication_transparency_due_process_oversight because it concerns legal oversight after publication, but it is broad as the underlying manuscript issue is not specified."
+    },
+    {
+      "raw_reason": "Date of Article and/or Notice Unknown",
+      "canonical_reason": "Date of Article and/or Notice Unknown",
+      "definition_used": "The article and/or notice do not have clear publication dates. RW may also use this reason when a publisher overwrites the original article’s HTML page with the notice, without changing the publication date to reflect the change.",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This reason describes a metadata transparency issue (missing or unclear dates) and does not directly indicate problems with research content, authorship, or editorial processes. It is a status/notice signal, not a substantive integrity concern.",
+      "semantic_rationale": "The definition describes a lack of clear publication dates for the article or notice, which is a transparency issue in post-publication metadata. This fits post_publication_transparency_due_process_oversight broadly, as it concerns the availability and clarity of publication status information. It does not directly implicate research content, authorship, or editorial governance."
+    },
+    {
+      "raw_reason": "Doing the Right Thing",
+      "canonical_reason": "Doing the Right Thing",
+      "definition_used": "An attribution made by co-founders of Retraction Watch indicating admirable behavior by one of the involved parties",
+      "problem_object": [],
+      "process_signal": [],
+      "actor_context": [],
+      "manuscript_categories": [],
+      "classification_strength": "ambiguous",
+      "main_figure_recommended": false,
+      "caution": "The definition describes a subjective editorial attribution of admirable behavior, not a specific manuscript integrity issue, process, or actor context. It does not map to any of the four manuscript-facing categories.",
+      "semantic_rationale": "The reason is a meta-commentary on behavior, lacking concrete problem, process, or actor signals required for manuscript category assignment."
+    },
+    {
+      "raw_reason": "Duplication of Content through Error by Journal/Publisher",
+      "canonical_reason": "Duplication of Content through Error by Journal/Publisher",
+      "definition_used": "Duplication of published content due to an error by the journal or publisher.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "journal_publisher_error",
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "editorial_peer_review_governance",
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition describes duplication of published content caused by a journal/publisher error, which directly implicates editorial and production governance (editorial_peer_review_governance) and post-publication correction/transparency processes (post_publication_transparency_due_process_oversight). The problem object is the article as a whole, and the process signals are journal error and duplication handling."
+    },
+    {
+      "raw_reason": "Duplication of Data",
+      "canonical_reason": "Duplication of Data",
+      "definition_used": "Duplication of any of the data.",
+      "problem_object": [
+        "data"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "Duplication of data directly concerns the reliability of research content, as it involves the integrity of the data presented."
+    },
+    {
+      "raw_reason": "Duplication of Text",
+      "canonical_reason": "Duplication of Text",
+      "definition_used": "Duplication of any of the text.",
+      "problem_object": [
+        "text_article"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Duplication of text can overlap with plagiarism, but the definition is neutral and does not specify intent or source. It may affect reliability if it misrepresents novelty, and attribution if it involves uncredited reuse. However, without additional context, the exact nature remains ambiguous.",
+      "semantic_rationale": "Text duplication directly concerns the article's textual content (problem_object: text_article) and involves a content reuse process (process_signal: content_reuse_or_duplication_process). It can undermine research content reliability if the duplication misleads about the originality of findings, and it may breach attribution/authorship integrity if it involves uncredited copying. The actor is unclear from the definition alone."
+    },
+    {
+      "raw_reason": "Duplication of/in Article",
+      "canonical_reason": "Duplication of/in Article",
+      "definition_used": "Duplication of a published item, or undefined sections of it.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Duplication may overlap with plagiarism or self-plagiarism, but the definition is broad and does not specify intent or source. Actor context is unclear as the definition does not indicate who identified or investigated the duplication.",
+      "semantic_rationale": "Duplication of a published item or sections of it directly impacts the reliability of research content (research_content_reliability) and raises concerns about proper attribution and disclosure (attribution_authorship_disclosure_integrity). The problem object is the article as a whole, and the process signal is content reuse or duplication. No specific actor is mentioned in the definition."
+    },
+    {
+      "raw_reason": "Duplication of/in Image",
+      "canonical_reason": "Duplication of/in Image",
+      "definition_used": "Duplication of one or more images, or part(s) of one or more images.",
+      "problem_object": [
+        "image"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "Image duplication directly concerns the reliability of research content, as it involves potential data integrity issues within images."
+    },
+    {
+      "raw_reason": "EOC Lifted",
+      "canonical_reason": "EOC Lifted",
+      "definition_used": "Expression of Concern has been removed or is no longer applicable. Not to be confused with an “Upgraded to Retraction”",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a status-only notice about the removal of an Expression of Concern, not about the underlying content. It does not directly indicate a problem with research content, authorship, or editorial processes, but relates to post-publication transparency.",
+      "semantic_rationale": "The definition describes a change in the status of a notice (Expression of Concern lifted), which falls under post-publication transparency and due process oversight. It does not inherently signal issues with research content, authorship, or editorial governance, but rather a metadata update about a previous notice."
+    },
+    {
+      "raw_reason": "Error by Journal/Publisher",
+      "canonical_reason": "Error by Journal/Publisher",
+      "definition_used": "An error attributed to a journal/publisher.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "journal_publisher_error"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "editorial_peer_review_governance",
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "The definition is broad; the error could range from production mistakes to editorial process failures. Without specifics, it is not possible to determine if research content itself is affected, so research_content_reliability is not assigned. Attribution/authorship integrity is not directly indicated.",
+      "semantic_rationale": "The definition attributes an error to the journal/publisher, which directly implicates editorial and production governance (editorial_peer_review_governance) and may involve post-publication transparency if the error leads to corrections or notices (post_publication_transparency_due_process_oversight). The problem object is the article in general, as the error is not specified to data, images, etc. The process signal is journal_publisher_error, and the actor context is journal_publisher."
+    },
+    {
+      "raw_reason": "Error by Third Party",
+      "canonical_reason": "Error by Third Party",
+      "definition_used": "An error attributed to any third party.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "third_party_investigation"
+      ],
+      "actor_context": [
+        "third_party"
+      ],
+      "manuscript_categories": [],
+      "classification_strength": "ambiguous",
+      "main_figure_recommended": false,
+      "caution": "The definition is too generic to determine which manuscript category applies. It only indicates an error by a third party without specifying the nature of the error or its impact on the manuscript's content, attribution, editorial process, or post-publication status.",
+      "semantic_rationale": "The definition 'An error attributed to any third party' does not provide enough detail to map to any specific manuscript-facing category. It could involve research content, authorship, editorial processes, or post-publication matters, but the definition alone does not specify. Therefore, no manuscript category is assigned."
+    },
+    {
+      "raw_reason": "Error in Analyses",
+      "canonical_reason": "Error in Analyses",
+      "definition_used": "One or more errors in the evaluation of any of the data or in any calculation(s).",
+      "problem_object": [
+        "data",
+        "results_conclusions"
+      ],
+      "process_signal": [
+        "journal_publisher_error"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition describes errors in data evaluation or calculations, directly undermining the reliability of research content."
+    },
+    {
+      "raw_reason": "Error in Cell Lines/Tissues",
+      "canonical_reason": "Error in Cell Lines/Tissues",
+      "definition_used": "One or more errors in the choice or identification of any of the cell lines or tissues.",
+      "problem_object": [
+        "methods_materials"
+      ],
+      "process_signal": [
+        "journal_publisher_error"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "Errors in cell lines/tissues directly affect the reliability of research materials and methods, fitting research_content_reliability. The definition describes a material error, not a process or transparency issue, so other categories are not supported."
+    },
+    {
+      "raw_reason": "Error in Data",
+      "canonical_reason": "Error in Data",
+      "definition_used": "One or more errors in any of the data.",
+      "problem_object": [
+        "data"
+      ],
+      "process_signal": [
+        "journal_publisher_error"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition explicitly states errors in data, directly impacting research content reliability. The problem object is data, and the process signal is journal/publisher error as the error is in the published data. Actor context is author as the source of the data error."
+    },
+    {
+      "raw_reason": "Error in Image",
+      "canonical_reason": "Error in Image",
+      "definition_used": "One or more errors in one or more images, or part(s) of one or more images.",
+      "problem_object": [
+        "image"
+      ],
+      "process_signal": [
+        "journal_publisher_error"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition describes errors in images, which directly concerns the reliability of research content (data/image). The error is a journal/publisher-level issue, but actor context is unclear as the definition does not specify who identified or caused the error."
+    },
+    {
+      "raw_reason": "Error in Materials",
+      "canonical_reason": "Error in Materials",
+      "definition_used": "One or more errors in one or more experimental materials. including reagents, mixing bowls, equipment or instrumentation.",
+      "problem_object": [
+        "methods_materials"
+      ],
+      "process_signal": [
+        "journal_publisher_error"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition describes errors in experimental materials (reagents, equipment), which directly affect the reliability of research content. This maps to research_content_reliability. The error is in methods/materials, and the process signal is journal_publisher_error as it is an error in the published record. Actor context is author because materials are typically prepared by authors."
+    },
+    {
+      "raw_reason": "Error in Methods",
+      "canonical_reason": "Error in Methods",
+      "definition_used": "One or more errors in the choice of and/or implementation of experimental protocol(s).",
+      "problem_object": [
+        "methods_materials"
+      ],
+      "process_signal": [
+        "journal_publisher_error"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition describes errors in experimental protocol choice or implementation, directly affecting the reliability of research content."
+    },
+    {
+      "raw_reason": "Error in Results and/or Conclusions",
+      "canonical_reason": "Error in Results and/or Conclusions",
+      "definition_used": "One or more errors in any of the results and/or the conclusions.",
+      "problem_object": [
+        "results_conclusions"
+      ],
+      "process_signal": [
+        "journal_publisher_error"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition explicitly states errors in results or conclusions, directly indicating unreliable research content."
+    },
+    {
+      "raw_reason": "Error in Text",
+      "canonical_reason": "Error in Text",
+      "definition_used": "One or more errors in any of the text.",
+      "problem_object": [
+        "text_article"
+      ],
+      "process_signal": [
+        "journal_publisher_error"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Error in text can range from minor typos to substantive misstatements; without further context, it broadly affects research content reliability but may not always be central.",
+      "semantic_rationale": "The definition describes errors in text, which directly impact the accuracy and reliability of the research content as presented in the manuscript."
+    },
+    {
+      "raw_reason": "Ethical Violations by Author",
+      "canonical_reason": "Ethical Violations by Author",
+      "definition_used": "When a journal/publisher/institution states that one or more authors have not met the journal/publisher/institution’s standards of publishing and/or research ethics. RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was an ethical violation), or when the ethical violation (as an additional reason) cannot be addressed by existing reasons.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation",
+        "institutional_investigation",
+        "publication_policy_or_sanction"
+      ],
+      "actor_context": [
+        "author",
+        "journal_publisher",
+        "company_institution"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity",
+        "editorial_peer_review_governance"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "The definition is broad and often used as a catch-all when specifics are unavailable. Without further details, the exact nature of the ethical violation is ambiguous, but it inherently involves author conduct and journal/institutional standards.",
+      "semantic_rationale": "The reason indicates a breach of publishing/research ethics by authors, as determined by a journal, publisher, or institution. This directly implicates author integrity (attribution_authorship_disclosure_integrity) and the governance of ethical standards (editorial_peer_review_governance). The problem object is set to article_general due to lack of specificity. Process signals reflect investigation and policy enforcement by the journal/publisher/institution."
+    },
+    {
+      "raw_reason": "Ethical Violations by Company/Institution/Third Party",
+      "canonical_reason": "Ethical Violations by Company/Institution/Third Party",
+      "definition_used": "When a journal/publisher/institution states that one or more company(ies)/institution(s)/thirdparty(ies) have not met the journal/publisher/institution’s standards of publishing and/or research ethics. RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was an ethical violation), or when the ethical violation (as an additional reason) cannot be addressed by existing reasons.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation",
+        "institutional_investigation",
+        "third_party_investigation",
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "company_institution",
+        "third_party",
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "editorial_peer_review_governance",
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The definition is a catch-all for ethical violations by non-author entities when details are unavailable. It signals an investigation by journal/publisher/institution into a company/institution/third party, but the specific ethical breach is unspecified. This makes it a broad governance and transparency signal rather than a direct indicator of research content reliability or authorship integrity. Main figure not recommended due to opacity and lack of specific content-related problem.",
+      "semantic_rationale": "The reason indicates a journal/publisher/institution finding that a company/institution/third party violated publishing/research ethics standards. It is used when no further details are available, making it a notice of an ethical breach by a non-author entity. This maps to editorial_peer_review_governance (publisher enforcement of standards) and post_publication_transparency_due_process_oversight (opaque notice of an investigation). The problem object is article_general because the specific issue is unknown. Process signals include journal_publisher_investigation, institutional_investigation, third_party_investigation, and notice_opacity. Actor context includes company_institution, third_party, and journal_publisher as the investigating body."
+    },
+    {
+      "raw_reason": "Euphemisms for Duplication",
+      "canonical_reason": "Euphemisms for Duplication",
+      "definition_used": "The notice does not clearly state that the authors reused ideas, text, or images from one of their previously published items without suitable citation",
+      "problem_object": [
+        "text_article",
+        "image",
+        "data",
+        "results_conclusions"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process",
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "The definition focuses on opaque notice language about reuse without citation, which directly implicates content reliability and attribution integrity. However, the term 'euphemisms' suggests the notice may obscure the nature of duplication, so the exact problem object (text, image, data) may vary. Actor context is author because reuse is by authors. Process signal includes content reuse and notice opacity. No editorial or third-party investigation is implied by the definition alone.",
+      "semantic_rationale": "The definition describes reuse of ideas, text, or images without proper citation, which undermines research content reliability and attribution integrity. The notice's lack of clarity adds a notice opacity signal."
+    },
+    {
+      "raw_reason": "Euphemisms for Misconduct",
+      "canonical_reason": "Euphemisms for Misconduct",
+      "definition_used": "The notice does not explicitly state that the reason for the notice is due to misconduct, despite a journal, publisher, company, institution, government agency or author explicitly stating that there was misconduct.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "journal_publisher",
+        "company_institution",
+        "author",
+        "ori_government"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This reason describes a transparency failure in the notice itself, not a direct problem with the research content, authorship, or editorial process. It is a metadata/status signal about how misconduct is communicated, not a substantive category of manuscript unreliability.",
+      "semantic_rationale": "The definition focuses on a notice that obscures misconduct despite explicit statements from involved parties. This directly relates to post-publication transparency and due process oversight, as it concerns the clarity and honesty of the retraction notice. It does not inherently indicate issues with research content, authorship, or editorial governance, so only the transparency category is assigned."
+    },
+    {
+      "raw_reason": "Euphemisms for Plagiarism",
+      "canonical_reason": "Euphemisms for Plagiarism",
+      "definition_used": "The notice describes plagiarism of material without using the words “plagiarize(d)” or “plagiarism.”",
+      "problem_object": [
+        "text_article",
+        "references_attribution"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition explicitly describes plagiarism of material, which directly concerns attribution and authorship integrity. The notice signals content reuse without proper credit, fitting the attribution category."
+    },
+    {
+      "raw_reason": "False/Forged Affiliation",
+      "canonical_reason": "False/Forged Affiliation",
+      "definition_used": "The false/forged use of an affiliation/institutional name in the publication process.",
+      "problem_object": [
+        "authorship_affiliation"
+      ],
+      "process_signal": [
+        "authorship_publication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition explicitly describes false/forged use of an affiliation, which directly concerns authorship and institutional disclosure integrity."
+    },
+    {
+      "raw_reason": "False/Forged Authorship",
+      "canonical_reason": "False/Forged Authorship",
+      "definition_used": "The false/forged use of one or more author names in the publication process.",
+      "problem_object": [
+        "authorship_affiliation"
+      ],
+      "process_signal": [
+        "authorship_publication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition explicitly describes false/forged use of author names, directly mapping to authorship integrity concerns."
+    },
+    {
+      "raw_reason": "Falsification/Fabrication of Data",
+      "canonical_reason": "Falsification/Fabrication of Data",
+      "definition_used": "Falsification or fabrication of any data in order to mislead.",
+      "problem_object": [
+        "data"
+      ],
+      "process_signal": [],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition explicitly describes falsification or fabrication of data to mislead, directly undermining the trustworthiness of research content."
+    },
+    {
+      "raw_reason": "Falsification/Fabrication of Image",
+      "canonical_reason": "Falsification/Fabrication of Image",
+      "definition_used": "Falsification or fabrication in/of one or more images, or part(s) of one or more images, in order to mislead.",
+      "problem_object": [
+        "image"
+      ],
+      "process_signal": [],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition describes intentional manipulation of images to mislead, directly undermining the trustworthiness of research data and findings, which falls under research content reliability."
+    },
+    {
+      "raw_reason": "Falsification/Fabrication of Results",
+      "canonical_reason": "Falsification/Fabrication of Results",
+      "definition_used": "Falsification or fabrication of results in order to mislead.",
+      "problem_object": [
+        "results_conclusions",
+        "data",
+        "image"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation",
+        "institutional_investigation",
+        "third_party_investigation"
+      ],
+      "actor_context": [
+        "author",
+        "journal_publisher",
+        "company_institution",
+        "third_party"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "Falsification/fabrication of results directly undermines the truth of reported findings, fitting research_content_reliability. The definition explicitly mentions misleading results, which maps to results_conclusions, data, and image as problem objects. Investigations by journals, institutions, or third parties are typical process signals. Actor context includes author, journal/publisher, institution, and third party as potential sources of investigation."
+    },
+    {
+      "raw_reason": "Hoax Paper",
+      "canonical_reason": "Hoax Paper",
+      "definition_used": "The paper was intentionally drafted with fabricated or falsified data or other content with the goal of testing a journal or publisher’s manuscript acceptance policies.",
+      "problem_object": [
+        "data",
+        "results_conclusions",
+        "text_article",
+        "article_general"
+      ],
+      "process_signal": [
+        "editorial_breach",
+        "publication_policy_or_sanction"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "editorial_peer_review_governance"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition describes intentional fabrication/falsification of data or content to test journal policies, directly undermining research content reliability and exposing editorial/peer review governance failures."
+    },
+    {
+      "raw_reason": "Informed/Patient Consent - None/Withdrawn",
+      "canonical_reason": "Informed/Patient Consent – None/Withdrawn",
+      "definition_used": "When informed/patient consent documentation is deemed insufficient or is not available or the participant later disputes/withdraws their approval.",
+      "problem_object": [
+        "ethics_welfare"
+      ],
+      "process_signal": [
+        "research_ethics_approval_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity",
+        "research_content_reliability"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "Consent issues directly implicate ethics approval processes and can undermine the reliability of research content if participants' rights are violated or data usage is unauthorized."
+    },
+    {
+      "raw_reason": "Investigation by Company/Institution",
+      "canonical_reason": "Investigation by Company/Institution",
+      "definition_used": "An investigation by the company/institution listed as the affiliation of one or more authors.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "institutional_investigation"
+      ],
+      "actor_context": [
+        "company_institution"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The reason indicates an investigation by the affiliated institution, which is a due-process signal but does not specify the underlying problem or outcome. It is a procedural metadata tag, not a direct indicator of manuscript content issues.",
+      "semantic_rationale": "The definition describes an investigation by the author's affiliated company/institution, which falls under post-publication oversight processes. It does not directly assert problems with research content, authorship, or editorial governance, so only the due-process category is assigned."
+    },
+    {
+      "raw_reason": "Investigation by Journal/Publisher",
+      "canonical_reason": "Investigation by Journal/Publisher",
+      "definition_used": "An investigation by the journal/publisher of the article.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This reason indicates an investigation process by the journal/publisher, not the underlying cause. It is a procedural metadata signal and does not specify what content or conduct issue triggered the investigation. Therefore, it maps only to post-publication oversight and not to content or authorship categories without further evidence.",
+      "semantic_rationale": "The definition describes a journal/publisher-led investigation, which is a post-publication oversight process. It does not inherently indicate problems with research content, authorship, or editorial governance, so only the post_publication_transparency_due_process_oversight category is assigned."
+    },
+    {
+      "raw_reason": "Investigation by ORI",
+      "canonical_reason": "Investigation by ORI",
+      "definition_used": "An investigation by the United States Office of Research Integrity (ORI).",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "official_misconduct_process"
+      ],
+      "actor_context": [
+        "ori_government"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The reason indicates an investigation by ORI, which is a procedural oversight signal. It does not specify the underlying issue (e.g., data fabrication, plagiarism) and thus cannot be directly mapped to content reliability or authorship categories without further details. Main figure recommendation is false because the label is a status/process indicator, not a substantive content issue.",
+      "semantic_rationale": "The definition describes an investigation by a government oversight body (ORI), which aligns with post-publication transparency and due process oversight. The actor is ORI (government), and the process is an official misconduct investigation. The problem object is set to article_general as the investigation scope is not specified."
+    },
+    {
+      "raw_reason": "Investigation by Third Party",
+      "canonical_reason": "Investigation by Third Party",
+      "definition_used": "An investigation by any third party that is not the United States Office of Research Integrity (ORI).",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "third_party_investigation"
+      ],
+      "actor_context": [
+        "third_party"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The reason indicates an investigation by a third party, which is a process signal. It does not specify the underlying problem or outcome, so it is assigned broadly to post-publication oversight. It is not specific enough for main-figure prevalence.",
+      "semantic_rationale": "The definition describes an investigation by a non-ORI third party, which is a post-publication oversight process. The problem object is set to article_general as the investigation scope is unspecified. The process signal is third_party_investigation, and the actor context is third_party. The manuscript category post_publication_transparency_due_process_oversight is assigned because the investigation relates to transparency and due process after publication."
+    },
+    {
+      "raw_reason": "Lack of Approval from Author",
+      "canonical_reason": "Lack of Approval from Author",
+      "definition_used": "One or more authors did not approve one or more parts of the research or publication process(es). RW also uses this reason if the notice mentions a lack of documentation of alleged approval.",
+      "problem_object": [
+        "authorship_affiliation"
+      ],
+      "process_signal": [
+        "authorship_publication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition directly concerns author approval of research or publication processes, which falls under authorship integrity and disclosure."
+    },
+    {
+      "raw_reason": "Lack of Approval from Company/Institution",
+      "canonical_reason": "Lack of Approval from Company/Institution",
+      "definition_used": "One or more companies/institutions did not approve one or more parts of the research or publication process(es). RW also uses this reason if the notice mentions a lack of documentation of alleged approval.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "institutional_investigation",
+        "publication_policy_or_sanction"
+      ],
+      "actor_context": [
+        "company_institution"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity",
+        "editorial_peer_review_governance"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition centers on missing institutional approval for research or publication, which directly implicates authorship/affiliation integrity and editorial governance over required permissions. No specific data or image issues are mentioned, so problem_object is article_general. Process signals reflect institutional investigation and policy enforcement. Actor context is company/institution as the source of approval."
+    },
+    {
+      "raw_reason": "Lack of Approval from Third Party",
+      "canonical_reason": "Lack of Approval from Third Party",
+      "definition_used": "One or more third parties did not approve one or more parts of the research or publication process(es). RW also uses this reason if the notice mentions a lack of documentation of alleged approval.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "research_ethics_approval_process",
+        "publication_policy_or_sanction"
+      ],
+      "actor_context": [
+        "third_party"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity",
+        "editorial_peer_review_governance"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "The definition is broad and could encompass various approval types (ethics, data access, institutional). Without specifics, we assign general categories; if the lack of approval pertains to ethics, research_content_reliability might also apply, but we default to the most direct categories.",
+      "semantic_rationale": "Lack of third-party approval directly implicates disclosure and governance processes, as it involves missing permissions that affect authorship/attribution integrity and editorial oversight of required approvals."
+    },
+    {
+      "raw_reason": "Lack of IRB/IACUC Approval and/or Compliance",
+      "canonical_reason": "Lack of IRB/IACUC Approval and/or Compliance",
+      "definition_used": "Failure to obtain consent from the institutional ethical review board overseeing human or animal experimentation prior to initiation of study, or failure to provide proof of such",
+      "problem_object": [
+        "ethics_welfare"
+      ],
+      "process_signal": [
+        "research_ethics_approval_process"
+      ],
+      "actor_context": [
+        "author",
+        "company_institution"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition describes failure to obtain or prove ethical review board consent for human/animal studies, directly impacting research ethics approval process and the reliability of research content, as well as disclosure integrity regarding required approvals."
+    },
+    {
+      "raw_reason": "Legal Reasons and/or Threats",
+      "canonical_reason": "Legal Reasons and/or Threats",
+      "definition_used": "When a journal/publisher/author/third party uses the phrase “legal reasons,” documents litigation or legal threats, or mentions one or more specific laws",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "legal_process"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "Legal reasons are a broad signal of external process, not directly indicating a specific manuscript integrity problem; main figure not recommended as it is a status/process notice.",
+      "semantic_rationale": "The definition describes legal reasons or threats as a process signal involving litigation or laws, which relates to post-publication oversight and due process, but does not inherently confirm a problem with research content, authorship, or editorial governance."
+    },
+    {
+      "raw_reason": "Manipulation of Data",
+      "canonical_reason": "Manipulation of Data.",
+      "definition_used": "Manipulation of any data.",
+      "problem_object": [
+        "data"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition 'Manipulation of any data' directly indicates compromised research content reliability, as data manipulation undermines the trustworthiness of findings."
+    },
+    {
+      "raw_reason": "Manipulation of Images",
+      "canonical_reason": "Manipulation of Images",
+      "definition_used": "Manipulation of one or more images, or part(s) of one or more images.",
+      "problem_object": [
+        "image"
+      ],
+      "process_signal": [],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "Image manipulation directly undermines the reliability of research content, as images are data or results. No process or actor is specified in the definition."
+    },
+    {
+      "raw_reason": "Manipulation of Results",
+      "canonical_reason": "Manipulation of Results",
+      "definition_used": "Manipulation of any results.",
+      "problem_object": [
+        "results_conclusions"
+      ],
+      "process_signal": [],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Definition is very broad; no specific process or actor indicated. Assigned to research_content_reliability because manipulation directly undermines trust in results.",
+      "semantic_rationale": "The definition 'Manipulation of any results' directly concerns the reliability of research content, as it implies intentional alteration of findings, which falls under research_content_reliability. No other categories are clearly supported without additional context."
+    },
+    {
+      "raw_reason": "Miscommunication with/by Author",
+      "canonical_reason": "Miscommunication with/by Author",
+      "definition_used": "One or more authors misunderstood one or more parts of a message sent to and/or from one or more authors.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [],
+      "classification_strength": "ambiguous",
+      "main_figure_recommended": false,
+      "caution": "The definition describes a communication misunderstanding without specifying any impact on research content, authorship, editorial processes, or post-publication oversight. It is a status/notice term indicating opacity about the underlying issue, not a substantive integrity breach.",
+      "semantic_rationale": "The definition refers to a misunderstanding in author communication, which does not inherently imply problems with research reliability, attribution, editorial governance, or post-publication processes. It signals notice opacity about the actual cause, making it ambiguous for manuscript-facing categories."
+    },
+    {
+      "raw_reason": "Miscommunication with/by Company/Institution",
+      "canonical_reason": "Miscommunication with/by Company/Institution",
+      "definition_used": "One or more companies/institutions misunderstood one or more parts of a message sent to and/or from one or more companies/institutions.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "company_institution"
+      ],
+      "manuscript_categories": [],
+      "classification_strength": "ambiguous",
+      "main_figure_recommended": false,
+      "caution": "The definition describes a communication misunderstanding involving companies/institutions, but does not specify any impact on research content, authorship, editorial processes, or post-publication oversight. It is a status/notice about a procedural miscommunication, not a substantive manuscript integrity issue.",
+      "semantic_rationale": "The reason indicates a misunderstanding in communication between companies/institutions, which is a procedural notice without direct implication for the reliability of research content, authorship integrity, editorial governance, or post-publication due process. It is too ambiguous to assign to any manuscript-facing category."
+    },
+    {
+      "raw_reason": "Miscommunication with/by Journal/Publisher",
+      "canonical_reason": "Miscommunication with/by Journal/Publisher",
+      "definition_used": "One or more journals/publishers misunderstood one or more parts of a message sent to and/or from one or more journals/publishers.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "journal_publisher_error"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "editorial_peer_review_governance",
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "Miscommunication is a process error within journal/publisher operations, not directly about research content or authorship. It may affect editorial governance and transparency, but is often a status/notice issue rather than a substantive manuscript flaw.",
+      "semantic_rationale": "The definition describes a misunderstanding involving journal/publisher communication, which is an internal editorial process error (editorial_peer_review_governance) and can impact post-publication transparency (post_publication_transparency_due_process_oversight). It does not inherently concern research content reliability or authorship integrity."
+    },
+    {
+      "raw_reason": "Miscommunication with/by Third Party",
+      "canonical_reason": "Miscommunication by Third Party",
+      "definition_used": "One or more third parties misunderstood one or more parts of a message sent to and/or from one or more third parties.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "third_party"
+      ],
+      "manuscript_categories": [],
+      "classification_strength": "ambiguous",
+      "main_figure_recommended": false,
+      "caution": "The definition describes a communication error involving third parties, but does not specify any impact on research content, authorship, editorial processes, or post-publication oversight. It is a status/notice term indicating a misunderstanding, not a substantive manuscript integrity issue.",
+      "semantic_rationale": "The definition centers on a third-party communication misunderstanding, which does not directly map to any of the four manuscript-facing categories. It is a procedural notice about information exchange, lacking clear connection to research reliability, attribution, editorial governance, or post-publication due process."
+    },
+    {
+      "raw_reason": "Misconduct - Official Investigation(s) and/or Finding(s)",
+      "canonical_reason": "Misconduct – Official Investigation/Finding",
+      "definition_used": "An investigation by an incorporated company, institution or government agency into misconduct allegations (founded or unfounded) and/or the finding(s) of misconduct by an incorporated company, institution or government agency.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "institutional_investigation",
+        "official_misconduct_process"
+      ],
+      "actor_context": [
+        "company_institution",
+        "ori_government"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The reason indicates an official investigation or finding of misconduct, which is a post-publication oversight process. It does not specify the nature of the misconduct (e.g., data fabrication, authorship issues), so it cannot be directly mapped to research content reliability or attribution integrity without further details. It is a status/process signal rather than a substantive content issue.",
+      "semantic_rationale": "The definition describes an official investigation or finding by an institution or government agency, which aligns with post-publication oversight and due process. The problem object is set to article_general because the misconduct could pertain to any aspect of the article. The process signals are institutional_investigation and official_misconduct_process, and actor_context includes company_institution and ori_government. The manuscript category post_publication_transparency_due_process_oversight is assigned because the investigation/finding is a transparency and oversight mechanism after publication."
+    },
+    {
+      "raw_reason": "Misconduct by Author",
+      "canonical_reason": "Misconduct by Author",
+      "definition_used": "Statement by journal, publisher, company, institution, government agency or author that one or more authors committed misconduct.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation",
+        "institutional_investigation",
+        "official_misconduct_process"
+      ],
+      "actor_context": [
+        "author",
+        "journal_publisher",
+        "company_institution",
+        "ori_government"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity",
+        "editorial_peer_review_governance",
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Misconduct is a broad term that can affect any aspect of the manuscript. Without specifics, all categories are potentially relevant, but the assignment is broad rather than strict.",
+      "semantic_rationale": "The definition indicates a statement of author misconduct, which can encompass fabrication, falsification, plagiarism, or other ethical breaches. This directly impacts research content reliability, authorship integrity, editorial governance, and post-publication oversight. The investigation sources (journal, institution, etc.) are reflected in actor_context and process_signal."
+    },
+    {
+      "raw_reason": "Misconduct by Company/Institution",
+      "canonical_reason": "Misconduct by Company/Institution",
+      "definition_used": "Statement by journal, publisher, company, institution, government agency or author that one or more companies/institutions committed misconduct.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "institutional_investigation"
+      ],
+      "actor_context": [
+        "company_institution"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity",
+        "editorial_peer_review_governance",
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "The definition is broad and does not specify the nature of misconduct, so all manuscript categories are potentially relevant. However, without details, the assignment is broad and may overreach for specific cases.",
+      "semantic_rationale": "Misconduct by a company/institution can affect research content reliability, authorship/disclosure integrity, editorial/peer review governance, and post-publication oversight, as it implies institutional-level wrongdoing that may undermine any aspect of the manuscript."
+    },
+    {
+      "raw_reason": "Misconduct by Third Party",
+      "canonical_reason": "Misconduct by Third Party",
+      "definition_used": "Statement by journal, publisher, company, institution, government agency or author that one or more third party(ies) committed misconduct.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "third_party_investigation"
+      ],
+      "actor_context": [
+        "third_party"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The definition describes a statement about third-party misconduct, which is a transparency/due-process signal but does not directly assert a specific manuscript content or integrity problem. It is a broad oversight category.",
+      "semantic_rationale": "The reason indicates a statement about third-party misconduct, which relates to post-publication oversight and transparency processes, but lacks specificity about the manuscript's content reliability or authorship integrity."
+    },
+    {
+      "raw_reason": "No Further Action",
+      "canonical_reason": "No Further Action",
+      "definition_used": "The journal or publisher has stated that no further action will be taken.",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a status notice about the closure of a process, not a substantive finding. It does not directly indicate a problem with research content, authorship, or editorial governance, but it relates to post-publication transparency.",
+      "semantic_rationale": "The definition describes a journal/publisher statement that no further action will be taken, which is a post-publication transparency signal about the status of an investigation or concern. It does not inherently confirm or deny any underlying issue, so it maps broadly to post_publication_transparency_due_process_oversight."
+    },
+    {
+      "raw_reason": "Nonpayment of Fees and/or Refusal to Pay",
+      "canonical_reason": "Nonpayment of Fees and/or Refusal to Pay",
+      "definition_used": "Fees for services, licenses or access were not paid and/or completed, and/or there was a refusal to pay fees.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "publication_policy_or_sanction"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [],
+      "classification_strength": "ambiguous",
+      "main_figure_recommended": false,
+      "caution": "The reason describes a financial transaction failure between author and publisher, not a manuscript integrity issue. It does not directly map to any of the four manuscript-facing categories, which concern research content, attribution, editorial governance, or post-publication oversight.",
+      "semantic_rationale": "Nonpayment of fees is a business/administrative matter, not a manuscript content or process integrity issue per the supplied category definitions."
+    },
+    {
+      "raw_reason": "Not Presented at Conference",
+      "canonical_reason": "Not Presented at Conference",
+      "definition_used": "The paper/abstract/poster was not presented at the conference for which it was accepted.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "publication_policy_or_sanction"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [],
+      "classification_strength": "ambiguous",
+      "main_figure_recommended": false,
+      "caution": "The reason describes a conference presentation status, not a manuscript integrity issue. It does not directly map to any of the four manuscript-facing categories, which focus on research content, attribution, editorial governance, or post-publication oversight.",
+      "semantic_rationale": "The definition indicates that the work was not presented at the intended conference, which is a procedural or policy matter (publication_policy_or_sanction) involving the author. It does not inherently imply issues with research content reliability, authorship integrity, editorial/peer review governance, or post-publication transparency processes."
+    },
+    {
+      "raw_reason": "Notice - Lack of",
+      "canonical_reason": "Notice – Lack of",
+      "definition_used": "No notice was published by the journal or publisher.",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": false,
+      "caution": "This is a status-only label indicating absence of a notice; it does not directly assert a problem with the research content, authorship, or editorial processes, but it is a transparency/oversight issue.",
+      "semantic_rationale": "The definition describes a lack of published notice by the journal or publisher, which directly maps to post-publication transparency and due process oversight, as it concerns the availability of metadata about the article's status. It is a notice opacity process signal with the journal/publisher as the actor context."
+    },
+    {
+      "raw_reason": "Notice - Limited or No Information",
+      "canonical_reason": "Notice – Limited or No Information",
+      "definition_used": "A notice provides minimal information as to the cause of the notice, or the original item is watermaked as retracted or corrected without explanation",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a metadata/status label indicating opacity of the notice itself, not a substantive reason for retraction. It does not directly implicate research content, authorship, or editorial processes beyond the lack of transparency.",
+      "semantic_rationale": "The definition describes a notice that provides minimal information or an unexplained watermark, which directly maps to notice opacity and post-publication transparency concerns. It does not assert any specific problem with research content, authorship, or editorial governance, so only the transparency oversight category is assigned."
+    },
+    {
+      "raw_reason": "Notice - Unable to Access via current resources",
+      "canonical_reason": "Notice – Unable to Access via current resources",
+      "definition_used": "The notice is paywalled by the journal/publisher, only available in print or is in some form unavailable for inspection.",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": false,
+      "caution": "This is a metadata/status label about notice accessibility, not a substantive reason for retraction. It does not imply any underlying research integrity issue.",
+      "semantic_rationale": "The definition describes a notice that is inaccessible due to paywall or format, which directly relates to post-publication transparency and due process oversight, as it hinders the ability to inspect the retraction notice. No other categories are supported because the reason is purely about notice availability, not about research content, authorship, or editorial governance."
+    },
+    {
+      "raw_reason": "Objections by Author(s)",
+      "canonical_reason": "Objections by Author(s)",
+      "definition_used": "One or more authors objected to the notice or the wording of the notice.",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This reason describes an author's objection to a notice, which is a post-publication transparency signal. It does not directly indicate issues with research content, authorship, or editorial processes, so it is assigned only to the post-publication category. Main figure recommendation is false because the reason is about notice wording, not substantive manuscript problems.",
+      "semantic_rationale": "The definition describes an author's objection to a notice or its wording, which is a post-publication transparency and due process signal (notice_opacity) involving the author as actor. It does not inherently imply problems with research content, attribution, or editorial governance, so only the post-publication category is assigned."
+    },
+    {
+      "raw_reason": "Objections by Company/Institution",
+      "canonical_reason": "Objections by Company/Institution",
+      "definition_used": "One or more companies/institutions objected to the notice or the wording of the notice.",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "company_institution"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This reason describes an objection to the notice itself, not necessarily a problem with the underlying research content. It is a metadata signal about post-publication transparency and due process, but does not directly indicate issues with research reliability, authorship, or editorial governance. Main figure recommendation is false because the reason is status-oriented and does not substantiate a core manuscript integrity problem.",
+      "semantic_rationale": "The definition states that a company/institution objected to the notice or its wording, which directly relates to post-publication transparency and due process oversight. The problem object is the availability/notice status, and the process signal is notice opacity, as the objection implies a dispute over the notice's content or existence. The actor context is company/institution, as they are the source of the objection."
+    },
+    {
+      "raw_reason": "Objections by Third Party",
+      "canonical_reason": "Objections by Third Party",
+      "definition_used": "One or more third parties objected to the notice or the wording of the notice.",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "notice_opacity",
+        "third_party_investigation"
+      ],
+      "actor_context": [
+        "third_party"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "The reason describes a post-publication objection to the notice itself, not necessarily the underlying research content. It is a transparency/process signal, not a direct indicator of manuscript content issues.",
+      "semantic_rationale": "The definition focuses on third-party objections to the notice or its wording, which directly relates to post-publication transparency and due process oversight. It does not inherently imply issues with research content, authorship, or editorial governance, though it may accompany such issues. The primary category is post_publication_transparency_due_process_oversight because the objection concerns the notice's transparency or wording."
+    },
+    {
+      "raw_reason": "Original Data and/or Images not Provided and/or not Available",
+      "canonical_reason": "Original Data and/or Images not Provided and/or not Available",
+      "definition_used": "The original data or images for the published study is no longer available or is not given to the editorial staff.",
+      "problem_object": [
+        "data",
+        "image"
+      ],
+      "process_signal": [
+        "notice_opacity",
+        "removal_availability"
+      ],
+      "actor_context": [
+        "author",
+        "editor",
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition describes unavailability or non-provision of original data/images to editorial staff, directly impacting research content reliability (inability to verify underlying data) and post-publication transparency (lack of access for scrutiny)."
+    },
+    {
+      "raw_reason": "Paper Mill",
+      "canonical_reason": "Paper Mill",
+      "definition_used": "When a journal/publisher/institution states that a paper came from a paper mill or the paper is in a list of paper mill papers. RW may also use this reason to reflect that RW has identified multiple paper mill criteria applying to this paper.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "paper_mill"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity",
+        "editorial_peer_review_governance"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Paper mill designation is a composite signal; specific underlying problems (data, images, authorship) are not detailed in the definition, so problem_object is set to article_general. Actor_context reflects the typical source of the statement (journal/publisher/institution), not blame.",
+      "semantic_rationale": "Paper mill involvement implies fabricated or manipulated content (research_content_reliability), likely fraudulent authorship or attribution issues (attribution_authorship_disclosure_integrity), and compromised peer review (editorial_peer_review_governance). The definition focuses on the origin of the paper, not post-publication processes, so post_publication_transparency_due_process_oversight is not directly supported."
+    },
+    {
+      "raw_reason": "Plagiarism of Data",
+      "canonical_reason": "Plagiarism of Data",
+      "definition_used": "Plagiarism of any of the data.",
+      "problem_object": [
+        "data"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "Plagiarism of data directly undermines the originality and reliability of research content, and constitutes a breach of attribution and authorship integrity."
+    },
+    {
+      "raw_reason": "Plagiarism of Image",
+      "canonical_reason": "Plagiarism of Image",
+      "definition_used": "Plagiarism of one or more images.",
+      "problem_object": [
+        "image"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "Image plagiarism directly undermines research content reliability by misrepresenting data and violates attribution integrity by reusing others' work without credit."
+    },
+    {
+      "raw_reason": "Plagiarism of Text",
+      "canonical_reason": "Plagiarism of Text",
+      "definition_used": "Plagiarism of any of the text.",
+      "problem_object": [
+        "text_article"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity",
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "Plagiarism of text directly violates attribution and authorship integrity, and undermines research content reliability by misrepresenting originality."
+    },
+    {
+      "raw_reason": "Plagiarism of/in Article",
+      "canonical_reason": "Plagiarism of/in Article",
+      "definition_used": "Plagiarism of a published item, or undefined sections of it.",
+      "problem_object": [
+        "text_article"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity",
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "Plagiarism directly violates attribution and authorship integrity, and undermines research content reliability by misrepresenting originality. The definition explicitly involves reuse of published content without proper credit."
+    },
+    {
+      "raw_reason": "Publishing Ban",
+      "canonical_reason": "Publishing Ban",
+      "definition_used": "When a journal/publisher states that no manuscripts will be accepted from one or more authors of the original article. Bans could be for a limited time or indefinitely.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "publication_policy_or_sanction"
+      ],
+      "actor_context": [
+        "journal_publisher",
+        "author"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "Publishing ban is a post-publication sanction, not a direct indicator of manuscript content or process flaws. It reflects journal/publisher policy enforcement.",
+      "semantic_rationale": "The definition describes a journal/publisher-imposed ban on future submissions from authors, which is a post-publication oversight action (publication_policy_or_sanction). It does not directly address research content, authorship integrity, or editorial governance, but fits post-publication transparency/due process/oversight broadly as a sanction notice."
+    },
+    {
+      "raw_reason": "Removed",
+      "canonical_reason": "Removed",
+      "definition_used": "The original article is removed from access on the journal’s website or publishing platform.",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "removal_availability"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a status-only term indicating removal of access, not the underlying cause. It does not directly assert problems with research content, authorship, or editorial processes, though it may accompany such issues.",
+      "semantic_rationale": "The definition describes a post-publication action where the article is no longer accessible, which falls under transparency and due process oversight. It does not inherently indicate issues with research content, authorship, or editorial governance, so only the post-publication category is assigned."
+    },
+    {
+      "raw_reason": "Results Not Reproducible",
+      "canonical_reason": "Results Not Reproducible",
+      "definition_used": "When repetition(s) of experiment(s), using the same materials and methods, failed to replicate the results in the original article.",
+      "problem_object": [
+        "results_conclusions"
+      ],
+      "process_signal": [
+        "journal_publisher_investigation",
+        "third_party_investigation",
+        "institutional_investigation"
+      ],
+      "actor_context": [
+        "author",
+        "journal_publisher",
+        "third_party",
+        "company_institution"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition directly addresses failure to replicate results, which undermines the reliability of the research content. This maps strictly to research_content_reliability."
+    },
+    {
+      "raw_reason": "Retract and Replace",
+      "canonical_reason": "Retract and Replace",
+      "definition_used": "The change of an item’s status reflecting that a retracted item will be replaced with a new publication in the same journal. The journal has indicated that the replacement should be cited as the version of record.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "correction_update_process"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a publication-status notice (retract and replace) that does not inherently indicate a problem with research content, authorship, or peer review. It primarily signals a post-publication correction/update process. Main figure recommendation is false because the label is status-only and does not substantively support a manuscript-category figure.",
+      "semantic_rationale": "The definition describes a change in publication status where a retracted item is replaced by a new version, with the journal indicating the replacement as the version of record. This directly involves post-publication transparency and due process oversight (manuscript category) because it concerns the management of the scholarly record and correction/update processes. The problem object is 'article_general' as the entire article is being replaced. The process signal is 'correction_update_process' because the action is a structured replacement. The actor context is 'journal_publisher' as the journal executes the status change. No other manuscript categories are supported because the definition does not mention issues with research content, authorship, or peer review."
+    },
+    {
+      "raw_reason": "Rogue Editor",
+      "canonical_reason": "Rogue Editor",
+      "definition_used": "Used when an editor’s credentials are false/forged or when an editor subverts one or more processes under their purview. An “editor” may be an established editor affiliated with the journal or a guest editor.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "editorial_breach",
+        "peer_review_compromised"
+      ],
+      "actor_context": [
+        "editor"
+      ],
+      "manuscript_categories": [
+        "editorial_peer_review_governance"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition describes an editor subverting processes under their purview, which directly maps to editorial/peer review governance failures. The actor is explicitly the editor, and the process signals include editorial breach and compromised peer review."
+    },
+    {
+      "raw_reason": "Sabotage of Materials/Methods",
+      "canonical_reason": "Sabotage of Materials/Methods",
+      "definition_used": "An intentional action by a third party, without the researchers’ knowledge or consent, to sabotage or contaminate experimental ingredients or processes in order to influence experimental outcome(s).",
+      "problem_object": [
+        "methods_materials"
+      ],
+      "process_signal": [
+        "third_party_investigation"
+      ],
+      "actor_context": [
+        "third_party"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition describes intentional contamination of experimental materials by a third party, directly undermining the reliability of research content. The problem object is methods/materials, the process signal is third-party investigation, and the actor context is third party. This fits research_content_reliability strictly."
+    },
+    {
+      "raw_reason": "Salami Slicing",
+      "canonical_reason": "Salami Slicing",
+      "definition_used": "The publication of several articles using the same dataset by breaking it into sections, with the intent of exploiting a limited data set for the production of several published works. This does not apply to large multi-group studies such as the Framingham Heart Study.",
+      "problem_object": [
+        "data",
+        "results_conclusions",
+        "article_general"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process",
+        "editorial_breach"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability",
+        "editorial_peer_review_governance"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Salami slicing involves overlapping data and fragmented reporting, which can mislead about the novelty and completeness of findings. It primarily affects research content reliability and editorial governance, but does not directly implicate authorship attribution or post-publication oversight unless further issues arise.",
+      "semantic_rationale": "Salami slicing fragments a dataset across multiple articles, undermining the integrity of reported results and violating editorial standards against duplicate or piecemeal publication. This directly impacts research content reliability and editorial peer review governance."
+    },
+    {
+      "raw_reason": "Taken from Dissertation/Thesis",
+      "canonical_reason": "Taken from Dissertation/Thesis",
+      "definition_used": "The duplicated or plagiarized content was taken from an academic dissertation or thesis.",
+      "problem_object": [
+        "text_article"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity",
+        "research_content_reliability"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition describes duplicated or plagiarized content from a dissertation/thesis, which directly implicates attribution/authorship integrity and can undermine research content reliability if the reused material is presented as original."
+    },
+    {
+      "raw_reason": "Taken via Peer Review",
+      "canonical_reason": "Taken via Peer Review",
+      "definition_used": "The duplicated or plagiarized content was taken during the peer review process.",
+      "problem_object": [
+        "text_article",
+        "references_attribution"
+      ],
+      "process_signal": [
+        "peer_review_compromised",
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "author",
+        "editor",
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity",
+        "editorial_peer_review_governance"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition describes content taken during peer review, indicating a breach of confidentiality and reuse of unpublished material. This directly impacts attribution integrity and editorial governance, as the peer review process was compromised."
+    },
+    {
+      "raw_reason": "Taken via Translation",
+      "canonical_reason": "Taken via Translation",
+      "definition_used": "The duplicated or plagiarized content was created via a translation from one language to another.",
+      "problem_object": [
+        "text_article"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity",
+        "research_content_reliability"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": true,
+      "caution": "Translation-based duplication implies plagiarism, which affects both attribution integrity and content originality. However, the definition does not specify whether the translation was authorized or involved misattribution, so both categories are assigned broadly.",
+      "semantic_rationale": "The definition describes duplicated/plagiarized content created via translation, directly implicating text reuse and authorship/attribution concerns, thus supporting attribution integrity and content reliability categories."
+    },
+    {
+      "raw_reason": "Temporary Removal",
+      "canonical_reason": "Temporary Removal",
+      "definition_used": "The original article is removed from the journal’s publishing platform and the notice states the removal will be for an undefined period of time.",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "removal_availability"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a status-only label indicating temporary removal without specifying underlying cause; it does not directly assert problems with research content, authorship, or editorial processes, but relates to post-publication transparency.",
+      "semantic_rationale": "The definition describes a temporary removal of an article from the publishing platform, which is a post-publication action affecting availability and transparency, fitting the post_publication_transparency_due_process_oversight category. No direct evidence of content reliability, authorship, or editorial governance issues is provided."
+    },
+    {
+      "raw_reason": "Transfer of Copyright and/or Ownership",
+      "canonical_reason": "Transfer of Copyright and/or Ownership",
+      "definition_used": "A change in the copyright and/or ownership of the article or any of its content.",
+      "problem_object": [
+        "legal_rights"
+      ],
+      "process_signal": [
+        "legal_process"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [],
+      "classification_strength": "ambiguous",
+      "main_figure_recommended": false,
+      "caution": "The definition describes a legal status change (copyright/ownership transfer) without indicating any problem with research content, authorship, peer review, or post-publication oversight. It is a metadata/legal event, not a substantive integrity issue.",
+      "semantic_rationale": "The definition refers to a change in copyright or ownership, which is a legal rights matter. It does not imply unreliability of research content, authorship/attribution issues, editorial/peer review problems, or post-publication transparency/due process concerns. Therefore, no manuscript category is assigned."
+    },
+    {
+      "raw_reason": "Unreliable Data",
+      "canonical_reason": "Unreliable Data",
+      "definition_used": "Any of the data is unreliable.",
+      "problem_object": [
+        "data"
+      ],
+      "process_signal": [],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition directly states that data is unreliable, which undermines the trustworthiness of research content, fitting the research_content_reliability category."
+    },
+    {
+      "raw_reason": "Unreliable Image",
+      "canonical_reason": "Unreliable Image",
+      "definition_used": "One or more images, or part(s) of one or more images, are unreliable.",
+      "problem_object": [
+        "image"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "None",
+      "semantic_rationale": "The definition directly states that images are unreliable, which undermines the trustworthiness of research content, fitting the research_content_reliability category. The process signal is notice_opacity because the reason indicates a lack of transparency about the image's reliability, and the actor is unclear as no specific source is mentioned."
+    },
+    {
+      "raw_reason": "Unreliable Results and/or Conclusions",
+      "canonical_reason": "Unreliable Results and/or Conclusions",
+      "definition_used": "Any of the results and/or conclusions are unreliable.",
+      "problem_object": [
+        "results_conclusions"
+      ],
+      "process_signal": [],
+      "actor_context": [
+        "unclear"
+      ],
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "classification_strength": "strict",
+      "main_figure_recommended": true,
+      "caution": "",
+      "semantic_rationale": "The definition directly states that results/conclusions are unreliable, which maps to research_content_reliability. No process or actor is specified, so actor_context is unclear."
+    },
+    {
+      "raw_reason": "Updated to Correction",
+      "canonical_reason": "Updated to Correction",
+      "definition_used": "The article has a correction after this notice.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "correction_update_process"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a status notice indicating a correction exists, not a direct cause of retraction. It provides metadata transparency but does not itself indicate a problem with research content, authorship, or editorial governance.",
+      "semantic_rationale": "The definition describes a post-publication update to a correction, which falls under post-publication transparency and due process oversight as it relates to the availability and status of the article after initial publication."
+    },
+    {
+      "raw_reason": "Updated to Expression of Concern",
+      "canonical_reason": "Updated to Expression of Concern",
+      "definition_used": "The article has an expression of concern after this notice.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a status/notice term indicating an expression of concern has been added, not a direct cause. It signals transparency but does not confirm a specific integrity problem.",
+      "semantic_rationale": "The definition describes a post-publication notice (expression of concern) added to the article, which falls under post-publication transparency and due process oversight. It does not directly assert issues with research content, authorship, or editorial governance, though it may be associated with such concerns."
+    },
+    {
+      "raw_reason": "Updated to Retraction",
+      "canonical_reason": "Updated to Retraction",
+      "definition_used": "The article has a retraction after this notice.",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a status-only notice indicating a subsequent retraction; it does not specify the underlying reason for retraction.",
+      "semantic_rationale": "The definition describes a metadata update indicating a retraction exists after this notice, which relates to post-publication transparency and notice status, but does not directly address research content, authorship, or editorial governance."
+    },
+    {
+      "raw_reason": "Upgrade/Update of Prior Notice(s)",
+      "canonical_reason": "Upgrade/Update of Prior Notice(s)",
+      "definition_used": "At least one prior notice for the article has been upgraded or updated with this notice.",
+      "problem_object": [
+        "availability_notice_status"
+      ],
+      "process_signal": [
+        "notice_opacity"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a metadata/status label indicating a change in notice status, not a direct cause of retraction. It does not imply specific content or process issues.",
+      "semantic_rationale": "The definition describes an update to a prior notice, which relates to post-publication transparency and due process oversight. It does not directly address research content, authorship, or editorial governance."
+    },
+    {
+      "raw_reason": "Withdrawn as Out of Date",
+      "canonical_reason": "Withdrawn as Out of Date",
+      "definition_used": "The article has been retracted as part of a journal’s process of keeping guidelines or reviews current for professional use.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "publication_policy_or_sanction"
+      ],
+      "actor_context": [
+        "journal_publisher"
+      ],
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a status-only notice about a journal's routine update process, not a substantive integrity concern. It does not imply unreliability of research content, authorship issues, or editorial misconduct.",
+      "semantic_rationale": "The definition describes a journal-driven process to keep guidelines or reviews current, which falls under post-publication transparency and due process oversight. No specific problem object beyond the article as a whole is indicated, and the process signal is a publication policy or sanction. The actor context is the journal/publisher. The classification is broad because the reason is procedural rather than indicative of a specific integrity breach."
+    },
+    {
+      "raw_reason": "Withdrawn to Publish in Different Journal",
+      "canonical_reason": "Withdrawn to Publish in Different Journal",
+      "definition_used": "The article was taken from one journal/platform or access type to be published in a different journal/platform or with a different access type.",
+      "problem_object": [
+        "article_general"
+      ],
+      "process_signal": [
+        "content_reuse_or_duplication_process"
+      ],
+      "actor_context": [
+        "author"
+      ],
+      "manuscript_categories": [
+        "editorial_peer_review_governance",
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "classification_strength": "broad",
+      "main_figure_recommended": false,
+      "caution": "This is a status/notice term describing a withdrawal for republication elsewhere. It does not directly indicate issues with research content, authorship, or peer review integrity, but relates to editorial governance and post-publication transparency.",
+      "semantic_rationale": "The definition describes an article being moved between journals/platforms, which involves editorial decisions and post-publication status changes, fitting editorial_peer_review_governance and post_publication_transparency_due_process_oversight. No direct evidence of research content or authorship issues."
+    }
+  ]
+}

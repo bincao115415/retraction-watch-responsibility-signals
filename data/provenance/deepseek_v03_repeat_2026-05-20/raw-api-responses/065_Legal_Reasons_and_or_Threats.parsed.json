@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Legal Reasons and/or Threats",
+  "canonical_reason": "Legal Reasons and/or Threats",
+  "definition_used": "When a journal/publisher/author/third party uses the phrase “legal reasons,” documents litigation or legal threats, or mentions one or more specific laws",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "legal_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "Legal reasons are a broad signal of external process, not directly indicating a specific manuscript integrity problem; main figure not recommended as it is a status/process notice.",
+  "semantic_rationale": "The definition describes legal reasons or threats as a process signal involving litigation or laws, which relates to post-publication oversight and due process, but does not inherently confirm a problem with research content, authorship, or editorial governance."
+}

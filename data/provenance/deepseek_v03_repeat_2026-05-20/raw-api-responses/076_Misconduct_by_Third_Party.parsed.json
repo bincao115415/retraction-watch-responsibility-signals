@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Misconduct by Third Party",
+  "canonical_reason": "Misconduct by Third Party",
+  "definition_used": "Statement by journal, publisher, company, institution, government agency or author that one or more third party(ies) committed misconduct.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "third_party_investigation"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The definition describes a statement about third-party misconduct, which is a transparency/due-process signal but does not directly assert a specific manuscript content or integrity problem. It is a broad oversight category.",
+  "semantic_rationale": "The reason indicates a statement about third-party misconduct, which relates to post-publication oversight and transparency processes, but lacks specificity about the manuscript's content reliability or authorship integrity."
+}

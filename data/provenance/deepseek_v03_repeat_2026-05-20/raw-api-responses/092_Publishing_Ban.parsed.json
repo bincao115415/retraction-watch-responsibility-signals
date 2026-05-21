@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Publishing Ban",
+  "canonical_reason": "Publishing Ban",
+  "definition_used": "When a journal/publisher states that no manuscripts will be accepted from one or more authors of the original article. Bans could be for a limited time or indefinitely.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "publication_policy_or_sanction"
+  ],
+  "actor_context": [
+    "journal_publisher",
+    "author"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "Publishing ban is a post-publication sanction, not a direct indicator of manuscript content or process flaws. It reflects journal/publisher policy enforcement.",
+  "semantic_rationale": "The definition describes a journal/publisher-imposed ban on future submissions from authors, which is a post-publication oversight action (publication_policy_or_sanction). It does not directly address research content, authorship integrity, or editorial governance, but fits post-publication transparency/due process/oversight broadly as a sanction notice."
+}

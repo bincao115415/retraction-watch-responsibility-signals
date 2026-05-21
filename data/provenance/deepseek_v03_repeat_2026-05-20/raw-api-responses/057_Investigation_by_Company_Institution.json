@@ -1,0 +1,28 @@
+{
+  "id": "1e94acbf-1993-4b37-8b09-fd4c11a8d751",
+  "object": "chat.completion",
+  "created": 1779256978,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Investigation by Company/Institution\",\n  \"canonical_reason\": \"Investigation by Company/Institution\",\n  \"definition_used\": \"An investigation by the company/institution listed as the affiliation of one or more authors.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"institutional_investigation\",\n  \"actor_context\": \"company_institution\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason indicates an investigation by the affiliated institution, which is a due-process signal but does not specify the underlying problem or outcome. It is a procedural metadata tag, not a direct indicator of manuscript content issues.\",\n  \"semantic_rationale\": \"The definition describes an investigation by the author's affiliated company/institution, which falls under post-publication oversight processes. It does not directly assert problems with research content, authorship, or editorial governance, so only the due-process category is assigned.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 663,
+    "completion_tokens": 242,
+    "total_tokens": 905,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 151
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

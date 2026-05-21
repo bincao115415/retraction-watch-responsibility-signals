@@ -1,0 +1,28 @@
+{
+  "id": "7255b5f8-290d-468d-959d-dd05995443c9",
+  "object": "chat.completion",
+  "created": 1779256639,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Concerns/Issues about Results and/or Conclusions\",\n  \"canonical_reason\": \"Concerns/Issues about Results and/or Conclusions\",\n  \"definition_used\": \"Any question, controversy or dispute about the results and/or conclusions.\",\n  \"problem_object\": \"results_conclusions\",\n  \"process_signal\": \"notice_opacity\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [\n    \"research_content_reliability\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"The reason is broad and does not specify the nature of the concern, so it may overlap with other categories if additional context is available.\",\n  \"semantic_rationale\": \"The definition directly addresses questions about results/conclusions, which falls under research content reliability. No specific process or actor is indicated, so process_signal is notice_opacity and actor_context is unclear.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 665,
+    "completion_tokens": 210,
+    "total_tokens": 875,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 25
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Manipulation of Data",
+  "canonical_reason": "Manipulation of Data.",
+  "definition_used": "Manipulation of any data.",
+  "problem_object": [
+    "data"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition 'Manipulation of any data' directly indicates compromised research content reliability, as data manipulation undermines the trustworthiness of findings."
+}

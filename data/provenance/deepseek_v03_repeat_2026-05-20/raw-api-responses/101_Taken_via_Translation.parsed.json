@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Taken via Translation",
+  "canonical_reason": "Taken via Translation",
+  "definition_used": "The duplicated or plagiarized content was created via a translation from one language to another.",
+  "problem_object": [
+    "text_article"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Translation-based duplication implies plagiarism, which affects both attribution integrity and content originality. However, the definition does not specify whether the translation was authorized or involved misattribution, so both categories are assigned broadly.",
+  "semantic_rationale": "The definition describes duplicated/plagiarized content created via translation, directly implicating text reuse and authorship/attribution concerns, thus supporting attribution integrity and content reliability categories."
+}

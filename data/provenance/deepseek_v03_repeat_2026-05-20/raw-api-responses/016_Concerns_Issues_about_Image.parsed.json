@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Concerns/Issues about Image",
+  "canonical_reason": "Concerns/Issues About Image",
+  "definition_used": "Any question, controversy or dispute about one or more images, or part(s) of one or more images.",
+  "problem_object": [
+    "image"
+  ],
+  "process_signal": [],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The definition is broad and does not specify the nature of the concern, so process_signal and actor_context are left as default/unclear. Only research_content_reliability is assigned because image concerns directly relate to the reliability of presented data.",
+  "semantic_rationale": "The definition describes a dispute about images, which directly pertains to the reliability of research content (data). No specific process or actor is indicated."
+}

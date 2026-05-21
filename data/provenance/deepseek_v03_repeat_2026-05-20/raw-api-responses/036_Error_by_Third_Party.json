@@ -1,0 +1,28 @@
+{
+  "id": "8efb3332-25b5-4350-a23f-d40a9bf9ebdd",
+  "object": "chat.completion",
+  "created": 1779256796,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Error by Third Party\",\n  \"canonical_reason\": \"Error by Third Party\",\n  \"definition_used\": \"An error attributed to any third party.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"third_party_investigation\"\n  ],\n  \"actor_context\": [\n    \"third_party\"\n  ],\n  \"manuscript_categories\": [],\n  \"classification_strength\": \"ambiguous\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition is too generic to determine which manuscript category applies. It only indicates an error by a third party without specifying the nature of the error or its impact on the manuscript's content, attribution, editorial process, or post-publication status.\",\n  \"semantic_rationale\": \"The definition 'An error attributed to any third party' does not provide enough detail to map to any specific manuscript-facing category. It could involve research content, authorship, editorial processes, or post-publication matters, but the definition alone does not specify. Therefore, no manuscript category is assigned.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 646,
+    "completion_tokens": 239,
+    "total_tokens": 885,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 6
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

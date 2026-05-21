@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Concerns/Issues about Methods",
+  "canonical_reason": "Concerns/Issues about Methods",
+  "definition_used": "Local CSV term not present in extracted Appendix B definitions; treated as concerns/issues about methods by semantic analogy.",
+  "problem_object": [
+    "methods_materials"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Definition is not from official Appendix B; assigned by semantic analogy. Actor context is unclear as the reason does not specify who raised concerns.",
+  "semantic_rationale": "Concerns about methods directly relate to the reliability of research content, as methods underpin the validity of results and conclusions."
+}

@@ -1,0 +1,26 @@
+{
+  "raw_reason": "Ethical Violations by Author",
+  "canonical_reason": "Ethical Violations by Author",
+  "definition_used": "When a journal/publisher/institution states that one or more authors have not met the journal/publisher/institution’s standards of publishing and/or research ethics. RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was an ethical violation), or when the ethical violation (as an additional reason) cannot be addressed by existing reasons.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation",
+    "institutional_investigation",
+    "publication_policy_or_sanction"
+  ],
+  "actor_context": [
+    "author",
+    "journal_publisher",
+    "company_institution"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The definition is broad and often used as a catch-all when specifics are unavailable. Without further details, the exact nature of the ethical violation is ambiguous, but it inherently involves author conduct and journal/institutional standards.",
+  "semantic_rationale": "The reason indicates a breach of publishing/research ethics by authors, as determined by a journal, publisher, or institution. This directly implicates author integrity (attribution_authorship_disclosure_integrity) and the governance of ethical standards (editorial_peer_review_governance). The problem object is set to article_general due to lack of specificity. Process signals reflect investigation and policy enforcement by the journal/publisher/institution."
+}

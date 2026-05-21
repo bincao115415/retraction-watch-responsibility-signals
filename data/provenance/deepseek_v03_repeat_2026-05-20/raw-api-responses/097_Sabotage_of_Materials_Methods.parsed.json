@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Sabotage of Materials/Methods",
+  "canonical_reason": "Sabotage of Materials/Methods",
+  "definition_used": "An intentional action by a third party, without the researchers’ knowledge or consent, to sabotage or contaminate experimental ingredients or processes in order to influence experimental outcome(s).",
+  "problem_object": [
+    "methods_materials"
+  ],
+  "process_signal": [
+    "third_party_investigation"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition describes intentional contamination of experimental materials by a third party, directly undermining the reliability of research content. The problem object is methods/materials, the process signal is third-party investigation, and the actor context is third party. This fits research_content_reliability strictly."
+}

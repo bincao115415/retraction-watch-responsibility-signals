@@ -1,0 +1,159 @@
+{
+  "override_version": "rw_llm_semantic_v0.3-api_post_codex_panel_taxonomy_freeze_2026-05-20",
+  "purpose": "Apply targeted, auditable corrections after Codex methods audit and the accepted 2026-05-20 cdeep+Codex panel taxonomy-freeze decisions. Raw API outputs remain preserved separately.",
+  "global_rules": [
+    "Retraction Watch Reason terms remain non-exclusive curated metadata signals, not fault, liability, cause, or responsibility determinations.",
+    "The four R/A/E/P domains are analyst-defined metadata signal domains for descriptive stratification.",
+    "Investigation-by-X labels identify investigation source/locus, not actor fault, oversight failure, or substantive cause.",
+    "Generic Misconduct-by-X and Miscommunication labels remain principal P-only in the main analysis for continuity but require contextual-exclusion sensitivity reporting.",
+    "Notice/status labels can retain semantic P mapping but remain contextual/not principal; No assigned primary domain means no principal R/A/E/P assignment, not absence of Retraction Watch metadata.",
+    "Object type governs plagiarism/duplication rules: text-only attribution, data/image evidence reliability, article-level R+A when appropriate."
+  ],
+  "overrides": {
+    "Investigation by Journal/Publisher": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "strict",
+      "caution": "Investigation source/locus signal only; not actor fault, oversight failure, or substantive cause. Included as post-publication process-source metadata."
+    },
+    "Investigation by Company/Institution": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "strict",
+      "caution": "Investigation source/locus signal only; not actor fault, oversight failure, or substantive cause. Included as post-publication process-source metadata."
+    },
+    "Investigation by ORI": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "strict",
+      "caution": "Investigation source/locus signal only; not actor fault, oversight failure, or substantive cause. Included as post-publication process-source metadata."
+    },
+    "Investigation by Third Party": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "strict",
+      "caution": "Investigation source/locus signal only; not actor fault, oversight failure, or substantive cause. Included as post-publication process-source metadata."
+    },
+    "Miscommunication with/by Author": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Communication-process signal only; not misconduct, fault, or substantive retraction mechanism. Contextual-exclusion sensitivity is required."
+    },
+    "Miscommunication with/by Company/Institution": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Communication-process signal only; not misconduct, fault, or substantive retraction mechanism. Contextual-exclusion sensitivity is required."
+    },
+    "Miscommunication with/by Journal/Publisher": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Communication-process signal only; not misconduct, fault, or substantive retraction mechanism. Contextual-exclusion sensitivity is required."
+    },
+    "Miscommunication with/by Third Party": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Communication-process signal only; not misconduct, fault, or substantive retraction mechanism. Contextual-exclusion sensitivity is required."
+    },
+    "Concerns/Issues about Third Party Involvement": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": false,
+      "classification_strength": "ambiguous",
+      "caution": "Third-party involvement is too broad for a main mechanism category; retained only as a broad process/oversight audit signal."
+    },
+    "Error by Third Party": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": false,
+      "classification_strength": "ambiguous",
+      "caution": "Third-party error is non-specific; retained only as a broad process/oversight audit signal."
+    },
+    "Misconduct by Author": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Broad misconduct-process metadata; do not infer content, attribution, editorial mechanism, or actor responsibility unless a mechanism-specific co-label is present. Contextual-exclusion sensitivity is required."
+    },
+    "Misconduct by Company/Institution": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Broad misconduct-process metadata; do not infer content, attribution, editorial mechanism, or actor responsibility unless a mechanism-specific co-label is present. Contextual-exclusion sensitivity is required."
+    },
+    "Misconduct by Third Party": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Broad misconduct-process metadata; do not infer content, attribution, editorial mechanism, or actor responsibility unless a mechanism-specific co-label is present. Contextual-exclusion sensitivity is required."
+    },
+    "Misconduct - Official Investigation(s) and/or Finding(s)": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "strict",
+      "caution": "Official investigation/finding signal; mechanism-specific R/A/E domains require separate data, image, authorship, or peer-review labels."
+    },
+    "Ethical Violations by Author": {
+      "manuscript_categories": [
+        "post_publication_transparency_due_process_oversight"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Generic ethical-violation label used when no more specific reason is available; do not infer content, attribution, or editorial mechanism from this label alone."
+    },
+    "Computer-Aided Content or Computer-Generated Content": {
+      "manuscript_categories": [
+        "research_content_reliability"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Content-authenticity/reliability signal only for the principal analysis; do not infer authorship or disclosure failure without an explicit co-label."
+    },
+    "Salami Slicing": {
+      "manuscript_categories": [
+        "research_content_reliability",
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Content partitioning and publication-integrity signal; editorial/peer-review process assignment requires a separate editorial or peer-review reason label."
+    },
+    "Duplication of Text": {
+      "manuscript_categories": [
+        "attribution_authorship_disclosure_integrity"
+      ],
+      "main_figure_recommended": true,
+      "classification_strength": "broad",
+      "caution": "Text-only duplication is treated as attribution/publication-integrity metadata, not research-content reliability; data, image, and article-level duplication follow separate object rules."
+    }
+  }
+}

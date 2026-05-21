@@ -1,0 +1,28 @@
+{
+  "id": "2f673aca-caa9-4561-932f-46976e27ac76",
+  "object": "chat.completion",
+  "created": 1779256784,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Error by Journal/Publisher\",\n  \"canonical_reason\": \"Error by Journal/Publisher\",\n  \"definition_used\": \"An error attributed to a journal/publisher.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"journal_publisher_error\"\n  ],\n  \"actor_context\": [\n    \"journal_publisher\"\n  ],\n  \"manuscript_categories\": [\n    \"editorial_peer_review_governance\",\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"The definition is broad; the error could range from production mistakes to editorial process failures. Without specifics, it is not possible to determine if research content itself is affected, so research_content_reliability is not assigned. Attribution/authorship integrity is not directly indicated.\",\n  \"semantic_rationale\": \"The definition attributes an error to the journal/publisher, which directly implicates editorial and production governance (editorial_peer_review_governance) and may involve post-publication transparency if the error leads to corrections or notices (post_publication_transparency_due_process_oversight). The problem object is the article in general, as the error is not specified to data, images, etc. The process signal is journal_publisher_error, and the actor context is journal_publisher.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 649,
+    "completion_tokens": 317,
+    "total_tokens": 966,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 9
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

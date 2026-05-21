@@ -1,0 +1,28 @@
+{
+  "id": "6f487870-c03b-495d-9da5-2bd60360d6c8",
+  "object": "chat.completion",
+  "created": 1779257318,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Results Not Reproducible\",\n  \"canonical_reason\": \"Results Not Reproducible\",\n  \"definition_used\": \"When repetition(s) of experiment(s), using the same materials and methods, failed to replicate the results in the original article.\",\n  \"problem_object\": [\"results_conclusions\"],\n  \"process_signal\": [\"journal_publisher_investigation\", \"third_party_investigation\", \"institutional_investigation\"],\n  \"actor_context\": [\"author\", \"journal_publisher\", \"third_party\", \"company_institution\"],\n  \"manuscript_categories\": [\"research_content_reliability\"],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"None\",\n  \"semantic_rationale\": \"The definition directly addresses failure to replicate results, which undermines the reliability of the research content. This maps strictly to research_content_reliability.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 667,
+    "completion_tokens": 207,
+    "total_tokens": 874,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 27
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

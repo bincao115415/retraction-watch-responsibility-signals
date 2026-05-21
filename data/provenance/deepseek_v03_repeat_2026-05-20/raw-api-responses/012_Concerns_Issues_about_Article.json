@@ -1,0 +1,28 @@
+{
+  "id": "7750f430-2cbc-4a65-87bf-1a25cc25ad05",
+  "object": "chat.completion",
+  "created": 1779256573,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Concerns/Issues about Article\",\n  \"canonical_reason\": \"Concerns/Issues about Article\",\n  \"definition_used\": \"Any question, controversy or dispute about published content, or undefined sections of it.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"notice_opacity\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [],\n  \"classification_strength\": \"ambiguous\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition is too vague to assign specific manuscript-facing categories; it merely indicates an unspecified concern without detailing the nature of the issue.\",\n  \"semantic_rationale\": \"The definition describes a general, undefined concern about published content, lacking specificity to map to any of the four manuscript categories.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 662,
+    "completion_tokens": 181,
+    "total_tokens": 843,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 22
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

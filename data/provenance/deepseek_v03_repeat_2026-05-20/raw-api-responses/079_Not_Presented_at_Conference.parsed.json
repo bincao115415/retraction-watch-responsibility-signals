@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Not Presented at Conference",
+  "canonical_reason": "Not Presented at Conference",
+  "definition_used": "The paper/abstract/poster was not presented at the conference for which it was accepted.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "publication_policy_or_sanction"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The reason describes a conference presentation status, not a manuscript integrity issue. It does not directly map to any of the four manuscript-facing categories, which focus on research content, attribution, editorial governance, or post-publication oversight.",
+  "semantic_rationale": "The definition indicates that the work was not presented at the intended conference, which is a procedural or policy matter (publication_policy_or_sanction) involving the author. It does not inherently imply issues with research content reliability, authorship integrity, editorial/peer review governance, or post-publication transparency processes."
+}

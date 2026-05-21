@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Concerns/Issues about Authorship/Affiliation",
+  "canonical_reason": "Concerns/Issues About Authorship /Affiliation",
+  "definition_used": "Any question, controversy or dispute about authorship and/or affiliation, except for false/forged authorship or false/forged affiliation. False/forged authorship or false/forged affiliation are covered under their own reasons.",
+  "problem_object": [
+    "authorship_affiliation"
+  ],
+  "process_signal": [
+    "authorship_publication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition explicitly covers disputes about authorship/affiliation, directly aligning with the attribution_authorship_disclosure_integrity category. The problem object is authorship_affiliation, process signal is authorship_publication_process, and actor context is author, as these are inherent to authorship concerns."
+}

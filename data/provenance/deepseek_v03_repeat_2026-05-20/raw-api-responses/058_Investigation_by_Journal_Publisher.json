@@ -1,0 +1,28 @@
+{
+  "id": "beaa832c-7663-45ee-8c76-1f4e6589a711",
+  "object": "chat.completion",
+  "created": 1779256987,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Investigation by Journal/Publisher\",\n  \"canonical_reason\": \"Investigation by Journal/Publisher\",\n  \"definition_used\": \"An investigation by the journal/publisher of the article.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"journal_publisher_investigation\",\n  \"actor_context\": \"journal_publisher\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This reason indicates an investigation process by the journal/publisher, not the underlying cause. It is a procedural metadata signal and does not specify what content or conduct issue triggered the investigation. Therefore, it maps only to post-publication oversight and not to content or authorship categories without further evidence.\",\n  \"semantic_rationale\": \"The definition describes a journal/publisher-led investigation, which is a post-publication oversight process. It does not inherently indicate problems with research content, authorship, or editorial governance, so only the post_publication_transparency_due_process_oversight category is assigned.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 655,
+    "completion_tokens": 256,
+    "total_tokens": 911,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

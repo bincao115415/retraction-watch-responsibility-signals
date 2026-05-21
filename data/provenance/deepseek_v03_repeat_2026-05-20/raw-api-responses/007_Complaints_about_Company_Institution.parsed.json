@@ -1,0 +1,23 @@
+{
+  "raw_reason": "Complaints about Company/Institution",
+  "canonical_reason": "Complaints about Company/Institution",
+  "definition_used": "Complaints about one or more companies/institutions in addition to concerns about the original article. RW may also use this reason for cases in which something about one or more companies/institutions is called into question following any notice, i.e., when complaints escalate to being entirely company/institution-based.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "third_party_investigation",
+    "institutional_investigation"
+  ],
+  "actor_context": [
+    "company_institution",
+    "third_party"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The reason focuses on complaints about companies/institutions, which may relate to research conduct but does not directly assert issues with research content, authorship, or editorial processes. It primarily signals post-publication scrutiny involving institutional actors.",
+  "semantic_rationale": "Complaints about companies/institutions imply external or institutional investigation processes, aligning with post-publication oversight. The definition does not specify reliability of research content, authorship, or editorial governance, so only the oversight category is assigned broadly."
+}

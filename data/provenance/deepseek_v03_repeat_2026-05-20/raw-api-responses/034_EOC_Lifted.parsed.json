@@ -1,0 +1,21 @@
+{
+  "raw_reason": "EOC Lifted",
+  "canonical_reason": "EOC Lifted",
+  "definition_used": "Expression of Concern has been removed or is no longer applicable. Not to be confused with an “Upgraded to Retraction”",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This is a status-only notice about the removal of an Expression of Concern, not about the underlying content. It does not directly indicate a problem with research content, authorship, or editorial processes, but relates to post-publication transparency.",
+  "semantic_rationale": "The definition describes a change in the status of a notice (Expression of Concern lifted), which falls under post-publication transparency and due process oversight. It does not inherently signal issues with research content, authorship, or editorial governance, but rather a metadata update about a previous notice."
+}

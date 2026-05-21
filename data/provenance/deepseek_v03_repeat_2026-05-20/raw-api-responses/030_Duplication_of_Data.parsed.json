@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Duplication of Data",
+  "canonical_reason": "Duplication of Data",
+  "definition_used": "Duplication of any of the data.",
+  "problem_object": [
+    "data"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "Duplication of data directly concerns the reliability of research content, as it involves the integrity of the data presented."
+}

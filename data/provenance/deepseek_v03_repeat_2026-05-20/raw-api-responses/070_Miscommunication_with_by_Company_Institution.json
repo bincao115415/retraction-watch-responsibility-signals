@@ -1,0 +1,28 @@
+{
+  "id": "3ef77ee2-bdac-41bd-bc3b-7a1dfe95f696",
+  "object": "chat.completion",
+  "created": 1779257096,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Miscommunication with/by Company/Institution\",\n  \"canonical_reason\": \"Miscommunication with/by Company/Institution\",\n  \"definition_used\": \"One or more companies/institutions misunderstood one or more parts of a message sent to and/or from one or more companies/institutions.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"notice_opacity\",\n  \"actor_context\": \"company_institution\",\n  \"manuscript_categories\": [],\n  \"classification_strength\": \"ambiguous\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition describes a communication misunderstanding involving companies/institutions, but does not specify any impact on research content, authorship, editorial processes, or post-publication oversight. It is a status/notice about a procedural miscommunication, not a substantive manuscript integrity issue.\",\n  \"semantic_rationale\": \"The reason indicates a misunderstanding in communication between companies/institutions, which is a procedural notice without direct implication for the reliability of research content, authorship integrity, editorial governance, or post-publication due process. It is too ambiguous to assign to any manuscript-facing category.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 672,
+    "completion_tokens": 247,
+    "total_tokens": 919,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 32
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

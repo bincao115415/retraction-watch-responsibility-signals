@@ -1,0 +1,26 @@
+{
+  "raw_reason": "Original Data and/or Images not Provided and/or not Available",
+  "canonical_reason": "Original Data and/or Images not Provided and/or not Available",
+  "definition_used": "The original data or images for the published study is no longer available or is not given to the editorial staff.",
+  "problem_object": [
+    "data",
+    "image"
+  ],
+  "process_signal": [
+    "notice_opacity",
+    "removal_availability"
+  ],
+  "actor_context": [
+    "author",
+    "editor",
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition describes unavailability or non-provision of original data/images to editorial staff, directly impacting research content reliability (inability to verify underlying data) and post-publication transparency (lack of access for scrutiny)."
+}

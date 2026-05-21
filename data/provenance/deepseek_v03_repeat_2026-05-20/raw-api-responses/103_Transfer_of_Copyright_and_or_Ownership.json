@@ -1,0 +1,28 @@
+{
+  "id": "7934281b-506d-4734-b72b-405c57bdac86",
+  "object": "chat.completion",
+  "created": 1779257404,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Transfer of Copyright and/or Ownership\",\n  \"canonical_reason\": \"Transfer of Copyright and/or Ownership\",\n  \"definition_used\": \"A change in the copyright and/or ownership of the article or any of its content.\",\n  \"problem_object\": \"legal_rights\",\n  \"process_signal\": \"legal_process\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [],\n  \"classification_strength\": \"ambiguous\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition describes a legal status change (copyright/ownership transfer) without indicating any problem with research content, authorship, peer review, or post-publication oversight. It is a metadata/legal event, not a substantive integrity issue.\",\n  \"semantic_rationale\": \"The definition refers to a change in copyright or ownership, which is a legal rights matter. It does not imply unreliability of research content, authorship/attribution issues, editorial/peer review problems, or post-publication transparency/due process concerns. Therefore, no manuscript category is assigned.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 659,
+    "completion_tokens": 234,
+    "total_tokens": 893,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 19
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

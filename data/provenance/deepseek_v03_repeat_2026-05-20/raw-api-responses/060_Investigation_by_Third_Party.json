@@ -1,0 +1,28 @@
+{
+  "id": "522073dd-fa90-4204-af99-47989e490ee4",
+  "object": "chat.completion",
+  "created": 1779257008,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Investigation by Third Party\",\n  \"canonical_reason\": \"Investigation by Third Party\",\n  \"definition_used\": \"An investigation by any third party that is not the United States Office of Research Integrity (ORI).\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"third_party_investigation\",\n  \"actor_context\": \"third_party\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason indicates an investigation by a third party, which is a process signal. It does not specify the underlying problem or outcome, so it is assigned broadly to post-publication oversight. It is not specific enough for main-figure prevalence.\",\n  \"semantic_rationale\": \"The definition describes an investigation by a non-ORI third party, which is a post-publication oversight process. The problem object is set to article_general as the investigation scope is unspecified. The process signal is third_party_investigation, and the actor context is third_party. The manuscript category post_publication_transparency_due_process_oversight is assigned because the investigation relates to transparency and due process after publication.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 663,
+    "completion_tokens": 289,
+    "total_tokens": 952,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 151
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

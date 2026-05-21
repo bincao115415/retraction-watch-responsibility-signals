@@ -1,0 +1,11 @@
+dataset,measure,flag,n,denominator,percent,partial_2026_included,latest_retraction_date
+retractions_2000_2026_including_partial_2026,R,maincat_research_content_reliability,41933,64298,65.2166,True,2026-05-06
+retractions_2000_2026_including_partial_2026,A,maincat_attribution_authorship_disclosure_integrity,33954,64298,52.8072,True,2026-05-06
+retractions_2000_2026_including_partial_2026,E,maincat_editorial_peer_review_governance,25513,64298,39.6793,True,2026-05-06
+retractions_2000_2026_including_partial_2026,P,maincat_post_publication_transparency_due_process_oversight,36359,64298,56.5476,True,2026-05-06
+retractions_2000_2026_including_partial_2026,No assigned primary domain,principal_domain_count,11086,64298,17.2416,True,2026-05-06
+retractions_2000_2026_including_partial_2026,One assigned primary domain,principal_domain_count,10550,64298,16.408,True,2026-05-06
+retractions_2000_2026_including_partial_2026,Two assigned primary domains,principal_domain_count,18221,64298,28.3384,True,2026-05-06
+retractions_2000_2026_including_partial_2026,Three assigned primary domains,principal_domain_count,6997,64298,10.8821,True,2026-05-06
+retractions_2000_2026_including_partial_2026,Four assigned primary domains,principal_domain_count,17444,64298,27.1299,True,2026-05-06
+retractions_2000_2026_including_partial_2026,Two or more primary domains,principal_domain_count,42662,64298,66.3504,True,2026-05-06

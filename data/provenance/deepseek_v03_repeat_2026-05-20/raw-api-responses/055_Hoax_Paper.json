@@ -1,0 +1,28 @@
+{
+  "id": "46e1ed5b-89dc-46e6-950f-5d571adf0683",
+  "object": "chat.completion",
+  "created": 1779256962,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Hoax Paper\",\n  \"canonical_reason\": \"Hoax Paper\",\n  \"definition_used\": \"The paper was intentionally drafted with fabricated or falsified data or other content with the goal of testing a journal or publisher’s manuscript acceptance policies.\",\n  \"problem_object\": [\n    \"data\",\n    \"results_conclusions\",\n    \"text_article\",\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"editorial_breach\",\n    \"publication_policy_or_sanction\"\n  ],\n  \"actor_context\": [\n    \"author\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\",\n    \"editorial_peer_review_governance\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition describes intentional fabrication/falsification of data or content to test journal policies, directly undermining research content reliability and exposing editorial/peer review governance failures.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 665,
+    "completion_tokens": 230,
+    "total_tokens": 895,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

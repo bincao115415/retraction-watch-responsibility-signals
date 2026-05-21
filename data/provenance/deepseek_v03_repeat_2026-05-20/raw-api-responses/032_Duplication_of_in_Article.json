@@ -1,0 +1,28 @@
+{
+  "id": "858ac613-7c8a-48af-8baa-9b334fdec23d",
+  "object": "chat.completion",
+  "created": 1779256756,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Duplication of/in Article\",\n  \"canonical_reason\": \"Duplication of/in Article\",\n  \"definition_used\": \"Duplication of a published item, or undefined sections of it.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"content_reuse_or_duplication_process\"\n  ],\n  \"actor_context\": [\n    \"unclear\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\",\n    \"attribution_authorship_disclosure_integrity\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"Duplication may overlap with plagiarism or self-plagiarism, but the definition is broad and does not specify intent or source. Actor context is unclear as the definition does not indicate who identified or investigated the duplication.\",\n  \"semantic_rationale\": \"Duplication of a published item or sections of it directly impacts the reliability of research content (research_content_reliability) and raises concerns about proper attribution and disclosure (attribution_authorship_disclosure_integrity). The problem object is the article as a whole, and the process signal is content reuse or duplication. No specific actor is mentioned in the definition.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 655,
+    "completion_tokens": 281,
+    "total_tokens": 936,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 15
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

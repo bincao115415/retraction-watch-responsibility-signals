@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Conflict of Interest",
+  "canonical_reason": "Conflict of Interest",
+  "definition_used": "Any question, controversy or dispute about author(s), editor(s), any third party and/or peer reviewer(s) having affiliations with companies, associations or institutions that may serve to influence how they conduct their role in any part of the research and/or publication process(es).",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "editorial_breach"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Conflict of Interest is a broad signal that can affect multiple stages of the research and publication process. It primarily indicates a failure in disclosure or governance, but may also indirectly impact research content reliability if the conflict influenced study design or interpretation. The assignment to manuscript categories is based on the definition's emphasis on roles in the research/publication process, not on proven bias.",
+  "semantic_rationale": "The definition centers on questions about affiliations that may influence conduct in the research or publication process. This directly implicates attribution/authorship/disclosure integrity (failure to disclose conflicts) and editorial/peer review governance (compromised impartiality of editors or reviewers). It does not inherently assert that the research content itself is unreliable, but the potential influence on any part of the process justifies broad inclusion under these two categories."
+}

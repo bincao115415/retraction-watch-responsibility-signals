@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Unreliable Data",
+  "canonical_reason": "Unreliable Data",
+  "definition_used": "Any of the data is unreliable.",
+  "problem_object": [
+    "data"
+  ],
+  "process_signal": [],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition directly states that data is unreliable, which undermines the trustworthiness of research content, fitting the research_content_reliability category."
+}

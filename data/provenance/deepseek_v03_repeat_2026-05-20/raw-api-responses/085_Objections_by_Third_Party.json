@@ -1,0 +1,28 @@
+{
+  "id": "b0c09cd3-d96c-4e43-b3d5-bdeec0f36214",
+  "object": "chat.completion",
+  "created": 1779257242,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Objections by Third Party\",\n  \"canonical_reason\": \"Objections by Third Party\",\n  \"definition_used\": \"One or more third parties objected to the notice or the wording of the notice.\",\n  \"problem_object\": [\n    \"availability_notice_status\"\n  ],\n  \"process_signal\": [\n    \"notice_opacity\",\n    \"third_party_investigation\"\n  ],\n  \"actor_context\": [\n    \"third_party\"\n  ],\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason describes a post-publication objection to the notice itself, not necessarily the underlying research content. It is a transparency/process signal, not a direct indicator of manuscript content issues.\",\n  \"semantic_rationale\": \"The definition focuses on third-party objections to the notice or its wording, which directly relates to post-publication transparency and due process oversight. It does not inherently imply issues with research content, authorship, or editorial governance, though it may accompany such issues. The primary category is post_publication_transparency_due_process_oversight because the objection concerns the notice's transparency or wording.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 656,
+    "completion_tokens": 281,
+    "total_tokens": 937,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 16
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

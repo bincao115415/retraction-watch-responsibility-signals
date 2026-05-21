@@ -1,0 +1,26 @@
+{
+  "raw_reason": "Results Not Reproducible",
+  "canonical_reason": "Results Not Reproducible",
+  "definition_used": "When repetition(s) of experiment(s), using the same materials and methods, failed to replicate the results in the original article.",
+  "problem_object": [
+    "results_conclusions"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation",
+    "third_party_investigation",
+    "institutional_investigation"
+  ],
+  "actor_context": [
+    "author",
+    "journal_publisher",
+    "third_party",
+    "company_institution"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition directly addresses failure to replicate results, which undermines the reliability of the research content. This maps strictly to research_content_reliability."
+}

@@ -1,0 +1,23 @@
+{
+  "raw_reason": "Misconduct - Official Investigation(s) and/or Finding(s)",
+  "canonical_reason": "Misconduct – Official Investigation/Finding",
+  "definition_used": "An investigation by an incorporated company, institution or government agency into misconduct allegations (founded or unfounded) and/or the finding(s) of misconduct by an incorporated company, institution or government agency.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "institutional_investigation",
+    "official_misconduct_process"
+  ],
+  "actor_context": [
+    "company_institution",
+    "ori_government"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The reason indicates an official investigation or finding of misconduct, which is a post-publication oversight process. It does not specify the nature of the misconduct (e.g., data fabrication, authorship issues), so it cannot be directly mapped to research content reliability or attribution integrity without further details. It is a status/process signal rather than a substantive content issue.",
+  "semantic_rationale": "The definition describes an official investigation or finding by an institution or government agency, which aligns with post-publication oversight and due process. The problem object is set to article_general because the misconduct could pertain to any aspect of the article. The process signals are institutional_investigation and official_misconduct_process, and actor_context includes company_institution and ori_government. The manuscript category post_publication_transparency_due_process_oversight is assigned because the investigation/finding is a transparency and oversight mechanism after publication."
+}

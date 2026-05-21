@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Complaints about Author",
+  "canonical_reason": "Complaints about Author",
+  "definition_used": "Complaints about one or more authors in addition to concerns about the original article. RW may also use this reason for cases in which something about one or more authors is called into question following any notice, i.e., when complaints escalate to being entirely author-based.",
+  "problem_object": [
+    "authorship_affiliation"
+  ],
+  "process_signal": [
+    "authorship_publication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The definition is broad and covers complaints about authors that may relate to various aspects of authorship integrity, but does not specify the nature of the complaints. It is assumed that such complaints typically involve authorship attribution or disclosure issues, but other categories could apply if additional context were available.",
+  "semantic_rationale": "The definition explicitly mentions complaints about authors, which directly relates to authorship integrity and disclosure. The problem object is authorship/affiliation, and the process signal is the authorship/publication process. The actor context is the author. This supports the attribution_authorship_disclosure_integrity category."
+}

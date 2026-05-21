@@ -1,0 +1,28 @@
+{
+  "id": "3f5c599a-55f8-4923-81ff-945def4ced4f",
+  "object": "chat.completion",
+  "created": 1779257123,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Misconduct - Official Investigation(s) and/or Finding(s)\",\n  \"canonical_reason\": \"Misconduct – Official Investigation/Finding\",\n  \"definition_used\": \"An investigation by an incorporated company, institution or government agency into misconduct allegations (founded or unfounded) and/or the finding(s) of misconduct by an incorporated company, institution or government agency.\",\n  \"problem_object\": [\"article_general\"],\n  \"process_signal\": [\"institutional_investigation\", \"official_misconduct_process\"],\n  \"actor_context\": [\"company_institution\", \"ori_government\"],\n  \"manuscript_categories\": [\"post_publication_transparency_due_process_oversight\"],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason indicates an official investigation or finding of misconduct, which is a post-publication oversight process. It does not specify the nature of the misconduct (e.g., data fabrication, authorship issues), so it cannot be directly mapped to research content reliability or attribution integrity without further details. It is a status/process signal rather than a substantive content issue.\",\n  \"semantic_rationale\": \"The definition describes an official investigation or finding by an institution or government agency, which aligns with post-publication oversight and due process. The problem object is set to article_general because the misconduct could pertain to any aspect of the article. The process signals are institutional_investigation and official_misconduct_process, and actor_context includes company_institution and ori_government. The manuscript category post_publication_transparency_due_process_oversight is assigned because the investigation/finding is a transparency and oversight mechanism after publication.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 709,
+    "completion_tokens": 362,
+    "total_tokens": 1071,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 69
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

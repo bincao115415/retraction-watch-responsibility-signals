@@ -103,6 +103,20 @@ python3 scripts/apply_rw_v03_postaudit_overrides.py
 
 `DEEPSEEK_API_KEY` must be available in the environment. Do not commit credentials.
 
+Candidate figures from the final v0.3 `maincat_*` fields can be regenerated with:
+
+```bash
+python3 scripts/generate_nature_style_candidate_figures_v03.py
+```
+
+If the default `python3` environment lacks `matplotlib`, use the local Anaconda interpreter used for the checked run:
+
+```bash
+/opt/anaconda3/bin/python3 scripts/generate_nature_style_candidate_figures_v03.py
+```
+
+The script writes PNG/PDF/SVG files plus source-data CSVs to `figures/v0.3-maincat-candidates/`. Final Nature-facing captions or manuscript prose should be routed through a formal writing pass before submission.
+
 ## Outputs
 
 Typical output directory:

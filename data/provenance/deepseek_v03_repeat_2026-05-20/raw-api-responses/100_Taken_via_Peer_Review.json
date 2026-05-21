@@ -1,0 +1,28 @@
+{
+  "id": "0c21a40b-3238-4bc4-8e8e-14145f8c9cb8",
+  "object": "chat.completion",
+  "created": 1779257376,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Taken via Peer Review\",\n  \"canonical_reason\": \"Taken via Peer Review\",\n  \"definition_used\": \"The duplicated or plagiarized content was taken during the peer review process.\",\n  \"problem_object\": [\n    \"text_article\",\n    \"references_attribution\"\n  ],\n  \"process_signal\": [\n    \"peer_review_compromised\",\n    \"content_reuse_or_duplication_process\"\n  ],\n  \"actor_context\": [\n    \"author\",\n    \"editor\",\n    \"journal_publisher\"\n  ],\n  \"manuscript_categories\": [\n    \"attribution_authorship_disclosure_integrity\",\n    \"editorial_peer_review_governance\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition describes content taken during peer review, indicating a breach of confidentiality and reuse of unpublished material. This directly impacts attribution integrity and editorial governance, as the peer review process was compromised.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 653,
+    "completion_tokens": 233,
+    "total_tokens": 886,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 13
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

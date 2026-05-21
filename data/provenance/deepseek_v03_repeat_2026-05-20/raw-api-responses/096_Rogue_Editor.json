@@ -1,0 +1,28 @@
+{
+  "id": "8bdcc9b5-bb07-4d8e-9988-a7151d2ac7ae",
+  "object": "chat.completion",
+  "created": 1779257340,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Rogue Editor\",\n  \"canonical_reason\": \"Rogue Editor\",\n  \"definition_used\": \"Used when an editor’s credentials are false/forged or when an editor subverts one or more processes under their purview. An “editor” may be an established editor affiliated with the journal or a guest editor.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"editorial_breach\",\n    \"peer_review_compromised\"\n  ],\n  \"actor_context\": [\n    \"editor\"\n  ],\n  \"manuscript_categories\": [\n    \"editorial_peer_review_governance\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"None\",\n  \"semantic_rationale\": \"The definition describes an editor subverting processes under their purview, which directly maps to editorial/peer review governance failures. The actor is explicitly the editor, and the process signals include editorial breach and compromised peer review.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 683,
+    "completion_tokens": 235,
+    "total_tokens": 918,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 43
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

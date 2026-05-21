@@ -16,9 +16,9 @@ from pathlib import Path
 
 PROJECT = Path('/Users/Shared/Hermes/workspaces/research/projects/publication/retractedpublications')
 BASE = PROJECT / 'data' / 'rw-derived' / '2026-05-15-llm-semantic-v0.3-api'
-RAW_TAX = BASE / 'reason_semantic_taxonomy.llm_v0.3-api.json'
-OVERRIDES = BASE / 'post_codex_targeted_overrides.v0.3-api.json'
-FINAL_TAX = BASE / 'reason_semantic_taxonomy.llm_v0.3-api.final.json'
+RAW_TAX = BASE / 'reason_semantic_taxonomy.json'
+OVERRIDES = BASE / 'taxonomy_overrides.json'
+FINAL_TAX = BASE / 'reason_semantic_taxonomy.json'
 
 CATEGORY_IDS = [
     'research_content_reliability',
@@ -103,7 +103,7 @@ def apply_overrides():
     tax['final_manuscript_category_explanations'] = CATEGORY_EXPLANATIONS_FINAL
     tax['main_figure_rule'] = 'Use maincat_* flags generated only from reason items with main_figure_recommended=true. cat_* flags preserve broader semantic/audit category assignments.'
     FINAL_TAX.write_text(json.dumps(tax, ensure_ascii=False, indent=2), encoding='utf-8')
-    (BASE / 'applied_post_codex_targeted_overrides.v0.3-api.json').write_text(json.dumps(applied, ensure_ascii=False, indent=2), encoding='utf-8')
+    (BASE / 'taxonomy_overrides_applied.json').write_text(json.dumps(applied, ensure_ascii=False, indent=2), encoding='utf-8')
     return tax, applied
 
 
@@ -134,7 +134,7 @@ def build_records(tax):
                 'raw_reason': row['Reason'], 'canonical_reasons': ';'.join(canons), 'manuscript_categories': ';'.join(sorted(set(cats))), 'main_figure_categories': ';'.join(sorted(set(maincats))),
                 'n_raw_reasons': len(reasons), 'n_manuscript_categories': len(set(cats)), 'n_main_figure_categories': len(set(maincats)), **flags
             })
-    out = BASE / 'record_level_binary.llm_v0.3-api.final.csv'
+    out = BASE / 'record_level_binary.csv'
     with out.open('w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader(); w.writerows(rows)
@@ -151,7 +151,7 @@ def prevalence(rows):
         for flag in ALL_FLAGS:
             n = sum(int(r[flag]) for r in subset)
             out.append({'dataset': label, 'flag': flag, 'n': n, 'denominator': denom, 'percent': round(n / denom * 100, 4) if denom else 0})
-    path = BASE / 'prevalence_summary.llm_v0.3-api.final.csv'
+    path = BASE / 'prevalence_summary.csv'
     with path.open('w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, fieldnames=list(out[0].keys()))
         w.writeheader(); w.writerows(out)
@@ -181,7 +181,7 @@ def main():
         'main_category_prevalence_2000_2025': [r for r in prev if r['dataset']=='retractions_2000_2025' and r['flag'].startswith('maincat_')],
         'audit_category_prevalence_2000_2025': [r for r in prev if r['dataset']=='retractions_2000_2025' and r['flag'].startswith('cat_')],
     }
-    (BASE / 'v0.3_api_final_validation_report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+    (BASE / 'validation_report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
     print('WROTE', FINAL_TAX)
     print('WROTE', record_path)
     print('WROTE', prev_path)

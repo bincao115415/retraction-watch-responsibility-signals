@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Investigation by Company/Institution",
+  "canonical_reason": "Investigation by Company/Institution",
+  "definition_used": "An investigation by the company/institution listed as the affiliation of one or more authors.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "institutional_investigation"
+  ],
+  "actor_context": [
+    "company_institution"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The reason indicates an investigation by the affiliated institution, which is a due-process signal but does not specify the underlying problem or outcome. It is a procedural metadata tag, not a direct indicator of manuscript content issues.",
+  "semantic_rationale": "The definition describes an investigation by the author's affiliated company/institution, which falls under post-publication oversight processes. It does not directly assert problems with research content, authorship, or editorial governance, so only the due-process category is assigned."
+}

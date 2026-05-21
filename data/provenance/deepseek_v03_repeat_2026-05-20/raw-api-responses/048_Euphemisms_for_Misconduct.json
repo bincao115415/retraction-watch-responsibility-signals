@@ -1,0 +1,28 @@
+{
+  "id": "a8f10519-dae1-45c7-9c6a-69c92fcd306b",
+  "object": "chat.completion",
+  "created": 1779256906,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Euphemisms for Misconduct\",\n  \"canonical_reason\": \"Euphemisms for Misconduct\",\n  \"definition_used\": \"The notice does not explicitly state that the reason for the notice is due to misconduct, despite a journal, publisher, company, institution, government agency or author explicitly stating that there was misconduct.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"notice_opacity\"\n  ],\n  \"actor_context\": [\n    \"journal_publisher\",\n    \"company_institution\",\n    \"author\",\n    \"ori_government\"\n  ],\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This reason describes a transparency failure in the notice itself, not a direct problem with the research content, authorship, or editorial process. It is a metadata/status signal about how misconduct is communicated, not a substantive category of manuscript unreliability.\",\n  \"semantic_rationale\": \"The definition focuses on a notice that obscures misconduct despite explicit statements from involved parties. This directly relates to post-publication transparency and due process oversight, as it concerns the clarity and honesty of the retraction notice. It does not inherently indicate issues with research content, authorship, or editorial governance, so only the transparency category is assigned.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 682,
+    "completion_tokens": 315,
+    "total_tokens": 997,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 42
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Transfer of Copyright and/or Ownership",
+  "canonical_reason": "Transfer of Copyright and/or Ownership",
+  "definition_used": "A change in the copyright and/or ownership of the article or any of its content.",
+  "problem_object": [
+    "legal_rights"
+  ],
+  "process_signal": [
+    "legal_process"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition describes a legal status change (copyright/ownership transfer) without indicating any problem with research content, authorship, peer review, or post-publication oversight. It is a metadata/legal event, not a substantive integrity issue.",
+  "semantic_rationale": "The definition refers to a change in copyright or ownership, which is a legal rights matter. It does not imply unreliability of research content, authorship/attribution issues, editorial/peer review problems, or post-publication transparency/due process concerns. Therefore, no manuscript category is assigned."
+}

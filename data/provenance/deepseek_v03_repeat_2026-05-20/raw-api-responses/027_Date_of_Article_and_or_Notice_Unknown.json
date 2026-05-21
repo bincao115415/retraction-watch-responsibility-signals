@@ -1,0 +1,28 @@
+{
+  "id": "12bbd5e5-1d86-4453-807c-f07aa50e52e6",
+  "object": "chat.completion",
+  "created": 1779256711,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Date of Article and/or Notice Unknown\",\n  \"canonical_reason\": \"Date of Article and/or Notice Unknown\",\n  \"definition_used\": \"The article and/or notice do not have clear publication dates. RW may also use this reason when a publisher overwrites the original article’s HTML page with the notice, without changing the publication date to reflect the change.\",\n  \"problem_object\": \"availability_notice_status\",\n  \"process_signal\": \"notice_opacity\",\n  \"actor_context\": \"journal_publisher\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This reason describes a metadata transparency issue (missing or unclear dates) and does not directly indicate problems with research content, authorship, or editorial processes. It is a status/notice signal, not a substantive integrity concern.\",\n  \"semantic_rationale\": \"The definition describes a lack of clear publication dates for the article or notice, which is a transparency issue in post-publication metadata. This fits post_publication_transparency_due_process_oversight broadly, as it concerns the availability and clarity of publication status information. It does not directly implicate research content, authorship, or editorial governance.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 690,
+    "completion_tokens": 290,
+    "total_tokens": 980,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 50
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

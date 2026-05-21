@@ -1,0 +1,28 @@
+{
+  "id": "ef6730d1-fb20-4d71-93bd-38cfa1983023",
+  "object": "chat.completion",
+  "created": 1779257326,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Retract and Replace\",\n  \"canonical_reason\": \"Retract and Replace\",\n  \"definition_used\": \"The change of an item’s status reflecting that a retracted item will be replaced with a new publication in the same journal. The journal has indicated that the replacement should be cited as the version of record.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"correction_update_process\",\n  \"actor_context\": \"journal_publisher\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a publication-status notice (retract and replace) that does not inherently indicate a problem with research content, authorship, or peer review. It primarily signals a post-publication correction/update process. Main figure recommendation is false because the label is status-only and does not substantively support a manuscript-category figure.\",\n  \"semantic_rationale\": \"The definition describes a change in publication status where a retracted item is replaced by a new version, with the journal indicating the replacement as the version of record. This directly involves post-publication transparency and due process oversight (manuscript category) because it concerns the management of the scholarly record and correction/update processes. The problem object is 'article_general' as the entire article is being replaced. The process signal is 'correction_update_process' because the action is a structured replacement. The actor context is 'journal_publisher' as the journal executes the status change. No other manuscript categories are supported because the definition does not mention issues with research content, authorship, or peer review.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 681,
+    "completion_tokens": 372,
+    "total_tokens": 1053,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 41
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

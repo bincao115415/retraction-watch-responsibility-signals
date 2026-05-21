@@ -1,0 +1,28 @@
+{
+  "id": "1399f13a-08e9-463d-9124-53e6e3720f21",
+  "object": "chat.completion",
+  "created": 1779256495,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Cites Retracted Work\",\n  \"canonical_reason\": \"Cites Retracted Work\",\n  \"definition_used\": \"Retracted content is used in citations or referencing.\",\n  \"problem_object\": [\n    \"references_attribution\"\n  ],\n  \"process_signal\": [\n    \"content_reuse_or_duplication_process\"\n  ],\n  \"actor_context\": [\n    \"author\"\n  ],\n  \"manuscript_categories\": [\n    \"attribution_authorship_disclosure_integrity\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason indicates reliance on retracted work, which may affect the integrity of the citing manuscript's references. However, it does not necessarily imply that the citing manuscript's own research content is unreliable, nor does it directly involve editorial or post-publication processes. The assignment to attribution_authorship_disclosure_integrity is broad because the issue pertains to the integrity of the reference list rather than core research content.\",\n  \"semantic_rationale\": \"The definition 'Retracted content is used in citations or referencing' points to a problem with references (problem_object: references_attribution) and involves the process of content reuse (process_signal: content_reuse_or_duplication_process). The actor is typically the author who cited the retracted work. This primarily affects the integrity of attribution and disclosure, fitting the attribution_authorship_disclosure_integrity category broadly, as it concerns the reliability of cited sources rather than the manuscript's own data or conclusions.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 650,
+    "completion_tokens": 342,
+    "total_tokens": 992,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 10
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

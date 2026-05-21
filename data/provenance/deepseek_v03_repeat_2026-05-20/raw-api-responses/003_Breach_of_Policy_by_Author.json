@@ -1,0 +1,28 @@
+{
+  "id": "55242cf0-854b-4a8d-9796-6545e7a533b5",
+  "object": "chat.completion",
+  "created": 1779256484,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Breach of Policy by Author\",\n  \"canonical_reason\": \"Breach of Policy by Author\",\n  \"definition_used\": \"A journal/publisher/institution states that one or more authors violated one or more of the journal/publisher/institution’s policy(ies). RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was a breach of policy), or when the breach of policy (as an additional reason) cannot be addressed by existing reasons.\",\n  \"problem_object\": [\"article_general\"],\n  \"process_signal\": [\"publication_policy_or_sanction\"],\n  \"actor_context\": [\"author\", \"journal_publisher\", \"company_institution\"],\n  \"manuscript_categories\": [],\n  \"classification_strength\": \"ambiguous\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition is a catch-all for unspecified policy violations; without further detail, it does not map to a specific manuscript-facing category. It signals a publication-policy breach but lacks content, process, or transparency specificity.\",\n  \"semantic_rationale\": \"The definition describes a generic policy violation by an author, as stated by a journal/publisher/institution. It does not specify whether the breach relates to research content, authorship, peer review, or post-publication processes, so no manuscript category is directly supported.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 727,
+    "completion_tokens": 305,
+    "total_tokens": 1032,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

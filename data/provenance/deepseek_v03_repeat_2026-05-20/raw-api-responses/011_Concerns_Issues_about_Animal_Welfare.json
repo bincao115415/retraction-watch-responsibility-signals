@@ -1,0 +1,28 @@
+{
+  "id": "9e2a8ee6-cb6c-4c46-b0e2-ebad356f8fef",
+  "object": "chat.completion",
+  "created": 1779256566,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Concerns/Issues about Animal Welfare\",\n  \"canonical_reason\": \"Concerns/Issues about Animal Welfare\",\n  \"definition_used\": \"Any question, controversy or dispute about any non-human test or study subject(s).\",\n  \"problem_object\": \"ethics_welfare\",\n  \"process_signal\": \"research_ethics_approval_process\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [\n    \"research_content_reliability\",\n    \"attribution_authorship_disclosure_integrity\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"None\",\n  \"semantic_rationale\": \"Animal welfare concerns directly implicate research ethics and can affect the reliability of study results, as well as reflect on author compliance with ethical standards.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 663,
+    "completion_tokens": 192,
+    "total_tokens": 855,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 23
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

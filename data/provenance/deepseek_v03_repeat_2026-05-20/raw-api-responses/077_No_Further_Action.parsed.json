@@ -1,0 +1,21 @@
+{
+  "raw_reason": "No Further Action",
+  "canonical_reason": "No Further Action",
+  "definition_used": "The journal or publisher has stated that no further action will be taken.",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This is a status notice about the closure of a process, not a substantive finding. It does not directly indicate a problem with research content, authorship, or editorial governance, but it relates to post-publication transparency.",
+  "semantic_rationale": "The definition describes a journal/publisher statement that no further action will be taken, which is a post-publication transparency signal about the status of an investigation or concern. It does not inherently confirm or deny any underlying issue, so it maps broadly to post_publication_transparency_due_process_oversight."
+}

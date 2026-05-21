@@ -1,0 +1,28 @@
+{
+  "id": "b09f0dde-0943-478b-a1fe-91c89b834c25",
+  "object": "chat.completion",
+  "created": 1779257433,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Updated to Correction\",\n  \"canonical_reason\": \"Updated to Correction\",\n  \"definition_used\": \"The article has a correction after this notice.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"correction_update_process\",\n  \"actor_context\": \"journal_publisher\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a status notice indicating a correction exists, not a direct cause of retraction. It provides metadata transparency but does not itself indicate a problem with research content, authorship, or editorial governance.\",\n  \"semantic_rationale\": \"The definition describes a post-publication update to a correction, which falls under post-publication transparency and due process oversight as it relates to the availability and status of the article after initial publication.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 645,
+    "completion_tokens": 212,
+    "total_tokens": 857,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 5
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

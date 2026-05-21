@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Withdrawn to Publish in Different Journal",
+  "canonical_reason": "Withdrawn to Publish in Different Journal",
+  "definition_used": "The article was taken from one journal/platform or access type to be published in a different journal/platform or with a different access type.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "editorial_peer_review_governance",
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This is a status/notice term describing a withdrawal for republication elsewhere. It does not directly indicate issues with research content, authorship, or peer review integrity, but relates to editorial governance and post-publication transparency.",
+  "semantic_rationale": "The definition describes an article being moved between journals/platforms, which involves editorial decisions and post-publication status changes, fitting editorial_peer_review_governance and post_publication_transparency_due_process_oversight. No direct evidence of research content or authorship issues."
+}

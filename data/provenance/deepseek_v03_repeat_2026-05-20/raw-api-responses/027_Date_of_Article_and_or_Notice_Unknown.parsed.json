@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Date of Article and/or Notice Unknown",
+  "canonical_reason": "Date of Article and/or Notice Unknown",
+  "definition_used": "The article and/or notice do not have clear publication dates. RW may also use this reason when a publisher overwrites the original article’s HTML page with the notice, without changing the publication date to reflect the change.",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This reason describes a metadata transparency issue (missing or unclear dates) and does not directly indicate problems with research content, authorship, or editorial processes. It is a status/notice signal, not a substantive integrity concern.",
+  "semantic_rationale": "The definition describes a lack of clear publication dates for the article or notice, which is a transparency issue in post-publication metadata. This fits post_publication_transparency_due_process_oversight broadly, as it concerns the availability and clarity of publication status information. It does not directly implicate research content, authorship, or editorial governance."
+}

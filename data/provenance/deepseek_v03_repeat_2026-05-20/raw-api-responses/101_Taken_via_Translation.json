@@ -1,0 +1,28 @@
+{
+  "id": "274adab7-5100-41ec-84cf-7cd4c6f8f43a",
+  "object": "chat.completion",
+  "created": 1779257386,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Taken via Translation\",\n  \"canonical_reason\": \"Taken via Translation\",\n  \"definition_used\": \"The duplicated or plagiarized content was created via a translation from one language to another.\",\n  \"problem_object\": \"text_article\",\n  \"process_signal\": \"content_reuse_or_duplication_process\",\n  \"actor_context\": \"author\",\n  \"manuscript_categories\": [\n    \"attribution_authorship_disclosure_integrity\",\n    \"research_content_reliability\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"Translation-based duplication implies plagiarism, which affects both attribution integrity and content originality. However, the definition does not specify whether the translation was authorized or involved misattribution, so both categories are assigned broadly.\",\n  \"semantic_rationale\": \"The definition describes duplicated/plagiarized content created via translation, directly implicating text reuse and authorship/attribution concerns, thus supporting attribution integrity and content reliability categories.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 654,
+    "completion_tokens": 228,
+    "total_tokens": 882,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 14
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

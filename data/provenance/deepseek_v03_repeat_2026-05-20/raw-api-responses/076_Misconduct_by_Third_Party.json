@@ -1,0 +1,28 @@
+{
+  "id": "5e82e829-3fe9-4e42-8517-c9f0d5898854",
+  "object": "chat.completion",
+  "created": 1779257158,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Misconduct by Third Party\",\n  \"canonical_reason\": \"Misconduct by Third Party\",\n  \"definition_used\": \"Statement by journal, publisher, company, institution, government agency or author that one or more third party(ies) committed misconduct.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"third_party_investigation\"\n  ],\n  \"actor_context\": [\n    \"third_party\"\n  ],\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition describes a statement about third-party misconduct, which is a transparency/due-process signal but does not directly assert a specific manuscript content or integrity problem. It is a broad oversight category.\",\n  \"semantic_rationale\": \"The reason indicates a statement about third-party misconduct, which relates to post-publication oversight and transparency processes, but lacks specificity about the manuscript's content reliability or authorship integrity.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 666,
+    "completion_tokens": 242,
+    "total_tokens": 908,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 26
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

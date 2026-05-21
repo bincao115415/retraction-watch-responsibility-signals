@@ -257,8 +257,8 @@ def run_api(args) -> None:
         'manuscript_categories': config['manuscript_categories'],
         'items': outputs,
     }
-    (OUT / 'reason_semantic_taxonomy.llm_v0.3-api.json').write_text(json.dumps(taxonomy, ensure_ascii=False, indent=2), encoding='utf-8')
-    with (OUT / 'reason_semantic_taxonomy.llm_v0.3-api.csv').open('w', encoding='utf-8', newline='') as f:
+    (OUT / 'reason_semantic_taxonomy.json').write_text(json.dumps(taxonomy, ensure_ascii=False, indent=2), encoding='utf-8')
+    with (OUT / 'reason_semantic_taxonomy.csv').open('w', encoding='utf-8', newline='') as f:
         fields = ['raw_reason','canonical_reason','definition_used','problem_object','process_signal','actor_context','manuscript_categories','classification_strength','main_figure_recommended','caution','semantic_rationale']
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
@@ -267,11 +267,11 @@ def run_api(args) -> None:
             for key in ['problem_object','process_signal','actor_context','manuscript_categories']:
                 rr[key] = ';'.join(rr.get(key, []))
             w.writerow({k: rr.get(k, '') for k in fields})
-    print('WROTE', OUT / 'reason_semantic_taxonomy.llm_v0.3-api.json')
+    print('WROTE', OUT / 'reason_semantic_taxonomy.json')
 
 
 def build_records() -> None:
-    tax_path = OUT / 'reason_semantic_taxonomy.llm_v0.3-api.json'
+    tax_path = OUT / 'reason_semantic_taxonomy.json'
     if not tax_path.exists():
         raise SystemExit(f'Missing taxonomy: {tax_path}')
     taxonomy = json.loads(tax_path.read_text(encoding='utf-8'))
@@ -303,7 +303,7 @@ def build_records() -> None:
                 'raw_reason': row['Reason'], 'canonical_reasons': ';'.join(canons), 'manuscript_categories': ';'.join(sorted(set(cats))),
                 'n_raw_reasons': len(reasons), 'n_manuscript_categories': len(set(cats)), **flags
             })
-    record_path = OUT / 'record_level_binary.llm_v0.3-api.csv'
+    record_path = OUT / 'record_level_binary.csv'
     with record_path.open('w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader(); w.writerows(rows)
@@ -317,7 +317,7 @@ def build_records() -> None:
     ret = [r for r in rows if r['retraction_nature'] == 'Retraction']
     ret_2000_2025 = [r for r in ret if r['retraction_year'] and 2000 <= int(r['retraction_year']) <= 2025]
     prev = prevalence(rows, 'all_notices') + prevalence(ret, 'retractions_only_all_years') + prevalence(ret_2000_2025, 'retractions_2000_2025')
-    with (OUT / 'prevalence_summary.llm_v0.3-api.csv').open('w', encoding='utf-8', newline='') as f:
+    with (OUT / 'prevalence_summary.csv').open('w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, fieldnames=list(prev[0].keys()))
         w.writeheader(); w.writerows(prev)
     report = {
@@ -334,7 +334,7 @@ def build_records() -> None:
             'Investigation-by-X remains a process/source signal, not fault by X.'
         ]
     }
-    (OUT / 'v0.3_api_validation_report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+    (OUT / 'validation_report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
     print('WROTE', record_path)
 
 

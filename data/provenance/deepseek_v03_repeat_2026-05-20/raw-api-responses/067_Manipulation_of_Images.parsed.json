@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Manipulation of Images",
+  "canonical_reason": "Manipulation of Images",
+  "definition_used": "Manipulation of one or more images, or part(s) of one or more images.",
+  "problem_object": [
+    "image"
+  ],
+  "process_signal": [],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "Image manipulation directly undermines the reliability of research content, as images are data or results. No process or actor is specified in the definition."
+}

@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Miscommunication with/by Third Party",
+  "canonical_reason": "Miscommunication by Third Party",
+  "definition_used": "One or more third parties misunderstood one or more parts of a message sent to and/or from one or more third parties.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition describes a communication error involving third parties, but does not specify any impact on research content, authorship, editorial processes, or post-publication oversight. It is a status/notice term indicating a misunderstanding, not a substantive manuscript integrity issue.",
+  "semantic_rationale": "The definition centers on a third-party communication misunderstanding, which does not directly map to any of the four manuscript-facing categories. It is a procedural notice about information exchange, lacking clear connection to research reliability, attribution, editorial governance, or post-publication due process."
+}

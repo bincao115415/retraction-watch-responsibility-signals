@@ -1,0 +1,23 @@
+{
+  "raw_reason": "Paper Mill",
+  "canonical_reason": "Paper Mill",
+  "definition_used": "When a journal/publisher/institution states that a paper came from a paper mill or the paper is in a list of paper mill papers. RW may also use this reason to reflect that RW has identified multiple paper mill criteria applying to this paper.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "paper_mill"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Paper mill designation is a composite signal; specific underlying problems (data, images, authorship) are not detailed in the definition, so problem_object is set to article_general. Actor_context reflects the typical source of the statement (journal/publisher/institution), not blame.",
+  "semantic_rationale": "Paper mill involvement implies fabricated or manipulated content (research_content_reliability), likely fraudulent authorship or attribution issues (attribution_authorship_disclosure_integrity), and compromised peer review (editorial_peer_review_governance). The definition focuses on the origin of the paper, not post-publication processes, so post_publication_transparency_due_process_oversight is not directly supported."
+}

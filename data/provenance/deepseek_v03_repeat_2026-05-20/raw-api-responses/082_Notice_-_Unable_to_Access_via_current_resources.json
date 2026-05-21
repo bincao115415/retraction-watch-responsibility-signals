@@ -1,0 +1,28 @@
+{
+  "id": "050c2d12-4c0d-4df3-87f2-d2b1fa2cccca",
+  "object": "chat.completion",
+  "created": 1779257211,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Notice - Unable to Access via current resources\",\n  \"canonical_reason\": \"Notice – Unable to Access via current resources\",\n  \"definition_used\": \"The notice is paywalled by the journal/publisher, only available in print or is in some form unavailable for inspection.\",\n  \"problem_object\": \"availability_notice_status\",\n  \"process_signal\": \"notice_opacity\",\n  \"actor_context\": \"journal_publisher\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a metadata/status label about notice accessibility, not a substantive reason for retraction. It does not imply any underlying research integrity issue.\",\n  \"semantic_rationale\": \"The definition describes a notice that is inaccessible due to paywall or format, which directly relates to post-publication transparency and due process oversight, as it hinders the ability to inspect the retraction notice. No other categories are supported because the reason is purely about notice availability, not about research content, authorship, or editorial governance.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 688,
+    "completion_tokens": 256,
+    "total_tokens": 944,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 48
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

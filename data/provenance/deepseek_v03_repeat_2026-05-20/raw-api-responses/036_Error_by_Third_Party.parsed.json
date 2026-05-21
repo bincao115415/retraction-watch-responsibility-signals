@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Error by Third Party",
+  "canonical_reason": "Error by Third Party",
+  "definition_used": "An error attributed to any third party.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "third_party_investigation"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition is too generic to determine which manuscript category applies. It only indicates an error by a third party without specifying the nature of the error or its impact on the manuscript's content, attribution, editorial process, or post-publication status.",
+  "semantic_rationale": "The definition 'An error attributed to any third party' does not provide enough detail to map to any specific manuscript-facing category. It could involve research content, authorship, editorial processes, or post-publication matters, but the definition alone does not specify. Therefore, no manuscript category is assigned."
+}

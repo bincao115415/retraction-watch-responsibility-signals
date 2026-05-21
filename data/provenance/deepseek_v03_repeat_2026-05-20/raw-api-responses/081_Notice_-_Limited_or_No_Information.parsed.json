@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Notice - Limited or No Information",
+  "canonical_reason": "Notice – Limited or No Information",
+  "definition_used": "A notice provides minimal information as to the cause of the notice, or the original item is watermaked as retracted or corrected without explanation",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This is a metadata/status label indicating opacity of the notice itself, not a substantive reason for retraction. It does not directly implicate research content, authorship, or editorial processes beyond the lack of transparency.",
+  "semantic_rationale": "The definition describes a notice that provides minimal information or an unexplained watermark, which directly maps to notice opacity and post-publication transparency concerns. It does not assert any specific problem with research content, authorship, or editorial governance, so only the transparency oversight category is assigned."
+}

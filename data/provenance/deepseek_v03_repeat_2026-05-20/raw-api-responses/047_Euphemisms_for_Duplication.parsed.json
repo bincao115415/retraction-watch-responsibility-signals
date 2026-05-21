@@ -1,0 +1,26 @@
+{
+  "raw_reason": "Euphemisms for Duplication",
+  "canonical_reason": "Euphemisms for Duplication",
+  "definition_used": "The notice does not clearly state that the authors reused ideas, text, or images from one of their previously published items without suitable citation",
+  "problem_object": [
+    "text_article",
+    "image",
+    "data",
+    "results_conclusions"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process",
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The definition focuses on opaque notice language about reuse without citation, which directly implicates content reliability and attribution integrity. However, the term 'euphemisms' suggests the notice may obscure the nature of duplication, so the exact problem object (text, image, data) may vary. Actor context is author because reuse is by authors. Process signal includes content reuse and notice opacity. No editorial or third-party investigation is implied by the definition alone.",
+  "semantic_rationale": "The definition describes reuse of ideas, text, or images without proper citation, which undermines research content reliability and attribution integrity. The notice's lack of clarity adds a notice opacity signal."
+}

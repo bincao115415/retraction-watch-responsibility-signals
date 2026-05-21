@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Removed",
+  "canonical_reason": "Removed",
+  "definition_used": "The original article is removed from access on the journal’s website or publishing platform.",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "removal_availability"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This is a status-only term indicating removal of access, not the underlying cause. It does not directly assert problems with research content, authorship, or editorial processes, though it may accompany such issues.",
+  "semantic_rationale": "The definition describes a post-publication action where the article is no longer accessible, which falls under transparency and due process oversight. It does not inherently indicate issues with research content, authorship, or editorial governance, so only the post-publication category is assigned."
+}

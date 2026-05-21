@@ -1,0 +1,28 @@
+{
+  "id": "620a172c-5874-4cc5-afea-4d844dfb6097",
+  "object": "chat.completion",
+  "created": 1779257466,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Withdrawn as Out of Date\",\n  \"canonical_reason\": \"Withdrawn as Out of Date\",\n  \"definition_used\": \"The article has been retracted as part of a journal’s process of keeping guidelines or reviews current for professional use.\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"publication_policy_or_sanction\",\n  \"actor_context\": \"journal_publisher\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a status-only notice about a journal's routine update process, not a substantive integrity concern. It does not imply unreliability of research content, authorship issues, or editorial misconduct.\",\n  \"semantic_rationale\": \"The definition describes a journal-driven process to keep guidelines or reviews current, which falls under post-publication transparency and due process oversight. No specific problem object beyond the article as a whole is indicated, and the process signal is a publication policy or sanction. The actor context is the journal/publisher. The classification is broad because the reason is procedural rather than indicative of a specific integrity breach.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 668,
+    "completion_tokens": 277,
+    "total_tokens": 945,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 28
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

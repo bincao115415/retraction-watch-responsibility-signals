@@ -1,0 +1,28 @@
+{
+  "id": "c528c184-eb13-4205-99c4-4177a933ce0f",
+  "object": "chat.completion",
+  "created": 1779256597,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Concerns/Issues about Human Subject Welfare\",\n  \"canonical_reason\": \"Concerns/Issues about Human Subject Welfare\",\n  \"definition_used\": \"Any question, controversy or dispute about any human test or study subject(s).\",\n  \"problem_object\": \"ethics_welfare\",\n  \"process_signal\": \"research_ethics_approval_process\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [\n    \"research_content_reliability\",\n    \"attribution_authorship_disclosure_integrity\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"None\",\n  \"semantic_rationale\": \"The definition covers any question about human subjects, which directly implicates research ethics and welfare. This can affect the reliability of research content if ethical violations undermine data validity, and it relates to authorship/disclosure integrity if ethical approvals or consent were misrepresented. The process signal is research_ethics_approval_process, as concerns often involve review board approvals. Actor context is unclear because the definition does not specify who raised the concern.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 664,
+    "completion_tokens": 250,
+    "total_tokens": 914,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 24
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

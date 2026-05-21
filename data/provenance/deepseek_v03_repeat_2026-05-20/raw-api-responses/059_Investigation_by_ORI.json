@@ -1,0 +1,28 @@
+{
+  "id": "e48bcaf2-6b6b-4b49-ba75-68375901c64b",
+  "object": "chat.completion",
+  "created": 1779256998,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Investigation by ORI\",\n  \"canonical_reason\": \"Investigation by ORI\",\n  \"definition_used\": \"An investigation by the United States Office of Research Integrity (ORI).\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"official_misconduct_process\",\n  \"actor_context\": \"ori_government\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The reason indicates an investigation by ORI, which is a procedural oversight signal. It does not specify the underlying issue (e.g., data fabrication, plagiarism) and thus cannot be directly mapped to content reliability or authorship categories without further details. Main figure recommendation is false because the label is a status/process indicator, not a substantive content issue.\",\n  \"semantic_rationale\": \"The definition describes an investigation by a government oversight body (ORI), which aligns with post-publication transparency and due process oversight. The actor is ORI (government), and the process is an official misconduct investigation. The problem object is set to article_general as the investigation scope is not specified.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 655,
+    "completion_tokens": 275,
+    "total_tokens": 930,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6327bd40-8c84-4330-b86f-f8544d129cb2",
+  "object": "chat.completion",
+  "created": 1779257357,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Salami Slicing\",\n  \"canonical_reason\": \"Salami Slicing\",\n  \"definition_used\": \"The publication of several articles using the same dataset by breaking it into sections, with the intent of exploiting a limited data set for the production of several published works. This does not apply to large multi-group studies such as the Framingham Heart Study.\",\n  \"problem_object\": [\"data\", \"results_conclusions\", \"article_general\"],\n  \"process_signal\": [\"content_reuse_or_duplication_process\", \"editorial_breach\"],\n  \"actor_context\": [\"author\"],\n  \"manuscript_categories\": [\"research_content_reliability\", \"editorial_peer_review_governance\"],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"Salami slicing involves overlapping data and fragmented reporting, which can mislead about the novelty and completeness of findings. It primarily affects research content reliability and editorial governance, but does not directly implicate authorship attribution or post-publication oversight unless further issues arise.\",\n  \"semantic_rationale\": \"Salami slicing fragments a dataset across multiple articles, undermining the integrity of reported results and violating editorial standards against duplicate or piecemeal publication. This directly impacts research content reliability and editorial peer review governance.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 689,
+    "completion_tokens": 286,
+    "total_tokens": 975,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 49
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

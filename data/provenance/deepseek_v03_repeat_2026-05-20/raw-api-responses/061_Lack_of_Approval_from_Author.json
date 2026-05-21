@@ -1,0 +1,28 @@
+{
+  "id": "0fe649b2-c4ef-4f55-a71b-01632d8b3411",
+  "object": "chat.completion",
+  "created": 1779257019,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Lack of Approval from Author\",\n  \"canonical_reason\": \"Lack of Approval from Author\",\n  \"definition_used\": \"One or more authors did not approve one or more parts of the research or publication process(es). RW also uses this reason if the notice mentions a lack of documentation of alleged approval.\",\n  \"problem_object\": \"authorship_affiliation\",\n  \"process_signal\": \"authorship_publication_process\",\n  \"actor_context\": \"author\",\n  \"manuscript_categories\": [\n    \"attribution_authorship_disclosure_integrity\"\n  ],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition directly concerns author approval of research or publication processes, which falls under authorship integrity and disclosure.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 679,
+    "completion_tokens": 190,
+    "total_tokens": 869,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 167
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "raw_reason": "Falsification/Fabrication of Results",
+  "canonical_reason": "Falsification/Fabrication of Results",
+  "definition_used": "Falsification or fabrication of results in order to mislead.",
+  "problem_object": [
+    "results_conclusions",
+    "data",
+    "image"
+  ],
+  "process_signal": [
+    "journal_publisher_investigation",
+    "institutional_investigation",
+    "third_party_investigation"
+  ],
+  "actor_context": [
+    "author",
+    "journal_publisher",
+    "company_institution",
+    "third_party"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "Falsification/fabrication of results directly undermines the truth of reported findings, fitting research_content_reliability. The definition explicitly mentions misleading results, which maps to results_conclusions, data, and image as problem objects. Investigations by journals, institutions, or third parties are typical process signals. Actor context includes author, journal/publisher, institution, and third party as potential sources of investigation."
+}

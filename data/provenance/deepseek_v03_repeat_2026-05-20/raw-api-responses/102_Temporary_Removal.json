@@ -1,0 +1,28 @@
+{
+  "id": "3c014260-689a-4664-9eaf-e77045e8b55a",
+  "object": "chat.completion",
+  "created": 1779257395,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Temporary Removal\",\n  \"canonical_reason\": \"Temporary Removal\",\n  \"definition_used\": \"The original article is removed from the journal’s publishing platform and the notice states the removal will be for an undefined period of time.\",\n  \"problem_object\": \"availability_notice_status\",\n  \"process_signal\": \"removal_availability\",\n  \"actor_context\": \"journal_publisher\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a status-only label indicating temporary removal without specifying underlying cause; it does not directly assert problems with research content, authorship, or editorial processes, but relates to post-publication transparency.\",\n  \"semantic_rationale\": \"The definition describes a temporary removal of an article from the publishing platform, which is a post-publication action affecting availability and transparency, fitting the post_publication_transparency_due_process_oversight category. No direct evidence of content reliability, authorship, or editorial governance issues is provided.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 663,
+    "completion_tokens": 250,
+    "total_tokens": 913,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 23
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

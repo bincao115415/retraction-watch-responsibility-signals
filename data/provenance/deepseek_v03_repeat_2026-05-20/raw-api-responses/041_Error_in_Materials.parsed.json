@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Error in Materials",
+  "canonical_reason": "Error in Materials",
+  "definition_used": "One or more errors in one or more experimental materials. including reagents, mixing bowls, equipment or instrumentation.",
+  "problem_object": [
+    "methods_materials"
+  ],
+  "process_signal": [
+    "journal_publisher_error"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition describes errors in experimental materials (reagents, equipment), which directly affect the reliability of research content. This maps to research_content_reliability. The error is in methods/materials, and the process signal is journal_publisher_error as it is an error in the published record. Actor context is author because materials are typically prepared by authors."
+}

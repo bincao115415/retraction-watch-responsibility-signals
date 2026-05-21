@@ -1,0 +1,28 @@
+{
+  "id": "d4342f1f-0899-4331-a196-93f44f155b94",
+  "object": "chat.completion",
+  "created": 1779256647,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Concerns/Issues about Third Party Involvement\",\n  \"canonical_reason\": \"Concerns/Issues about Third Party Involvement\",\n  \"definition_used\": \"Any question, controversy or dispute about third party involvement.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"third_party_investigation\"\n  ],\n  \"actor_context\": [\n    \"third_party\"\n  ],\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"The definition is extremely broad and does not specify the nature of the involvement, making it a status/notice signal about third-party involvement rather than a direct indicator of manuscript content or process flaws. It is best treated as a post-publication transparency marker.\",\n  \"semantic_rationale\": \"The definition 'Any question, controversy or dispute about third party involvement' directly signals a third-party investigation context, which aligns with post-publication oversight. It does not inherently indicate issues with research content, authorship, or editorial processes, so only the transparency category is assigned.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 661,
+    "completion_tokens": 267,
+    "total_tokens": 928,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 21
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

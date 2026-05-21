@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Updated to Expression of Concern",
+  "canonical_reason": "Updated to Expression of Concern",
+  "definition_used": "The article has an expression of concern after this notice.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This is a status/notice term indicating an expression of concern has been added, not a direct cause. It signals transparency but does not confirm a specific integrity problem.",
+  "semantic_rationale": "The definition describes a post-publication notice (expression of concern) added to the article, which falls under post-publication transparency and due process oversight. It does not directly assert issues with research content, authorship, or editorial governance, though it may be associated with such concerns."
+}

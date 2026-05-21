@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Investigation by ORI",
+  "canonical_reason": "Investigation by ORI",
+  "definition_used": "An investigation by the United States Office of Research Integrity (ORI).",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "official_misconduct_process"
+  ],
+  "actor_context": [
+    "ori_government"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The reason indicates an investigation by ORI, which is a procedural oversight signal. It does not specify the underlying issue (e.g., data fabrication, plagiarism) and thus cannot be directly mapped to content reliability or authorship categories without further details. Main figure recommendation is false because the label is a status/process indicator, not a substantive content issue.",
+  "semantic_rationale": "The definition describes an investigation by a government oversight body (ORI), which aligns with post-publication transparency and due process oversight. The actor is ORI (government), and the process is an official misconduct investigation. The problem object is set to article_general as the investigation scope is not specified."
+}

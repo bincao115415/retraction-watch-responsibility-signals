@@ -1,0 +1,23 @@
+{
+  "raw_reason": "Lack of Approval from Third Party",
+  "canonical_reason": "Lack of Approval from Third Party",
+  "definition_used": "One or more third parties did not approve one or more parts of the research or publication process(es). RW also uses this reason if the notice mentions a lack of documentation of alleged approval.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "research_ethics_approval_process",
+    "publication_policy_or_sanction"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The definition is broad and could encompass various approval types (ethics, data access, institutional). Without specifics, we assign general categories; if the lack of approval pertains to ethics, research_content_reliability might also apply, but we default to the most direct categories.",
+  "semantic_rationale": "Lack of third-party approval directly implicates disclosure and governance processes, as it involves missing permissions that affect authorship/attribution integrity and editorial oversight of required approvals."
+}

@@ -1,0 +1,27 @@
+{
+  "raw_reason": "Copyright Claims",
+  "canonical_reason": "Copyright Claims",
+  "definition_used": "Dispute concerning permissions or ownership of materials (equipment, cell lines, etc.), technologies, images, text, patents, etc.",
+  "problem_object": [
+    "text_article",
+    "image",
+    "data",
+    "methods_materials"
+  ],
+  "process_signal": [
+    "legal_process"
+  ],
+  "actor_context": [
+    "third_party",
+    "author",
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "Copyright claims can involve ownership disputes over materials, images, or text, which may affect attribution integrity and trigger legal processes. However, the reason itself does not confirm research content unreliability or editorial misconduct; it primarily signals a legal dispute over permissions.",
+  "semantic_rationale": "The definition describes disputes over permissions or ownership of materials, images, text, etc., which directly relates to attribution and authorship integrity (e.g., unauthorized use of copyrighted material) and may involve post-publication legal oversight. It does not inherently indicate research content errors or editorial/peer review failures."
+}

@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Concerns/Issues about Peer Review",
+  "canonical_reason": "Concerns/Issues with Peer Review",
+  "definition_used": "The peer review was not performed solely through journal error, or there are problems with the peer review that are not covered under “Fake Peer Review”.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "peer_review_concern"
+  ],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition describes problems with peer review not solely due to journal error, directly implicating editorial and peer review governance."
+}

@@ -1,0 +1,1820 @@
+{
+  "pipeline_version": "rw_llm_semantic_v0.3_api_reproducible",
+  "created_at_utc": "2026-05-20T05:54:19.131164+00:00",
+  "config_path": "/Users/Shared/Hermes/workspaces/research/projects/publication/retractedpublications/configs/rw_v03_deepseek_api_config.json",
+  "items_path": "/Users/Shared/Hermes/workspaces/research/projects/publication/retractedpublications/data/rw-derived/2026-05-15-llm-semantic-v0.2/unique_reason_items_for_llm.json",
+  "config_sha256": "42f756cd0373aca8c9388510243a3821c2371ff40b947d40c93174e18b9609ae",
+  "items_sha256": "05d4df00cccbcca8797086f20de31f36f1a46787d3bab88fb2ed8f30ea062d59",
+  "api_parameters": {
+    "model": "deepseek-v4-pro",
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "top_p": 1,
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": false,
+    "max_tokens_per_item": 2200,
+    "timeout_seconds": 90,
+    "retry_attempts": 3,
+    "retry_backoff_seconds": 5
+  },
+  "api_base_url": "https://api.deepseek.com/chat/completions",
+  "n_items_requested": 112,
+  "responses": [
+    {
+      "raw_reason": "Author Unresponsive",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/001_Author_Unresponsive.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/001_Author_Unresponsive.json",
+      "usage": {
+        "prompt_tokens": 710,
+        "completion_tokens": 291,
+        "total_tokens": 1001,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 198
+      }
+    },
+    {
+      "raw_reason": "Bias Issues or Lack of Balance",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/002_Bias_Issues_or_Lack_of_Balance.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/002_Bias_Issues_or_Lack_of_Balance.json",
+      "usage": {
+        "prompt_tokens": 691,
+        "completion_tokens": 321,
+        "total_tokens": 1012,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 179
+      }
+    },
+    {
+      "raw_reason": "Breach of Policy by Author",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/003_Breach_of_Policy_by_Author.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/003_Breach_of_Policy_by_Author.json",
+      "usage": {
+        "prompt_tokens": 727,
+        "completion_tokens": 305,
+        "total_tokens": 1032,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 215
+      }
+    },
+    {
+      "raw_reason": "Cites Retracted Work",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/004_Cites_Retracted_Work.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/004_Cites_Retracted_Work.json",
+      "usage": {
+        "prompt_tokens": 650,
+        "completion_tokens": 342,
+        "total_tokens": 992,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 10
+      }
+    },
+    {
+      "raw_reason": "Civil Proceedings",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/005_Civil_Proceedings.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/005_Civil_Proceedings.json",
+      "usage": {
+        "prompt_tokens": 665,
+        "completion_tokens": 254,
+        "total_tokens": 919,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 25
+      }
+    },
+    {
+      "raw_reason": "Complaints about Author",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/006_Complaints_about_Author.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/006_Complaints_about_Author.json",
+      "usage": {
+        "prompt_tokens": 693,
+        "completion_tokens": 309,
+        "total_tokens": 1002,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 53
+      }
+    },
+    {
+      "raw_reason": "Complaints about Company/Institution",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/007_Complaints_about_Company_Institution.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/007_Complaints_about_Company_Institution.json",
+      "usage": {
+        "prompt_tokens": 705,
+        "completion_tokens": 312,
+        "total_tokens": 1017,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 65
+      }
+    },
+    {
+      "raw_reason": "Complaints about Third Party",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/008_Complaints_about_Third_Party.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/008_Complaints_about_Third_Party.json",
+      "usage": {
+        "prompt_tokens": 697,
+        "completion_tokens": 322,
+        "total_tokens": 1019,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 57
+      }
+    },
+    {
+      "raw_reason": "Compromised Peer Review",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/009_Compromised_Peer_Review.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/009_Compromised_Peer_Review.json",
+      "usage": {
+        "prompt_tokens": 660,
+        "completion_tokens": 179,
+        "total_tokens": 839,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 20
+      }
+    },
+    {
+      "raw_reason": "Computer-Aided Content or Computer-Generated Content",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/010_Computer-Aided_Content_or_Computer-Generated_Content.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/010_Computer-Aided_Content_or_Computer-Generated_Content.json",
+      "usage": {
+        "prompt_tokens": 684,
+        "completion_tokens": 215,
+        "total_tokens": 899,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 44
+      }
+    },
+    {
+      "raw_reason": "Concerns/Issues about Animal Welfare",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/011_Concerns_Issues_about_Animal_Welfare.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/011_Concerns_Issues_about_Animal_Welfare.json",
+      "usage": {
+        "prompt_tokens": 663,
+        "completion_tokens": 192,
+        "total_tokens": 855,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 23
+      }
+    },
+    {
+      "raw_reason": "Concerns/Issues about Article",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/012_Concerns_Issues_about_Article.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/012_Concerns_Issues_about_Article.json",
+      "usage": {
+        "prompt_tokens": 662,
+        "completion_tokens": 181,
+        "total_tokens": 843,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 22
+      }
+    },
+    {
+      "raw_reason": "Concerns/Issues about Authorship/Affiliation",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/013_Concerns_Issues_about_Authorship_Affiliation.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/013_Concerns_Issues_about_Authorship_Affiliation.json",
+      "usage": {
+        "prompt_tokens": 719,
+        "completion_tokens": 258,
+        "total_tokens": 977,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 79
+      }
+    },
+    {
+      "raw_reason": "Concerns/Issues about Data",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/014_Concerns_Issues_about_Data.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/014_Concerns_Issues_about_Data.json",
+      "usage": {
+        "prompt_tokens": 671,
+        "completion_tokens": 202,
+        "total_tokens": 873,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 31
+      }
+    },
+    {
+      "raw_reason": "Concerns/Issues about Human Subject Welfare",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/015_Concerns_Issues_about_Human_Subject_Welfare.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/015_Concerns_Issues_about_Human_Subject_Welfare.json",
+      "usage": {
+        "prompt_tokens": 664,
+        "completion_tokens": 250,
+        "total_tokens": 914,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 24
+      }
+    },
+    {
+      "raw_reason": "Concerns/Issues about Image",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/016_Concerns_Issues_about_Image.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/016_Concerns_Issues_about_Image.json",
+      "usage": {
+        "prompt_tokens": 681,
+        "completion_tokens": 213,
+        "total_tokens": 894,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 41
+      }
+    },
+    {
+      "raw_reason": "Concerns/Issues about Methods",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/017_Concerns_Issues_about_Methods.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/017_Concerns_Issues_about_Methods.json",
+      "usage": {
+        "prompt_tokens": 668,
+        "completion_tokens": 200,
+        "total_tokens": 868,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 28
+      }
+    },
+    {
+      "raw_reason": "Concerns/Issues about Peer Review",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/018_Concerns_Issues_about_Peer_Review.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/018_Concerns_Issues_about_Peer_Review.json",
+      "usage": {
+        "prompt_tokens": 694,
+        "completion_tokens": 191,
+        "total_tokens": 885,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 54
+      }
+    },
+    {
+      "raw_reason": "Concerns/Issues about Referencing/Attributions",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/019_Concerns_Issues_about_Referencing_Attributions.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/019_Concerns_Issues_about_Referencing_Attributions.json",
+      "usage": {
+        "prompt_tokens": 696,
+        "completion_tokens": 236,
+        "total_tokens": 932,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 56
+      }
+    },
+    {
+      "raw_reason": "Concerns/Issues about Results and/or Conclusions",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/020_Concerns_Issues_about_Results_and_or_Conclusions.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/020_Concerns_Issues_about_Results_and_or_Conclusions.json",
+      "usage": {
+        "prompt_tokens": 665,
+        "completion_tokens": 210,
+        "total_tokens": 875,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 25
+      }
+    },
+    {
+      "raw_reason": "Concerns/Issues about Third Party Involvement",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/021_Concerns_Issues_about_Third_Party_Involvement.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/021_Concerns_Issues_about_Third_Party_Involvement.json",
+      "usage": {
+        "prompt_tokens": 661,
+        "completion_tokens": 267,
+        "total_tokens": 928,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 21
+      }
+    },
+    {
+      "raw_reason": "Conflict of Interest",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/022_Conflict_of_Interest.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/022_Conflict_of_Interest.json",
+      "usage": {
+        "prompt_tokens": 690,
+        "completion_tokens": 346,
+        "total_tokens": 1036,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 50
+      }
+    },
+    {
+      "raw_reason": "Contamination of Cell Lines/Tissues",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/023_Contamination_of_Cell_Lines_Tissues.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/023_Contamination_of_Cell_Lines_Tissues.json",
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 220,
+        "total_tokens": 876,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 16
+      }
+    },
+    {
+      "raw_reason": "Contamination of Materials",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/024_Contamination_of_Materials.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/024_Contamination_of_Materials.json",
+      "usage": {
+        "prompt_tokens": 654,
+        "completion_tokens": 217,
+        "total_tokens": 871,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 14
+      }
+    },
+    {
+      "raw_reason": "Copyright Claims",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/025_Copyright_Claims.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/025_Copyright_Claims.json",
+      "usage": {
+        "prompt_tokens": 661,
+        "completion_tokens": 308,
+        "total_tokens": 969,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 21
+      }
+    },
+    {
+      "raw_reason": "Criminal Proceedings",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/026_Criminal_Proceedings.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/026_Criminal_Proceedings.json",
+      "usage": {
+        "prompt_tokens": 668,
+        "completion_tokens": 302,
+        "total_tokens": 970,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 28
+      }
+    },
+    {
+      "raw_reason": "Date of Article and/or Notice Unknown",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/027_Date_of_Article_and_or_Notice_Unknown.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/027_Date_of_Article_and_or_Notice_Unknown.json",
+      "usage": {
+        "prompt_tokens": 690,
+        "completion_tokens": 290,
+        "total_tokens": 980,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 50
+      }
+    },
+    {
+      "raw_reason": "Doing the Right Thing",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/028_Doing_the_Right_Thing.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/028_Doing_the_Right_Thing.json",
+      "usage": {
+        "prompt_tokens": 661,
+        "completion_tokens": 184,
+        "total_tokens": 845,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 21
+      }
+    },
+    {
+      "raw_reason": "Duplication of Content through Error by Journal/Publisher",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/029_Duplication_of_Content_through_Error_by_Journal_Publisher.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/029_Duplication_of_Content_through_Error_by_Journal_Publisher.json",
+      "usage": {
+        "prompt_tokens": 665,
+        "completion_tokens": 272,
+        "total_tokens": 937,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 25
+      }
+    },
+    {
+      "raw_reason": "Duplication of Data",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/030_Duplication_of_Data.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/030_Duplication_of_Data.json",
+      "usage": {
+        "prompt_tokens": 648,
+        "completion_tokens": 148,
+        "total_tokens": 796,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 8
+      }
+    },
+    {
+      "raw_reason": "Duplication of Text",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/031_Duplication_of_Text.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/031_Duplication_of_Text.json",
+      "usage": {
+        "prompt_tokens": 646,
+        "completion_tokens": 280,
+        "total_tokens": 926,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 6
+      }
+    },
+    {
+      "raw_reason": "Duplication of/in Article",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/032_Duplication_of_in_Article.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/032_Duplication_of_in_Article.json",
+      "usage": {
+        "prompt_tokens": 655,
+        "completion_tokens": 281,
+        "total_tokens": 936,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 15
+      }
+    },
+    {
+      "raw_reason": "Duplication of/in Image",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/033_Duplication_of_in_Image.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/033_Duplication_of_in_Image.json",
+      "usage": {
+        "prompt_tokens": 660,
+        "completion_tokens": 158,
+        "total_tokens": 818,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 20
+      }
+    },
+    {
+      "raw_reason": "EOC Lifted",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/034_EOC_Lifted.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/034_EOC_Lifted.json",
+      "usage": {
+        "prompt_tokens": 665,
+        "completion_tokens": 256,
+        "total_tokens": 921,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 25
+      }
+    },
+    {
+      "raw_reason": "Error by Journal/Publisher",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/035_Error_by_Journal_Publisher.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/035_Error_by_Journal_Publisher.json",
+      "usage": {
+        "prompt_tokens": 649,
+        "completion_tokens": 317,
+        "total_tokens": 966,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 9
+      }
+    },
+    {
+      "raw_reason": "Error by Third Party",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/036_Error_by_Third_Party.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/036_Error_by_Third_Party.json",
+      "usage": {
+        "prompt_tokens": 646,
+        "completion_tokens": 239,
+        "total_tokens": 885,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 6
+      }
+    },
+    {
+      "raw_reason": "Error in Analyses",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/037_Error_in_Analyses.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/037_Error_in_Analyses.json",
+      "usage": {
+        "prompt_tokens": 657,
+        "completion_tokens": 153,
+        "total_tokens": 810,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 17
+      }
+    },
+    {
+      "raw_reason": "Error in Cell Lines/Tissues",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/038_Error_in_Cell_Lines_Tissues.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/038_Error_in_Cell_Lines_Tissues.json",
+      "usage": {
+        "prompt_tokens": 660,
+        "completion_tokens": 197,
+        "total_tokens": 857,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 20
+      }
+    },
+    {
+      "raw_reason": "Error in Data",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/039_Error_in_Data.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/039_Error_in_Data.json",
+      "usage": {
+        "prompt_tokens": 648,
+        "completion_tokens": 171,
+        "total_tokens": 819,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 8
+      }
+    },
+    {
+      "raw_reason": "Error in Image",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/040_Error_in_Image.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/040_Error_in_Image.json",
+      "usage": {
+        "prompt_tokens": 657,
+        "completion_tokens": 179,
+        "total_tokens": 836,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 17
+      }
+    },
+    {
+      "raw_reason": "Error in Materials",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/041_Error_in_Materials.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/041_Error_in_Materials.json",
+      "usage": {
+        "prompt_tokens": 657,
+        "completion_tokens": 204,
+        "total_tokens": 861,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 17
+      }
+    },
+    {
+      "raw_reason": "Error in Methods",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/042_Error_in_Methods.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/042_Error_in_Methods.json",
+      "usage": {
+        "prompt_tokens": 655,
+        "completion_tokens": 149,
+        "total_tokens": 804,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 15
+      }
+    },
+    {
+      "raw_reason": "Error in Results and/or Conclusions",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/043_Error_in_Results_and_or_Conclusions.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/043_Error_in_Results_and_or_Conclusions.json",
+      "usage": {
+        "prompt_tokens": 658,
+        "completion_tokens": 167,
+        "total_tokens": 825,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 18
+      }
+    },
+    {
+      "raw_reason": "Error in Text",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/044_Error_in_Text.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/044_Error_in_Text.json",
+      "usage": {
+        "prompt_tokens": 647,
+        "completion_tokens": 184,
+        "total_tokens": 831,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 7
+      }
+    },
+    {
+      "raw_reason": "Ethical Violations by Author",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/045_Ethical_Violations_by_Author.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/045_Ethical_Violations_by_Author.json",
+      "usage": {
+        "prompt_tokens": 726,
+        "completion_tokens": 404,
+        "total_tokens": 1130,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 86
+      }
+    },
+    {
+      "raw_reason": "Ethical Violations by Company/Institution/Third Party",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/046_Ethical_Violations_by_Company_Institution_Third_Party.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/046_Ethical_Violations_by_Company_Institution_Third_Party.json",
+      "usage": {
+        "prompt_tokens": 750,
+        "completion_tokens": 512,
+        "total_tokens": 1262,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 110
+      }
+    },
+    {
+      "raw_reason": "Euphemisms for Duplication",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/047_Euphemisms_for_Duplication.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/047_Euphemisms_for_Duplication.json",
+      "usage": {
+        "prompt_tokens": 673,
+        "completion_tokens": 328,
+        "total_tokens": 1001,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 33
+      }
+    },
+    {
+      "raw_reason": "Euphemisms for Misconduct",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/048_Euphemisms_for_Misconduct.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/048_Euphemisms_for_Misconduct.json",
+      "usage": {
+        "prompt_tokens": 682,
+        "completion_tokens": 315,
+        "total_tokens": 997,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 42
+      }
+    },
+    {
+      "raw_reason": "Euphemisms for Plagiarism",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/049_Euphemisms_for_Plagiarism.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/049_Euphemisms_for_Plagiarism.json",
+      "usage": {
+        "prompt_tokens": 672,
+        "completion_tokens": 193,
+        "total_tokens": 865,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 32
+      }
+    },
+    {
+      "raw_reason": "False/Forged Affiliation",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/050_False_Forged_Affiliation.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/050_False_Forged_Affiliation.json",
+      "usage": {
+        "prompt_tokens": 657,
+        "completion_tokens": 170,
+        "total_tokens": 827,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 17
+      }
+    },
+    {
+      "raw_reason": "False/Forged Authorship",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/051_False_Forged_Authorship.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/051_False_Forged_Authorship.json",
+      "usage": {
+        "prompt_tokens": 659,
+        "completion_tokens": 170,
+        "total_tokens": 829,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 19
+      }
+    },
+    {
+      "raw_reason": "Falsification/Fabrication of Data",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/052_Falsification_Fabrication_of_Data.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/052_Falsification_Fabrication_of_Data.json",
+      "usage": {
+        "prompt_tokens": 662,
+        "completion_tokens": 155,
+        "total_tokens": 817,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 150
+      }
+    },
+    {
+      "raw_reason": "Falsification/Fabrication of Image",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/053_Falsification_Fabrication_of_Image.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/053_Falsification_Fabrication_of_Image.json",
+      "usage": {
+        "prompt_tokens": 674,
+        "completion_tokens": 174,
+        "total_tokens": 848,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 162
+      }
+    },
+    {
+      "raw_reason": "Falsification/Fabrication of Results",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/054_Falsification_Fabrication_of_Results.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/054_Falsification_Fabrication_of_Results.json",
+      "usage": {
+        "prompt_tokens": 659,
+        "completion_tokens": 279,
+        "total_tokens": 938,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 147
+      }
+    },
+    {
+      "raw_reason": "Hoax Paper",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/055_Hoax_Paper.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/055_Hoax_Paper.json",
+      "usage": {
+        "prompt_tokens": 665,
+        "completion_tokens": 230,
+        "total_tokens": 895,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 153
+      }
+    },
+    {
+      "raw_reason": "Informed/Patient Consent - None/Withdrawn",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/056_Informed_Patient_Consent_-_None_Withdrawn.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/056_Informed_Patient_Consent_-_None_Withdrawn.json",
+      "usage": {
+        "prompt_tokens": 700,
+        "completion_tokens": 206,
+        "total_tokens": 906,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 188
+      }
+    },
+    {
+      "raw_reason": "Investigation by Company/Institution",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/057_Investigation_by_Company_Institution.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/057_Investigation_by_Company_Institution.json",
+      "usage": {
+        "prompt_tokens": 663,
+        "completion_tokens": 242,
+        "total_tokens": 905,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 151
+      }
+    },
+    {
+      "raw_reason": "Investigation by Journal/Publisher",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/058_Investigation_by_Journal_Publisher.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/058_Investigation_by_Journal_Publisher.json",
+      "usage": {
+        "prompt_tokens": 655,
+        "completion_tokens": 256,
+        "total_tokens": 911,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 143
+      }
+    },
+    {
+      "raw_reason": "Investigation by ORI",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/059_Investigation_by_ORI.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/059_Investigation_by_ORI.json",
+      "usage": {
+        "prompt_tokens": 655,
+        "completion_tokens": 275,
+        "total_tokens": 930,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 143
+      }
+    },
+    {
+      "raw_reason": "Investigation by Third Party",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/060_Investigation_by_Third_Party.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/060_Investigation_by_Third_Party.json",
+      "usage": {
+        "prompt_tokens": 663,
+        "completion_tokens": 289,
+        "total_tokens": 952,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 151
+      }
+    },
+    {
+      "raw_reason": "Lack of Approval from Author",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/061_Lack_of_Approval_from_Author.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/061_Lack_of_Approval_from_Author.json",
+      "usage": {
+        "prompt_tokens": 679,
+        "completion_tokens": 190,
+        "total_tokens": 869,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 167
+      }
+    },
+    {
+      "raw_reason": "Lack of Approval from Company/Institution",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/062_Lack_of_Approval_from_Company_Institution.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/062_Lack_of_Approval_from_Company_Institution.json",
+      "usage": {
+        "prompt_tokens": 687,
+        "completion_tokens": 281,
+        "total_tokens": 968,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 175
+      }
+    },
+    {
+      "raw_reason": "Lack of Approval from Third Party",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/063_Lack_of_Approval_from_Third_Party.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/063_Lack_of_Approval_from_Third_Party.json",
+      "usage": {
+        "prompt_tokens": 682,
+        "completion_tokens": 278,
+        "total_tokens": 960,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 42
+      }
+    },
+    {
+      "raw_reason": "Lack of IRB/IACUC Approval and/or Compliance",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/064_Lack_of_IRB_IACUC_Approval_and_or_Compliance.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/064_Lack_of_IRB_IACUC_Approval_and_or_Compliance.json",
+      "usage": {
+        "prompt_tokens": 685,
+        "completion_tokens": 221,
+        "total_tokens": 906,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 45
+      }
+    },
+    {
+      "raw_reason": "Legal Reasons and/or Threats",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/065_Legal_Reasons_and_or_Threats.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/065_Legal_Reasons_and_or_Threats.json",
+      "usage": {
+        "prompt_tokens": 671,
+        "completion_tokens": 234,
+        "total_tokens": 905,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 31
+      }
+    },
+    {
+      "raw_reason": "Manipulation of Data",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/066_Manipulation_of_Data.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/066_Manipulation_of_Data.json",
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 159,
+        "total_tokens": 815,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 16
+      }
+    },
+    {
+      "raw_reason": "Manipulation of Images",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/067_Manipulation_of_Images.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/067_Manipulation_of_Images.json",
+      "usage": {
+        "prompt_tokens": 661,
+        "completion_tokens": 158,
+        "total_tokens": 819,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 21
+      }
+    },
+    {
+      "raw_reason": "Manipulation of Results",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/068_Manipulation_of_Results.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/068_Manipulation_of_Results.json",
+      "usage": {
+        "prompt_tokens": 647,
+        "completion_tokens": 206,
+        "total_tokens": 853,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 7
+      }
+    },
+    {
+      "raw_reason": "Miscommunication with/by Author",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/069_Miscommunication_with_by_Author.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/069_Miscommunication_with_by_Author.json",
+      "usage": {
+        "prompt_tokens": 662,
+        "completion_tokens": 237,
+        "total_tokens": 899,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 22
+      }
+    },
+    {
+      "raw_reason": "Miscommunication with/by Company/Institution",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/070_Miscommunication_with_by_Company_Institution.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/070_Miscommunication_with_by_Company_Institution.json",
+      "usage": {
+        "prompt_tokens": 672,
+        "completion_tokens": 247,
+        "total_tokens": 919,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 32
+      }
+    },
+    {
+      "raw_reason": "Miscommunication with/by Journal/Publisher",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/071_Miscommunication_with_by_Journal_Publisher.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/071_Miscommunication_with_by_Journal_Publisher.json",
+      "usage": {
+        "prompt_tokens": 672,
+        "completion_tokens": 281,
+        "total_tokens": 953,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 32
+      }
+    },
+    {
+      "raw_reason": "Miscommunication with/by Third Party",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/072_Miscommunication_with_by_Third_Party.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/072_Miscommunication_with_by_Third_Party.json",
+      "usage": {
+        "prompt_tokens": 677,
+        "completion_tokens": 238,
+        "total_tokens": 915,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 37
+      }
+    },
+    {
+      "raw_reason": "Misconduct - Official Investigation(s) and/or Finding(s)",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/073_Misconduct_-_Official_Investigation_s_and_or_Finding_s_.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/073_Misconduct_-_Official_Investigation_s_and_or_Finding_s_.json",
+      "usage": {
+        "prompt_tokens": 709,
+        "completion_tokens": 362,
+        "total_tokens": 1071,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 69
+      }
+    },
+    {
+      "raw_reason": "Misconduct by Author",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/074_Misconduct_by_Author.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/074_Misconduct_by_Author.json",
+      "usage": {
+        "prompt_tokens": 662,
+        "completion_tokens": 327,
+        "total_tokens": 989,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 22
+      }
+    },
+    {
+      "raw_reason": "Misconduct by Company/Institution",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/075_Misconduct_by_Company_Institution.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/075_Misconduct_by_Company_Institution.json",
+      "usage": {
+        "prompt_tokens": 668,
+        "completion_tokens": 277,
+        "total_tokens": 945,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 28
+      }
+    },
+    {
+      "raw_reason": "Misconduct by Third Party",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/076_Misconduct_by_Third_Party.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/076_Misconduct_by_Third_Party.json",
+      "usage": {
+        "prompt_tokens": 666,
+        "completion_tokens": 242,
+        "total_tokens": 908,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 26
+      }
+    },
+    {
+      "raw_reason": "No Further Action",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/077_No_Further_Action.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/077_No_Further_Action.json",
+      "usage": {
+        "prompt_tokens": 650,
+        "completion_tokens": 257,
+        "total_tokens": 907,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 10
+      }
+    },
+    {
+      "raw_reason": "Nonpayment of Fees and/or Refusal to Pay",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/078_Nonpayment_of_Fees_and_or_Refusal_to_Pay.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/078_Nonpayment_of_Fees_and_or_Refusal_to_Pay.json",
+      "usage": {
+        "prompt_tokens": 675,
+        "completion_tokens": 224,
+        "total_tokens": 899,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 35
+      }
+    },
+    {
+      "raw_reason": "Not Presented at Conference",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/079_Not_Presented_at_Conference.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/079_Not_Presented_at_Conference.json",
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 238,
+        "total_tokens": 894,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 16
+      }
+    },
+    {
+      "raw_reason": "Notice - Lack of",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/080_Notice_-_Lack_of.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/080_Notice_-_Lack_of.json",
+      "usage": {
+        "prompt_tokens": 657,
+        "completion_tokens": 235,
+        "total_tokens": 892,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 17
+      }
+    },
+    {
+      "raw_reason": "Notice - Limited or No Information",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/081_Notice_-_Limited_or_No_Information.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/081_Notice_-_Limited_or_No_Information.json",
+      "usage": {
+        "prompt_tokens": 686,
+        "completion_tokens": 256,
+        "total_tokens": 942,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 46
+      }
+    },
+    {
+      "raw_reason": "Notice - Unable to Access via current resources",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/082_Notice_-_Unable_to_Access_via_current_resources.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/082_Notice_-_Unable_to_Access_via_current_resources.json",
+      "usage": {
+        "prompt_tokens": 688,
+        "completion_tokens": 256,
+        "total_tokens": 944,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 48
+      }
+    },
+    {
+      "raw_reason": "Objections by Author(s)",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/083_Objections_by_Author_s_.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/083_Objections_by_Author_s_.json",
+      "usage": {
+        "prompt_tokens": 657,
+        "completion_tokens": 283,
+        "total_tokens": 940,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 17
+      }
+    },
+    {
+      "raw_reason": "Objections by Company/Institution",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/084_Objections_by_Company_Institution.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/084_Objections_by_Company_Institution.json",
+      "usage": {
+        "prompt_tokens": 661,
+        "completion_tokens": 297,
+        "total_tokens": 958,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 21
+      }
+    },
+    {
+      "raw_reason": "Objections by Third Party",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/085_Objections_by_Third_Party.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/085_Objections_by_Third_Party.json",
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 281,
+        "total_tokens": 937,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 16
+      }
+    },
+    {
+      "raw_reason": "Original Data and/or Images not Provided and/or not Available",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/086_Original_Data_and_or_Images_not_Provided_and_or_not_Available.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/086_Original_Data_and_or_Images_not_Provided_and_or_not_Available.json",
+      "usage": {
+        "prompt_tokens": 676,
+        "completion_tokens": 224,
+        "total_tokens": 900,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 36
+      }
+    },
+    {
+      "raw_reason": "Paper Mill",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/087_Paper_Mill.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/087_Paper_Mill.json",
+      "usage": {
+        "prompt_tokens": 685,
+        "completion_tokens": 330,
+        "total_tokens": 1015,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 45
+      }
+    },
+    {
+      "raw_reason": "Plagiarism of Data",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/088_Plagiarism_of_Data.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/088_Plagiarism_of_Data.json",
+      "usage": {
+        "prompt_tokens": 649,
+        "completion_tokens": 167,
+        "total_tokens": 816,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 9
+      }
+    },
+    {
+      "raw_reason": "Plagiarism of Image",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/089_Plagiarism_of_Image.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/089_Plagiarism_of_Image.json",
+      "usage": {
+        "prompt_tokens": 649,
+        "completion_tokens": 167,
+        "total_tokens": 816,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 9
+      }
+    },
+    {
+      "raw_reason": "Plagiarism of Text",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/090_Plagiarism_of_Text.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/090_Plagiarism_of_Text.json",
+      "usage": {
+        "prompt_tokens": 651,
+        "completion_tokens": 172,
+        "total_tokens": 823,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 11
+      }
+    },
+    {
+      "raw_reason": "Plagiarism of/in Article",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/091_Plagiarism_of_in_Article.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/091_Plagiarism_of_in_Article.json",
+      "usage": {
+        "prompt_tokens": 658,
+        "completion_tokens": 189,
+        "total_tokens": 847,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 18
+      }
+    },
+    {
+      "raw_reason": "Publishing Ban",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/092_Publishing_Ban.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/092_Publishing_Ban.json",
+      "usage": {
+        "prompt_tokens": 669,
+        "completion_tokens": 275,
+        "total_tokens": 944,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 29
+      }
+    },
+    {
+      "raw_reason": "Removed",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/093_Removed.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/093_Removed.json",
+      "usage": {
+        "prompt_tokens": 653,
+        "completion_tokens": 232,
+        "total_tokens": 885,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 13
+      }
+    },
+    {
+      "raw_reason": "Results Not Reproducible",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/094_Results_Not_Reproducible.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/094_Results_Not_Reproducible.json",
+      "usage": {
+        "prompt_tokens": 667,
+        "completion_tokens": 207,
+        "total_tokens": 874,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 27
+      }
+    },
+    {
+      "raw_reason": "Retract and Replace",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/095_Retract_and_Replace.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/095_Retract_and_Replace.json",
+      "usage": {
+        "prompt_tokens": 681,
+        "completion_tokens": 372,
+        "total_tokens": 1053,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 41
+      }
+    },
+    {
+      "raw_reason": "Rogue Editor",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/096_Rogue_Editor.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/096_Rogue_Editor.json",
+      "usage": {
+        "prompt_tokens": 683,
+        "completion_tokens": 235,
+        "total_tokens": 918,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 43
+      }
+    },
+    {
+      "raw_reason": "Sabotage of Materials/Methods",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/097_Sabotage_of_Materials_Methods.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/097_Sabotage_of_Materials_Methods.json",
+      "usage": {
+        "prompt_tokens": 679,
+        "completion_tokens": 214,
+        "total_tokens": 893,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "raw_reason": "Salami Slicing",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/098_Salami_Slicing.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/098_Salami_Slicing.json",
+      "usage": {
+        "prompt_tokens": 689,
+        "completion_tokens": 286,
+        "total_tokens": 975,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 49
+      }
+    },
+    {
+      "raw_reason": "Taken from Dissertation/Thesis",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/099_Taken_from_Dissertation_Thesis.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/099_Taken_from_Dissertation_Thesis.json",
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 196,
+        "total_tokens": 852,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 16
+      }
+    },
+    {
+      "raw_reason": "Taken via Peer Review",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/100_Taken_via_Peer_Review.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/100_Taken_via_Peer_Review.json",
+      "usage": {
+        "prompt_tokens": 653,
+        "completion_tokens": 233,
+        "total_tokens": 886,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 13
+      }
+    },
+    {
+      "raw_reason": "Taken via Translation",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/101_Taken_via_Translation.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/101_Taken_via_Translation.json",
+      "usage": {
+        "prompt_tokens": 654,
+        "completion_tokens": 228,
+        "total_tokens": 882,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 14
+      }
+    },
+    {
+      "raw_reason": "Temporary Removal",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/102_Temporary_Removal.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/102_Temporary_Removal.json",
+      "usage": {
+        "prompt_tokens": 663,
+        "completion_tokens": 250,
+        "total_tokens": 913,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 23
+      }
+    },
+    {
+      "raw_reason": "Transfer of Copyright and/or Ownership",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/103_Transfer_of_Copyright_and_or_Ownership.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/103_Transfer_of_Copyright_and_or_Ownership.json",
+      "usage": {
+        "prompt_tokens": 659,
+        "completion_tokens": 234,
+        "total_tokens": 893,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 19
+      }
+    },
+    {
+      "raw_reason": "Unreliable Data",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/104_Unreliable_Data.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/104_Unreliable_Data.json",
+      "usage": {
+        "prompt_tokens": 647,
+        "completion_tokens": 146,
+        "total_tokens": 793,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 7
+      }
+    },
+    {
+      "raw_reason": "Unreliable Image",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/105_Unreliable_Image.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/105_Unreliable_Image.json",
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 198,
+        "total_tokens": 854,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 16
+      }
+    },
+    {
+      "raw_reason": "Unreliable Results and/or Conclusions",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/106_Unreliable_Results_and_or_Conclusions.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/106_Unreliable_Results_and_or_Conclusions.json",
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 160,
+        "total_tokens": 816,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 16
+      }
+    },
+    {
+      "raw_reason": "Updated to Correction",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/107_Updated_to_Correction.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/107_Updated_to_Correction.json",
+      "usage": {
+        "prompt_tokens": 645,
+        "completion_tokens": 212,
+        "total_tokens": 857,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 5
+      }
+    },
+    {
+      "raw_reason": "Updated to Expression of Concern",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/108_Updated_to_Expression_of_Concern.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/108_Updated_to_Expression_of_Concern.json",
+      "usage": {
+        "prompt_tokens": 651,
+        "completion_tokens": 228,
+        "total_tokens": 879,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 11
+      }
+    },
+    {
+      "raw_reason": "Updated to Retraction",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/109_Updated_to_Retraction.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/109_Updated_to_Retraction.json",
+      "usage": {
+        "prompt_tokens": 649,
+        "completion_tokens": 201,
+        "total_tokens": 850,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 9
+      }
+    },
+    {
+      "raw_reason": "Upgrade/Update of Prior Notice(s)",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/110_Upgrade_Update_of_Prior_Notice_s_.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/110_Upgrade_Update_of_Prior_Notice_s_.json",
+      "usage": {
+        "prompt_tokens": 665,
+        "completion_tokens": 221,
+        "total_tokens": 886,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 25
+      }
+    },
+    {
+      "raw_reason": "Withdrawn as Out of Date",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/111_Withdrawn_as_Out_of_Date.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/111_Withdrawn_as_Out_of_Date.json",
+      "usage": {
+        "prompt_tokens": 668,
+        "completion_tokens": 277,
+        "total_tokens": 945,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 28
+      }
+    },
+    {
+      "raw_reason": "Withdrawn to Publish in Different Journal",
+      "status": "ok",
+      "parsed_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/112_Withdrawn_to_Publish_in_Different_Journal.parsed.json",
+      "response_file": "/Users/Shared/Claude Code/retraction-watch-responsibility-signals/data/provenance/deepseek_v03_repeat_2026-05-20/raw-api-responses/112_Withdrawn_to_Publish_in_Different_Journal.json",
+      "usage": {
+        "prompt_tokens": 674,
+        "completion_tokens": 279,
+        "total_tokens": 953,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 34
+      }
+    }
+  ]
+}

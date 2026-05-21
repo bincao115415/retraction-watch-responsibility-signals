@@ -1,0 +1,28 @@
+{
+  "id": "d0395e43-8b0e-42d6-99c4-6ec7b67a91e9",
+  "object": "chat.completion",
+  "created": 1779257167,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"No Further Action\",\n  \"canonical_reason\": \"No Further Action\",\n  \"definition_used\": \"The journal or publisher has stated that no further action will be taken.\",\n  \"problem_object\": [\n    \"availability_notice_status\"\n  ],\n  \"process_signal\": [\n    \"notice_opacity\"\n  ],\n  \"actor_context\": [\n    \"journal_publisher\"\n  ],\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a status notice about the closure of a process, not a substantive finding. It does not directly indicate a problem with research content, authorship, or editorial governance, but it relates to post-publication transparency.\",\n  \"semantic_rationale\": \"The definition describes a journal/publisher statement that no further action will be taken, which is a post-publication transparency signal about the status of an investigation or concern. It does not inherently confirm or deny any underlying issue, so it maps broadly to post_publication_transparency_due_process_oversight.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 650,
+    "completion_tokens": 257,
+    "total_tokens": 907,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 10
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

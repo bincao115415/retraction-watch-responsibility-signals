@@ -5,7 +5,9 @@
 *.pem
 
 # Generated figures and local databases
-figures/
+figures/*
+!figures/v0.3-maincat-candidates/
+!figures/v0.3-maincat-candidates/**
 *.parquet
 *.sqlite
 *.db

@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Objections by Third Party",
+  "canonical_reason": "Objections by Third Party",
+  "definition_used": "One or more third parties objected to the notice or the wording of the notice.",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "notice_opacity",
+    "third_party_investigation"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The reason describes a post-publication objection to the notice itself, not necessarily the underlying research content. It is a transparency/process signal, not a direct indicator of manuscript content issues.",
+  "semantic_rationale": "The definition focuses on third-party objections to the notice or its wording, which directly relates to post-publication transparency and due process oversight. It does not inherently imply issues with research content, authorship, or editorial governance, though it may accompany such issues. The primary category is post_publication_transparency_due_process_oversight because the objection concerns the notice's transparency or wording."
+}

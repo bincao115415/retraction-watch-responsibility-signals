@@ -1,0 +1,28 @@
+{
+  "id": "8b5db3b8-dcd2-4b64-81c4-83f2ba5f3d8d",
+  "object": "chat.completion",
+  "created": 1779256774,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"EOC Lifted\",\n  \"canonical_reason\": \"EOC Lifted\",\n  \"definition_used\": \"Expression of Concern has been removed or is no longer applicable. Not to be confused with an “Upgraded to Retraction”\",\n  \"problem_object\": \"availability_notice_status\",\n  \"process_signal\": \"notice_opacity\",\n  \"actor_context\": \"journal_publisher\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"This is a status-only notice about the removal of an Expression of Concern, not about the underlying content. It does not directly indicate a problem with research content, authorship, or editorial processes, but relates to post-publication transparency.\",\n  \"semantic_rationale\": \"The definition describes a change in the status of a notice (Expression of Concern lifted), which falls under post-publication transparency and due process oversight. It does not inherently signal issues with research content, authorship, or editorial governance, but rather a metadata update about a previous notice.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 665,
+    "completion_tokens": 256,
+    "total_tokens": 921,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 25
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

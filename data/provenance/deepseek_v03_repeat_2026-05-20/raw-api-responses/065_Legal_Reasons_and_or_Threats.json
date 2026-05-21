@@ -1,0 +1,28 @@
+{
+  "id": "cfb94152-5cd2-479f-8155-66009662e3b1",
+  "object": "chat.completion",
+  "created": 1779257056,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Legal Reasons and/or Threats\",\n  \"canonical_reason\": \"Legal Reasons and/or Threats\",\n  \"definition_used\": \"When a journal/publisher/author/third party uses the phrase “legal reasons,” documents litigation or legal threats, or mentions one or more specific laws\",\n  \"problem_object\": \"article_general\",\n  \"process_signal\": \"legal_process\",\n  \"actor_context\": \"unclear\",\n  \"manuscript_categories\": [\n    \"post_publication_transparency_due_process_oversight\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": false,\n  \"caution\": \"Legal reasons are a broad signal of external process, not directly indicating a specific manuscript integrity problem; main figure not recommended as it is a status/process notice.\",\n  \"semantic_rationale\": \"The definition describes legal reasons or threats as a process signal involving litigation or laws, which relates to post-publication oversight and due process, but does not inherently confirm a problem with research content, authorship, or editorial governance.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 671,
+    "completion_tokens": 234,
+    "total_tokens": 905,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 31
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

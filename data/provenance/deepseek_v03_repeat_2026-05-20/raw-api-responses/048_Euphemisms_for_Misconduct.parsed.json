@@ -1,0 +1,24 @@
+{
+  "raw_reason": "Euphemisms for Misconduct",
+  "canonical_reason": "Euphemisms for Misconduct",
+  "definition_used": "The notice does not explicitly state that the reason for the notice is due to misconduct, despite a journal, publisher, company, institution, government agency or author explicitly stating that there was misconduct.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "journal_publisher",
+    "company_institution",
+    "author",
+    "ori_government"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This reason describes a transparency failure in the notice itself, not a direct problem with the research content, authorship, or editorial process. It is a metadata/status signal about how misconduct is communicated, not a substantive category of manuscript unreliability.",
+  "semantic_rationale": "The definition focuses on a notice that obscures misconduct despite explicit statements from involved parties. This directly relates to post-publication transparency and due process oversight, as it concerns the clarity and honesty of the retraction notice. It does not inherently indicate issues with research content, authorship, or editorial governance, so only the transparency category is assigned."
+}

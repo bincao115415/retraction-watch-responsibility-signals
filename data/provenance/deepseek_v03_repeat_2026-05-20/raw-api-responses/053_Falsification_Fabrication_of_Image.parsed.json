@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Falsification/Fabrication of Image",
+  "canonical_reason": "Falsification/Fabrication of Image",
+  "definition_used": "Falsification or fabrication in/of one or more images, or part(s) of one or more images, in order to mislead.",
+  "problem_object": [
+    "image"
+  ],
+  "process_signal": [],
+  "actor_context": [
+    "unclear"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition describes intentional manipulation of images to mislead, directly undermining the trustworthiness of research data and findings, which falls under research content reliability."
+}

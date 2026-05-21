@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Cites Retracted Work",
+  "canonical_reason": "Cites Retracted Work",
+  "definition_used": "Retracted content is used in citations or referencing.",
+  "problem_object": [
+    "references_attribution"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The reason indicates reliance on retracted work, which may affect the integrity of the citing manuscript's references. However, it does not necessarily imply that the citing manuscript's own research content is unreliable, nor does it directly involve editorial or post-publication processes. The assignment to attribution_authorship_disclosure_integrity is broad because the issue pertains to the integrity of the reference list rather than core research content.",
+  "semantic_rationale": "The definition 'Retracted content is used in citations or referencing' points to a problem with references (problem_object: references_attribution) and involves the process of content reuse (process_signal: content_reuse_or_duplication_process). The actor is typically the author who cited the retracted work. This primarily affects the integrity of attribution and disclosure, fitting the attribution_authorship_disclosure_integrity category broadly, as it concerns the reliability of cited sources rather than the manuscript's own data or conclusions."
+}

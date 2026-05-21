@@ -1,0 +1,21 @@
+{
+  "raw_reason": "False/Forged Authorship",
+  "canonical_reason": "False/Forged Authorship",
+  "definition_used": "The false/forged use of one or more author names in the publication process.",
+  "problem_object": [
+    "authorship_affiliation"
+  ],
+  "process_signal": [
+    "authorship_publication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition explicitly describes false/forged use of author names, directly mapping to authorship integrity concerns."
+}

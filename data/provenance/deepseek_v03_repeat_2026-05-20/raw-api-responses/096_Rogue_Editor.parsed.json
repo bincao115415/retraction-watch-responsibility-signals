@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Rogue Editor",
+  "canonical_reason": "Rogue Editor",
+  "definition_used": "Used when an editor’s credentials are false/forged or when an editor subverts one or more processes under their purview. An “editor” may be an established editor affiliated with the journal or a guest editor.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "editorial_breach",
+    "peer_review_compromised"
+  ],
+  "actor_context": [
+    "editor"
+  ],
+  "manuscript_categories": [
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition describes an editor subverting processes under their purview, which directly maps to editorial/peer review governance failures. The actor is explicitly the editor, and the process signals include editorial breach and compromised peer review."
+}

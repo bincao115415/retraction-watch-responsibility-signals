@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Investigation by Third Party",
+  "canonical_reason": "Investigation by Third Party",
+  "definition_used": "An investigation by any third party that is not the United States Office of Research Integrity (ORI).",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "third_party_investigation"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The reason indicates an investigation by a third party, which is a process signal. It does not specify the underlying problem or outcome, so it is assigned broadly to post-publication oversight. It is not specific enough for main-figure prevalence.",
+  "semantic_rationale": "The definition describes an investigation by a non-ORI third party, which is a post-publication oversight process. The problem object is set to article_general as the investigation scope is unspecified. The process signal is third_party_investigation, and the actor context is third_party. The manuscript category post_publication_transparency_due_process_oversight is assigned because the investigation relates to transparency and due process after publication."
+}

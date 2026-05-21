@@ -1,0 +1,23 @@
+{
+  "raw_reason": "Duplication of Content through Error by Journal/Publisher",
+  "canonical_reason": "Duplication of Content through Error by Journal/Publisher",
+  "definition_used": "Duplication of published content due to an error by the journal or publisher.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "journal_publisher_error",
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "editorial_peer_review_governance",
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition describes duplication of published content caused by a journal/publisher error, which directly implicates editorial and production governance (editorial_peer_review_governance) and post-publication correction/transparency processes (post_publication_transparency_due_process_oversight). The problem object is the article as a whole, and the process signals are journal error and duplication handling."
+}

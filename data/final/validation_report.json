@@ -1,0 +1,48 @@
+{
+  "pipeline_version": "rw_llm_semantic_v0.3_api_reproducible_post_codex_panel_taxonomy_freeze_2026-05-20",
+  "n_records_all": 70016,
+  "n_retractions_all_years": 64807,
+  "n_retractions_2000_2026_including_partial_2026": 64298,
+  "partial_2026_records": 675,
+  "latest_retraction_date_included": "2026-05-06",
+  "principal_domain_counts": {
+    "R": {
+      "n": 41933,
+      "percent": 65.2166
+    },
+    "A": {
+      "n": 33954,
+      "percent": 52.8072
+    },
+    "E": {
+      "n": 25513,
+      "percent": 39.6793
+    },
+    "P": {
+      "n": 36359,
+      "percent": 56.5476
+    },
+    "No assigned primary domain": {
+      "n": 11086,
+      "percent": 17.2416
+    },
+    "Two or more primary domains": {
+      "n": 42662,
+      "percent": 66.3504
+    }
+  },
+  "sensitivity_scenarios": [
+    "all_mapped_reason_domains",
+    "generic_misconduct_miscommunication_contextual_excluded",
+    "p_process_oversight_without_notice_status_only",
+    "pre_audit_rule_adjustment",
+    "principal_excluding_records_with_ambiguous_labels",
+    "principal_reason_domain_analysis",
+    "principal_strict_only",
+    "principal_strict_or_broad"
+  ],
+  "crosswalk_checks_passed": 55,
+  "crosswalk_checks_total": 55,
+  "terminology_must_fix_rows": 0,
+  "interpretation_guardrail": "R/A/E/P are metadata signal domains, not cause, responsibility, fault, liability, or oversight-failure categories."
+}

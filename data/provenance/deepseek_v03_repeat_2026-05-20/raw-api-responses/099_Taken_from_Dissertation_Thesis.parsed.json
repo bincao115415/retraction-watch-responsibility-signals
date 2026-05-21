@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Taken from Dissertation/Thesis",
+  "canonical_reason": "Taken from Dissertation/Thesis",
+  "definition_used": "The duplicated or plagiarized content was taken from an academic dissertation or thesis.",
+  "problem_object": [
+    "text_article"
+  ],
+  "process_signal": [
+    "content_reuse_or_duplication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity",
+    "research_content_reliability"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "None",
+  "semantic_rationale": "The definition describes duplicated or plagiarized content from a dissertation/thesis, which directly implicates attribution/authorship integrity and can undermine research content reliability if the reused material is presented as original."
+}

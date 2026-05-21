@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Concerns/Issues about Third Party Involvement",
+  "canonical_reason": "Concerns/Issues about Third Party Involvement",
+  "definition_used": "Any question, controversy or dispute about third party involvement.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "third_party_investigation"
+  ],
+  "actor_context": [
+    "third_party"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "The definition is extremely broad and does not specify the nature of the involvement, making it a status/notice signal about third-party involvement rather than a direct indicator of manuscript content or process flaws. It is best treated as a post-publication transparency marker.",
+  "semantic_rationale": "The definition 'Any question, controversy or dispute about third party involvement' directly signals a third-party investigation context, which aligns with post-publication oversight. It does not inherently indicate issues with research content, authorship, or editorial processes, so only the transparency category is assigned."
+}

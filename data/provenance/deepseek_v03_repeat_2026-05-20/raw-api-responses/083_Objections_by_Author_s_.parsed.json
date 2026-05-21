@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Objections by Author(s)",
+  "canonical_reason": "Objections by Author(s)",
+  "definition_used": "One or more authors objected to the notice or the wording of the notice.",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "This reason describes an author's objection to a notice, which is a post-publication transparency signal. It does not directly indicate issues with research content, authorship, or editorial processes, so it is assigned only to the post-publication category. Main figure recommendation is false because the reason is about notice wording, not substantive manuscript problems.",
+  "semantic_rationale": "The definition describes an author's objection to a notice or its wording, which is a post-publication transparency and due process signal (notice_opacity) involving the author as actor. It does not inherently imply problems with research content, attribution, or editorial governance, so only the post-publication category is assigned."
+}

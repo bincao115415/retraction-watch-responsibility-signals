@@ -1,0 +1,28 @@
+{
+  "id": "4061ed3b-8bbe-4f96-aa97-167b2909dd5c",
+  "object": "chat.completion",
+  "created": 1779256861,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Ethical Violations by Author\",\n  \"canonical_reason\": \"Ethical Violations by Author\",\n  \"definition_used\": \"When a journal/publisher/institution states that one or more authors have not met the journal/publisher/institution’s standards of publishing and/or research ethics. RW will use this reason when no other information about the correction/EOC/retraction is available (i.e., the notice only states that there was an ethical violation), or when the ethical violation (as an additional reason) cannot be addressed by existing reasons.\",\n  \"problem_object\": [\n    \"article_general\"\n  ],\n  \"process_signal\": [\n    \"journal_publisher_investigation\",\n    \"institutional_investigation\",\n    \"publication_policy_or_sanction\"\n  ],\n  \"actor_context\": [\n    \"author\",\n    \"journal_publisher\",\n    \"company_institution\"\n  ],\n  \"manuscript_categories\": [\n    \"attribution_authorship_disclosure_integrity\",\n    \"editorial_peer_review_governance\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"The definition is broad and often used as a catch-all when specifics are unavailable. Without further details, the exact nature of the ethical violation is ambiguous, but it inherently involves author conduct and journal/institutional standards.\",\n  \"semantic_rationale\": \"The reason indicates a breach of publishing/research ethics by authors, as determined by a journal, publisher, or institution. This directly implicates author integrity (attribution_authorship_disclosure_integrity) and the governance of ethical standards (editorial_peer_review_governance). The problem object is set to article_general due to lack of specificity. Process signals reflect investigation and policy enforcement by the journal/publisher/institution.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 726,
+    "completion_tokens": 404,
+    "total_tokens": 1130,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 86
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Lack of Approval from Author",
+  "canonical_reason": "Lack of Approval from Author",
+  "definition_used": "One or more authors did not approve one or more parts of the research or publication process(es). RW also uses this reason if the notice mentions a lack of documentation of alleged approval.",
+  "problem_object": [
+    "authorship_affiliation"
+  ],
+  "process_signal": [
+    "authorship_publication_process"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition directly concerns author approval of research or publication processes, which falls under authorship integrity and disclosure."
+}

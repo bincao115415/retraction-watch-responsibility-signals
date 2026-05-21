@@ -1,0 +1,23 @@
+{
+  "raw_reason": "Lack of IRB/IACUC Approval and/or Compliance",
+  "canonical_reason": "Lack of IRB/IACUC Approval and/or Compliance",
+  "definition_used": "Failure to obtain consent from the institutional ethical review board overseeing human or animal experimentation prior to initiation of study, or failure to provide proof of such",
+  "problem_object": [
+    "ethics_welfare"
+  ],
+  "process_signal": [
+    "research_ethics_approval_process"
+  ],
+  "actor_context": [
+    "author",
+    "company_institution"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition describes failure to obtain or prove ethical review board consent for human/animal studies, directly impacting research ethics approval process and the reliability of research content, as well as disclosure integrity regarding required approvals."
+}

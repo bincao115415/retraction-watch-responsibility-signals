@@ -1,0 +1,22 @@
+{
+  "raw_reason": "Author Unresponsive",
+  "canonical_reason": "Author Unresponsive",
+  "definition_used": "The corresponding author(s) did not respond to journal/publisher requests for response, clarification, etc., about one or more concerns/issues with a publication. RW does not apply this reason when the lack of response is only to the language or posting of a notice of correction/EOC/retraction.ion after prior contact by Journal, Publisher or other original Authors",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "author",
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": false,
+  "caution": "Author unresponsiveness is a procedural transparency issue, not a direct indicator of manuscript content or integrity problems. It may accompany other reasons but alone does not confirm research unreliability or misconduct.",
+  "semantic_rationale": "The definition describes a failure in post-publication communication and clarification process, which falls under post-publication transparency and due process oversight. It does not directly address research content, authorship, or editorial governance."
+}

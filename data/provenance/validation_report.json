@@ -1,0 +1,98 @@
+{
+  "pipeline_version": "rw_llm_semantic_v0.3_api_reproducible",
+  "n_reason_items": 112,
+  "n_records_all": 70016,
+  "n_retractions_all_years": 64807,
+  "n_retractions_2000_2025": 63623,
+  "category_definitions": {
+    "research_content_reliability": {
+      "label": "Research-content reliability",
+      "definition": "Signals that the reliability, reproducibility, validity, or evidentiary integrity of the research content itself is questioned.",
+      "include": [
+        "data problems",
+        "image problems",
+        "methods/materials problems",
+        "analysis problems",
+        "results or conclusions problems",
+        "unreliable or non-reproducible findings",
+        "computer/AI-generated article content when it affects content authenticity",
+        "paper-mill or fabricated article production when it indicates article-level reliability risk"
+      ],
+      "exclude": [
+        "notice wording alone",
+        "investigation source alone",
+        "authorship/citation/rights issues without content-reliability implications",
+        "journal/publisher procedural acts without a content reliability signal"
+      ],
+      "manuscript_link": "Supports discussion of the reliability of the published product/scientific record, without assigning fault."
+    },
+    "attribution_authorship_disclosure_integrity": {
+      "label": "Attribution, authorship, and disclosure integrity",
+      "definition": "Signals concerning who created, approved, owned, disclosed, cited, or was credited for the work, including attribution and disclosure problems.",
+      "include": [
+        "authorship or affiliation concerns",
+        "false or forged authorship/affiliation",
+        "lack of author approval",
+        "plagiarism",
+        "duplication/salami slicing",
+        "citation/reference/attribution concerns",
+        "conflict of interest",
+        "copyright or ownership issues"
+      ],
+      "exclude": [
+        "generic data/image/results unreliability without attribution/authorship/disclosure element",
+        "investigation source alone",
+        "notice transparency alone"
+      ],
+      "manuscript_link": "Matches the manuscript's concern with transparent relationships among authors, editors, reviewers, and publishers and with disclosure/attribution integrity."
+    },
+    "editorial_peer_review_governance": {
+      "label": "Editorial and peer-review governance",
+      "definition": "Signals that editorial decision-making, peer review, journal/publisher procedures, or editorial independence/governance mechanisms are implicated.",
+      "include": [
+        "compromised peer review",
+        "concerns about peer review",
+        "taken via peer review",
+        "rogue editor",
+        "editorial breach",
+        "journal/publisher error",
+        "publication-policy breach or sanction when it concerns publication governance"
+      ],
+      "exclude": [
+        "journal/publisher investigation as source only unless the reason itself concerns editorial/peer-review procedure",
+        "notice opacity alone",
+        "content unreliability without editorial or peer-review process signal"
+      ],
+      "manuscript_link": "Directly supports the manuscript's themes of peer-review integrity, editorial independence, proportionality, and governance."
+    },
+    "post_publication_transparency_due_process_oversight": {
+      "label": "Post-publication transparency, due process, and oversight",
+      "definition": "Signals concerning post-publication investigation, notice transparency, correction/retraction status, availability/removal, procedural communication, institutional/legal oversight, or appeal/objection-related process.",
+      "include": [
+        "investigation by journal/publisher",
+        "third-party/institutional/ORI investigation",
+        "official misconduct process",
+        "notice lacks information or is inaccessible",
+        "date/notice metadata gaps",
+        "correction/EOC/retraction updates",
+        "temporary removal or removed status",
+        "author unresponsive to post-publication queries",
+        "objections",
+        "civil/criminal/legal process",
+        "institution/company/third-party approval or communication process"
+      ],
+      "exclude": [
+        "data/image/results problems without post-publication process information",
+        "peer-review compromise as pre-publication process unless linked to post-publication oversight",
+        "attribution/authorship issues without procedural transparency/oversight component"
+      ],
+      "manuscript_link": "Matches the manuscript's core language on transparency, clear reasons, proportionality, due process, appeal, and publisher/journal oversight."
+    }
+  },
+  "guardrails": [
+    "Retraction Watch Reason terms are curated, non-exclusive metadata signals, not adjudicated fault.",
+    "The four manuscript categories are secondary semantic aggregations created for figure readability, not original Retraction Watch fields.",
+    "A record can map to multiple categories; percentages are record-level prevalence and may sum above 100%.",
+    "Investigation-by-X remains a process/source signal, not fault by X."
+  ]
+}

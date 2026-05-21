@@ -1,0 +1,19 @@
+{
+  "raw_reason": "Miscommunication with/by Company/Institution",
+  "canonical_reason": "Miscommunication with/by Company/Institution",
+  "definition_used": "One or more companies/institutions misunderstood one or more parts of a message sent to and/or from one or more companies/institutions.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "company_institution"
+  ],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition describes a communication misunderstanding involving companies/institutions, but does not specify any impact on research content, authorship, editorial processes, or post-publication oversight. It is a status/notice about a procedural miscommunication, not a substantive manuscript integrity issue.",
+  "semantic_rationale": "The reason indicates a misunderstanding in communication between companies/institutions, which is a procedural notice without direct implication for the reliability of research content, authorship integrity, editorial governance, or post-publication due process. It is too ambiguous to assign to any manuscript-facing category."
+}

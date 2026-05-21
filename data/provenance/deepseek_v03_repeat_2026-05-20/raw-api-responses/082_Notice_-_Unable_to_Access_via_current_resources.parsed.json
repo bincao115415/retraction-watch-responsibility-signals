@@ -1,0 +1,21 @@
+{
+  "raw_reason": "Notice - Unable to Access via current resources",
+  "canonical_reason": "Notice – Unable to Access via current resources",
+  "definition_used": "The notice is paywalled by the journal/publisher, only available in print or is in some form unavailable for inspection.",
+  "problem_object": [
+    "availability_notice_status"
+  ],
+  "process_signal": [
+    "notice_opacity"
+  ],
+  "actor_context": [
+    "journal_publisher"
+  ],
+  "manuscript_categories": [
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": false,
+  "caution": "This is a metadata/status label about notice accessibility, not a substantive reason for retraction. It does not imply any underlying research integrity issue.",
+  "semantic_rationale": "The definition describes a notice that is inaccessible due to paywall or format, which directly relates to post-publication transparency and due process oversight, as it hinders the ability to inspect the retraction notice. No other categories are supported because the reason is purely about notice availability, not about research content, authorship, or editorial governance."
+}

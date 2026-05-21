@@ -1,0 +1,28 @@
+{
+  "id": "d2885376-3aa6-4482-b04a-85f16ac48206",
+  "object": "chat.completion",
+  "created": 1779256819,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Error in Data\",\n  \"canonical_reason\": \"Error in Data\",\n  \"definition_used\": \"One or more errors in any of the data.\",\n  \"problem_object\": [\"data\"],\n  \"process_signal\": [\"journal_publisher_error\"],\n  \"actor_context\": [\"author\"],\n  \"manuscript_categories\": [\"research_content_reliability\"],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition explicitly states errors in data, directly impacting research content reliability. The problem object is data, and the process signal is journal/publisher error as the error is in the published data. Actor context is author as the source of the data error.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 648,
+    "completion_tokens": 171,
+    "total_tokens": 819,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 8
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

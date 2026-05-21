@@ -1,0 +1,28 @@
+{
+  "id": "c22eef5d-f340-408e-a932-6592528a8335",
+  "object": "chat.completion",
+  "created": 1779256842,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Error in Methods\",\n  \"canonical_reason\": \"Error in Methods\",\n  \"definition_used\": \"One or more errors in the choice of and/or implementation of experimental protocol(s).\",\n  \"problem_object\": \"methods_materials\",\n  \"process_signal\": \"journal_publisher_error\",\n  \"actor_context\": \"author\",\n  \"manuscript_categories\": [\"research_content_reliability\"],\n  \"classification_strength\": \"strict\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"\",\n  \"semantic_rationale\": \"The definition describes errors in experimental protocol choice or implementation, directly affecting the reliability of research content.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 655,
+    "completion_tokens": 149,
+    "total_tokens": 804,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 15
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

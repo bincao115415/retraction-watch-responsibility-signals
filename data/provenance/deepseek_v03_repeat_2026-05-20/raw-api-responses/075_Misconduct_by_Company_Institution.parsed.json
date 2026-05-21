@@ -1,0 +1,24 @@
+{
+  "raw_reason": "Misconduct by Company/Institution",
+  "canonical_reason": "Misconduct by Company/Institution",
+  "definition_used": "Statement by journal, publisher, company, institution, government agency or author that one or more companies/institutions committed misconduct.",
+  "problem_object": [
+    "article_general"
+  ],
+  "process_signal": [
+    "institutional_investigation"
+  ],
+  "actor_context": [
+    "company_institution"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "attribution_authorship_disclosure_integrity",
+    "editorial_peer_review_governance",
+    "post_publication_transparency_due_process_oversight"
+  ],
+  "classification_strength": "broad",
+  "main_figure_recommended": true,
+  "caution": "The definition is broad and does not specify the nature of misconduct, so all manuscript categories are potentially relevant. However, without details, the assignment is broad and may overreach for specific cases.",
+  "semantic_rationale": "Misconduct by a company/institution can affect research content reliability, authorship/disclosure integrity, editorial/peer review governance, and post-publication oversight, as it implies institutional-level wrongdoing that may undermine any aspect of the manuscript."
+}

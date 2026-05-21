@@ -1,0 +1,26 @@
+{
+  "raw_reason": "Hoax Paper",
+  "canonical_reason": "Hoax Paper",
+  "definition_used": "The paper was intentionally drafted with fabricated or falsified data or other content with the goal of testing a journal or publisher’s manuscript acceptance policies.",
+  "problem_object": [
+    "data",
+    "results_conclusions",
+    "text_article",
+    "article_general"
+  ],
+  "process_signal": [
+    "editorial_breach",
+    "publication_policy_or_sanction"
+  ],
+  "actor_context": [
+    "author"
+  ],
+  "manuscript_categories": [
+    "research_content_reliability",
+    "editorial_peer_review_governance"
+  ],
+  "classification_strength": "strict",
+  "main_figure_recommended": true,
+  "caution": "",
+  "semantic_rationale": "The definition describes intentional fabrication/falsification of data or content to test journal policies, directly undermining research content reliability and exposing editorial/peer review governance failures."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "11637e07-9a6c-4052-8c47-11920bc4f913",
+  "object": "chat.completion",
+  "created": 1779257079,
+  "model": "deepseek-v4-pro",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"raw_reason\": \"Manipulation of Results\",\n  \"canonical_reason\": \"Manipulation of Results\",\n  \"definition_used\": \"Manipulation of any results.\",\n  \"problem_object\": [\n    \"results_conclusions\"\n  ],\n  \"process_signal\": [],\n  \"actor_context\": [\n    \"unclear\"\n  ],\n  \"manuscript_categories\": [\n    \"research_content_reliability\"\n  ],\n  \"classification_strength\": \"broad\",\n  \"main_figure_recommended\": true,\n  \"caution\": \"Definition is very broad; no specific process or actor indicated. Assigned to research_content_reliability because manipulation directly undermines trust in results.\",\n  \"semantic_rationale\": \"The definition 'Manipulation of any results' directly concerns the reliability of research content, as it implies intentional alteration of findings, which falls under research_content_reliability. No other categories are clearly supported without additional context.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 206,
+    "total_tokens": 853,
+    "prompt_tokens_details": {
+      "cached_tokens": 640
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 7
+  },
+  "system_fingerprint": "fp_9954b31ca7_prod0820_fp8_kvcache_20260402"
+}

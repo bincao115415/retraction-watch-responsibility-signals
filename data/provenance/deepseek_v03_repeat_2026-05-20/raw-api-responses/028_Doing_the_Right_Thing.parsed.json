@@ -1,0 +1,13 @@
+{
+  "raw_reason": "Doing the Right Thing",
+  "canonical_reason": "Doing the Right Thing",
+  "definition_used": "An attribution made by co-founders of Retraction Watch indicating admirable behavior by one of the involved parties",
+  "problem_object": [],
+  "process_signal": [],
+  "actor_context": [],
+  "manuscript_categories": [],
+  "classification_strength": "ambiguous",
+  "main_figure_recommended": false,
+  "caution": "The definition describes a subjective editorial attribution of admirable behavior, not a specific manuscript integrity issue, process, or actor context. It does not map to any of the four manuscript-facing categories.",
+  "semantic_rationale": "The reason is a meta-commentary on behavior, lacking concrete problem, process, or actor signals required for manuscript category assignment."
+}
